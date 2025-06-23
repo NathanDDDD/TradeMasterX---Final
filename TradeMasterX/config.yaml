@@ -1,0 +1,7 @@
+trading:
+  risk: 0.01
+  symbols:
+    - BTCUSDT
+  timeframe: 1h
+logging:
+  level: INFO 
