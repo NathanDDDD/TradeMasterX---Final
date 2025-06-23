@@ -1,0 +1,300 @@
+{
+  "timestamp": "2025-06-13T21:05:49.921507",
+  "test_summary": {
+    "total_tests": 40,
+    "passed": 38,
+    "failed": 2,
+    "warnings": 0,
+    "skipped": 0,
+    "success_rate": 95.0,
+    "total_duration": 2.105405807495117,
+    "overall_status": "FAIL"
+  },
+  "detailed_results": [
+    {
+      "test_name": "Import Phase14AutonomousAI",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.8385660648345947,
+      "timestamp": "2025-06-13T21:05:49.577791"
+    },
+    {
+      "test_name": "Import ObserverAgent",
+      "status": "PASS",
+      "details": "",
+      "duration": 6.67572021484375e-06,
+      "timestamp": "2025-06-13T21:05:49.578001"
+    },
+    {
+      "test_name": "Import AIOrchestrator",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.1205673217773438e-05,
+      "timestamp": "2025-06-13T21:05:49.578184"
+    },
+    {
+      "test_name": "Import ReinforcementEngine",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.0967254638671875e-05,
+      "timestamp": "2025-06-13T21:05:49.578407"
+    },
+    {
+      "test_name": "Import AnomalyAuditor",
+      "status": "PASS",
+      "details": "",
+      "duration": 7.867813110351562e-06,
+      "timestamp": "2025-06-13T21:05:49.578624"
+    },
+    {
+      "test_name": "Import AIDashboard",
+      "status": "PASS",
+      "details": "",
+      "duration": 4.5299530029296875e-06,
+      "timestamp": "2025-06-13T21:05:49.578750"
+    },
+    {
+      "test_name": "Import ConfigLoader",
+      "status": "PASS",
+      "details": "",
+      "duration": 5.7220458984375e-06,
+      "timestamp": "2025-06-13T21:05:49.578853"
+    },
+    {
+      "test_name": "Import CommandAssistant",
+      "status": "PASS",
+      "details": "",
+      "duration": 0.1677093505859375,
+      "timestamp": "2025-06-13T21:05:49.746645"
+    },
+    {
+      "test_name": "Dependency numpy",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.430511474609375e-06,
+      "timestamp": "2025-06-13T21:05:49.746839"
+    },
+    {
+      "test_name": "Dependency pandas",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.430511474609375e-06,
+      "timestamp": "2025-06-13T21:05:49.746903"
+    },
+    {
+      "test_name": "Dependency scipy",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.430511474609375e-06,
+      "timestamp": "2025-06-13T21:05:49.746957"
+    },
+    {
+      "test_name": "Dependency asyncio",
+      "status": "PASS",
+      "details": "",
+      "duration": 4.76837158203125e-07,
+      "timestamp": "2025-06-13T21:05:49.746990"
+    },
+    {
+      "test_name": "Dependency logging",
+      "status": "PASS",
+      "details": "",
+      "duration": 9.5367431640625e-07,
+      "timestamp": "2025-06-13T21:05:49.747044"
+    },
+    {
+      "test_name": "Dependency aiohttp",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.1920928955078125e-06,
+      "timestamp": "2025-06-13T21:05:49.747100"
+    },
+    {
+      "test_name": "Dependency json",
+      "status": "PASS",
+      "details": "",
+      "duration": 9.5367431640625e-07,
+      "timestamp": "2025-06-13T21:05:49.747132"
+    },
+    {
+      "test_name": "Dependency datetime",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.1920928955078125e-06,
+      "timestamp": "2025-06-13T21:05:49.747164"
+    },
+    {
+      "test_name": "Dependency pathlib",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.430511474609375e-06,
+      "timestamp": "2025-06-13T21:05:49.747220"
+    },
+    {
+      "test_name": "Dependency yaml",
+      "status": "PASS",
+      "details": "",
+      "duration": 2.1457672119140625e-06,
+      "timestamp": "2025-06-13T21:05:49.747291"
+    },
+    {
+      "test_name": "File main_app.py",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.747723"
+    },
+    {
+      "test_name": "File phase_14_complete_autonomous_ai.py",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.747979"
+    },
+    {
+      "test_name": "File requirements.txt",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.748332"
+    },
+    {
+      "test_name": "File .env.example",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.748676"
+    },
+    {
+      "test_name": "Directory trademasterx",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.749010"
+    },
+    {
+      "test_name": "Directory logs_clean",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.749285"
+    },
+    {
+      "test_name": "Directory reports_clean",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.749542"
+    },
+    {
+      "test_name": "Directory core_clean",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.749794"
+    },
+    {
+      "test_name": "Config Loading",
+      "status": "PASS",
+      "details": "",
+      "duration": 0.01219940185546875,
+      "timestamp": "2025-06-13T21:05:49.762139"
+    },
+    {
+      "test_name": "AI System Init",
+      "status": "PASS",
+      "details": "",
+      "duration": 0.016486406326293945,
+      "timestamp": "2025-06-13T21:05:49.778933"
+    },
+    {
+      "test_name": "Observer Agent Init",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.779121"
+    },
+    {
+      "test_name": "AI Orchestrator Init",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.779190"
+    },
+    {
+      "test_name": "Reinforcement Engine Init",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.779257"
+    },
+    {
+      "test_name": "Anomaly Auditor Init",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.779374"
+    },
+    {
+      "test_name": "AI Dashboard Init",
+      "status": "PASS",
+      "details": "",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.779459"
+    },
+    {
+      "test_name": "Command get_ai_health",
+      "status": "PASS",
+      "details": "",
+      "duration": 0.00040435791015625,
+      "timestamp": "2025-06-13T21:05:49.791009"
+    },
+    {
+      "test_name": "Command get_performance",
+      "status": "PASS",
+      "details": "",
+      "duration": 1.1444091796875e-05,
+      "timestamp": "2025-06-13T21:05:49.791127"
+    },
+    {
+      "test_name": "Command trigger_retrain",
+      "status": "PASS",
+      "details": "",
+      "duration": 0.02944350242614746,
+      "timestamp": "2025-06-13T21:05:49.820652"
+    },
+    {
+      "test_name": "Anomaly Detection",
+      "status": "PASS",
+      "details": "Detected 4 anomalies",
+      "duration": 0.007675647735595703,
+      "timestamp": "2025-06-13T21:05:49.832216"
+    },
+    {
+      "test_name": "Performance Tracking",
+      "status": "FAIL",
+      "details": "'ReinforcementEngine' object has no attribute 'record_performance'",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.835497"
+    },
+    {
+      "test_name": "Main App",
+      "status": "PASS",
+      "details": "App initialized successfully",
+      "duration": 0.032850027084350586,
+      "timestamp": "2025-06-13T21:05:49.868552"
+    },
+    {
+      "test_name": "System Integration",
+      "status": "FAIL",
+      "details": "object dict can't be used in 'await' expression",
+      "duration": 0,
+      "timestamp": "2025-06-13T21:05:49.918491"
+    }
+  ],
+  "system_info": {
+    "python_version": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "win32",
+    "project_root": "C:\\Users\\natan\\OneDrive\\\u05e9\u05d5\u05dc\u05d7\u05df \u05d4\u05e2\u05d1\u05d5\u05d3\u05d4\\Apps\\minecraft server\\New folder"
+  }
+}

@@ -1,0 +1,32 @@
+# TradeMasterX 2.0 - Production Requirements
+# =========================================
+
+# Core Framework
+click>=8.0.0
+pyyaml>=6.0
+python-dateutil>=2.8.0
+
+# AI and Chat Interface
+anthropic>=0.3.0
+openai>=1.0.0
+rich>=13.0.0
+
+# Web Interface
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Networking
+requests>=2.28.0
+
+# Development and Testing
+pytest>=7.0.0
+
+# Optional: Enhanced Features
+redis>=4.0.0  # For advanced caching

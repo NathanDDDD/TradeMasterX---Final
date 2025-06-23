@@ -1,0 +1,10 @@
+2025-05-28 14:39:53,821 - Phase10Runner - INFO - ================================================================================
+2025-05-28 14:39:53,842 - Phase10Runner - INFO - ================================================================================
+2025-05-28 14:39:53,846 - Phase10Runner - INFO -    DEMO_MODE: True
+2025-05-28 14:39:53,846 - Phase10Runner - INFO -    LIVE_MODE: False
+2025-05-28 14:39:53,846 - Phase10Runner - INFO -    Mainnet Demo: True
+2025-05-28 14:39:53,846 - Phase10Runner - INFO -    Trade Frequency: 30s
+2025-05-28 14:39:53,846 - Phase10Runner - INFO -    Retrain Interval: 43200s (12.0h)
+2025-05-28 14:39:53,853 - Phase10Runner - INFO - 
+2025-05-28 14:39:53,871 - Phase10Runner - INFO - Press Ctrl+C to stop gracefully
+2025-05-28 14:39:53,871 - Phase10Runner - INFO - 

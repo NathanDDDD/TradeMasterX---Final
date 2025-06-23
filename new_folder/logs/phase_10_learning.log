@@ -1,0 +1,42 @@
+2025-06-22 16:28:48,382 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,388 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,388 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,388 - Phase10Optimizer - INFO - Recorded prediction from test_bot: {'signal': 'buy', 'confidence': 0.85, 'expected_return': 0.18, 'symbol': 'BTCUSDT'}
+2025-06-22 16:28:48,388 - Phase10Optimizer - INFO - Recorded prediction from test_bot: {'signal': 'buy', 'confidence': 0.85, 'expected_return': 0.18, 'symbol': 'BTCUSDT'}
+2025-06-22 16:28:48,394 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,394 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,394 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,394 - Phase10Optimizer - INFO - Recorded prediction from test_bot: {'signal': 'buy', 'confidence': 0.85, 'expected_return': 0.18, 'symbol': 'BTCUSDT'}
+2025-06-22 16:28:48,394 - Phase10Optimizer - INFO - Recorded prediction from test_bot: {'signal': 'buy', 'confidence': 0.85, 'expected_return': 0.18, 'symbol': 'BTCUSDT'}
+2025-06-22 16:28:48,394 - Phase10Optimizer - INFO - Recorded prediction from test_bot: {'signal': 'buy', 'confidence': 0.85, 'expected_return': 0.18, 'symbol': 'BTCUSDT'}
+2025-06-22 16:28:48,395 - Phase10Optimizer - INFO - Trade outcome recorded: {'symbol': 'BTCUSDT', 'signal': 'buy', 'actual_return': 0.2, 'timestamp': '2025-06-22T16:28:48.395855'}
+2025-06-22 16:28:48,395 - Phase10Optimizer - INFO - Trade outcome recorded: {'symbol': 'BTCUSDT', 'signal': 'buy', 'actual_return': 0.2, 'timestamp': '2025-06-22T16:28:48.395855'}
+2025-06-22 16:28:48,395 - Phase10Optimizer - INFO - Trade outcome recorded: {'symbol': 'BTCUSDT', 'signal': 'buy', 'actual_return': 0.2, 'timestamp': '2025-06-22T16:28:48.395855'}
+2025-06-22 16:28:48,437 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,437 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,437 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,437 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,439 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.70, Avg Return=0.1500, Sharpe=1.30, Contribution=0.78
+2025-06-22 16:28:48,439 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.70, Avg Return=0.1500, Sharpe=1.30, Contribution=0.78
+2025-06-22 16:28:48,439 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.70, Avg Return=0.1500, Sharpe=1.30, Contribution=0.78
+2025-06-22 16:28:48,439 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.70, Avg Return=0.1500, Sharpe=1.30, Contribution=0.78
+2025-06-22 16:28:48,445 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,445 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,445 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,445 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,445 - Phase10Optimizer - INFO - Phase 10 Optimizer initialized successfully
+2025-06-22 16:28:48,447 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.80, Avg Return=0.1600, Sharpe=4.70, Contribution=1.00
+2025-06-22 16:28:48,447 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.80, Avg Return=0.1600, Sharpe=4.70, Contribution=1.00
+2025-06-22 16:28:48,447 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.80, Avg Return=0.1600, Sharpe=4.70, Contribution=1.00
+2025-06-22 16:28:48,447 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.80, Avg Return=0.1600, Sharpe=4.70, Contribution=1.00
+2025-06-22 16:28:48,447 - Phase10Optimizer - INFO - Updated metrics for test_bot: Accuracy=0.80, Avg Return=0.1600, Sharpe=4.70, Contribution=1.00
+2025-06-22 16:28:48,450 - Phase10Optimizer - INFO - Generated bot performance report: reports\phase_10_report_20250622.json
+2025-06-22 16:28:48,450 - Phase10Optimizer - INFO - Generated bot performance report: reports\phase_10_report_20250622.json
+2025-06-22 16:28:48,450 - Phase10Optimizer - INFO - Generated bot performance report: reports\phase_10_report_20250622.json
+2025-06-22 16:28:48,450 - Phase10Optimizer - INFO - Generated bot performance report: reports\phase_10_report_20250622.json
+2025-06-22 16:28:48,450 - Phase10Optimizer - INFO - Generated bot performance report: reports\phase_10_report_20250622.json
+2025-06-22 16:28:48,451 - Phase10Optimizer - INFO - System readiness score: 11%
+2025-06-22 16:28:48,451 - Phase10Optimizer - INFO - System readiness score: 11%
+2025-06-22 16:28:48,451 - Phase10Optimizer - INFO - System readiness score: 11%
+2025-06-22 16:28:48,451 - Phase10Optimizer - INFO - System readiness score: 11%
+2025-06-22 16:28:48,451 - Phase10Optimizer - INFO - System readiness score: 11%

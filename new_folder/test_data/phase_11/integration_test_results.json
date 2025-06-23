@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-06-22T16:04:46.547512",
+  "duration_seconds": 11.05061936378479,
+  "tests_passed": 7,
+  "tests_total": 7,
+  "success_rate": 100.0,
+  "detailed_results": [
+    {
+      "test": "component_initialization",
+      "status": "PASSED",
+      "message": "All components initialized successfully"
+    },
+    {
+      "test": "trade_processing",
+      "status": "PASSED",
+      "message": "Successfully processed 10 trades"
+    },
+    {
+      "test": "optimization_cycles",
+      "status": "PASSED",
+      "message": "Successfully completed 3 optimization cycles"
+    },
+    {
+      "test": "dashboard_functionality",
+      "status": "PASSED",
+      "message": "Dashboard functionality working correctly"
+    },
+    {
+      "test": "anomaly_detection",
+      "status": "PASSED",
+      "message": "Anomaly detection system functioning"
+    },
+    {
+      "test": "continuous_optimization",
+      "status": "PASSED",
+      "message": "Continuous optimization completed 4 cycles"
+    },
+    {
+      "test": "report_generation",
+      "status": "PASSED",
+      "message": "Report generated successfully and saved to test_data\\phase_11\\integration_test_report.json"
+    }
+  ]
+}

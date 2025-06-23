@@ -1,0 +1,12 @@
+2025-06-22 15:44:43,441 - LiveOptimizationDashboard - INFO - Dashboard data loaded successfully
+2025-06-22 15:44:43,442 - LiveOptimizationDashboard - INFO - Live Optimization Dashboard initialized
+2025-06-22 15:44:46,486 - LiveOptimizationDashboard - INFO - Optimization event logged: test_event - Test optimization event (Impact: 0.0)
+2025-06-22 15:44:57,578 - LiveOptimizationDashboard - INFO - Dashboard data loaded successfully
+2025-06-22 15:44:57,578 - LiveOptimizationDashboard - INFO - Live Optimization Dashboard initialized
+2025-06-22 15:45:00,610 - LiveOptimizationDashboard - INFO - Starting real-time monitoring with 5s intervals
+2025-06-22 16:04:35,489 - LiveOptimizationDashboard - INFO - Dashboard data loaded successfully
+2025-06-22 16:04:35,489 - LiveOptimizationDashboard - INFO - Live Optimization Dashboard initialized
+2025-06-22 16:04:38,524 - LiveOptimizationDashboard - INFO - Optimization event logged: test_event - Test optimization event (Impact: 0.0)
+2025-06-22 16:04:49,251 - LiveOptimizationDashboard - INFO - Dashboard data loaded successfully
+2025-06-22 16:04:49,251 - LiveOptimizationDashboard - INFO - Live Optimization Dashboard initialized
+2025-06-22 16:04:52,272 - LiveOptimizationDashboard - INFO - Starting real-time monitoring with 5s intervals

@@ -1,0 +1,145 @@
+api:
+  bybit:
+    base_url: https://api.bybit.com
+    demo_account: true
+    demo_balance_usd: 10000
+    enable_transfers: false
+    enable_withdrawals: false
+    max_candles: 1000
+    max_daily_trades: 100
+    max_position_size_usd: 1000
+    max_requests_per_second: 5
+    read_only_mode: false
+    sandbox_mode: false
+    symbols:
+    - BTCUSDT
+    - ETHUSDT
+    - ADAUSDT
+    - DOTUSDT
+    - LINKUSDT
+    testnet_url: https://api-testnet.bybit.com
+    timeframes:
+    - 1m
+    - 5m
+    - 15m
+    - 1h
+    - 4h
+    - 1d
+    use_testnet: false
+    websocket_url: wss://stream.bybit.com/v5/public/spot
+debug:
+  enabled: false
+  mock_data: false
+  profiling: false
+  test_mode: false
+  verbose_logging: false
+features:
+  advanced_analytics: true
+  api_endpoints: true
+  automated_trading: false
+  cli_interface: true
+  real_time_updates: true
+  risk_management: true
+  strategy_backtesting: true
+  web_interface: true
+services:
+  influxdb:
+    database: trademasterx_metrics
+    enabled: false
+    host: localhost
+    password: ''
+    port: 8086
+    username: ''
+  postgres:
+    database: trademasterx
+    enabled: false
+    host: localhost
+    password: change_me
+    port: 5432
+    username: trademasterx
+  redis:
+    db: 0
+    enabled: false
+    host: localhost
+    password: ''
+    port: 6379
+system:
+  backup:
+    compress: true
+    enabled: true
+    interval_hours: 24
+    location: backups
+    retention_days: 7
+  database:
+    path: data/trademasterx.db
+    pool_size: 10
+    timeout: 30
+    type: sqlite
+  environment: mainnet_demo
+  learning:
+    data_collection: true
+    retrain_interval: 43200
+    trade_frequency: 30
+    weekly_report: true
+  logging:
+    backup_count: 5
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    level: INFO
+    log_directory: logs
+    log_to_console: true
+    log_to_file: true
+    max_file_size_mb: 100
+  master_bot:
+    auto_start: true
+    enabled: true
+    health_check_interval: 30
+    monitoring_interval: 5
+  monitoring:
+    alert_thresholds:
+      cpu_percent: 85
+      error_rate_percent: 5
+      memory_percent: 90
+    enabled: true
+    metrics_retention_days: 30
+  name: TradeMasterX 2.0
+  network:
+    api_timeout: 30
+    rate_limit_requests: 100
+    rate_limit_window: 60
+    retry_attempts: 3
+    retry_delay: 1
+  performance:
+    cpu_limit_percent: 80
+    max_concurrent_bots: 10
+    memory_limit_mb: 2048
+  safety:
+    LIVE_TRADING_ENABLED: false
+    confidence_threshold: 0.8
+    deviation_alert_enabled: true
+    emergency_shutdown_triggers: true
+    failover_recovery_enabled: true
+    kill_switch_enabled: true
+    live_trading_auth_required: true
+    max_position_size: 1000
+    max_virtual_balance: 10000
+    min_return_threshold: 0.15
+    risk_guard_enabled: true
+    safety_dashboard_enabled: true
+    wallet_protection: true
+    withdrawal_disabled: true
+  security:
+    api_key_required: true
+    encryption_enabled: true
+    max_login_attempts: 5
+    session_timeout_minutes: 30
+  trading_mode:
+    DEMO_MODE: true
+    LIVE_MODE: false
+    mainnet_demo: true
+    manual_override_required: true
+    testnet_fallback: false
+  version: 2.0.0
+trading:
+  mode: demo
+  real_funds_locked: true
+  virtual_funds: true

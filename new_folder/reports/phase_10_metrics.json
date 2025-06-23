@@ -1,0 +1,22 @@
+{
+  "trade_accuracy": {
+    "test_bot": 0.8
+  },
+  "avg_return": {
+    "test_bot": 0.16
+  },
+  "precision": {},
+  "recall": {},
+  "win_loss_ratio": {
+    "test_bot": 5.0
+  },
+  "drawdown": {
+    "test_bot": 0.0
+  },
+  "sharpe_ratio": {
+    "test_bot": 4.697761756117629
+  },
+  "contribution_score": {
+    "test_bot": 0.9952799999999999
+  }
+}

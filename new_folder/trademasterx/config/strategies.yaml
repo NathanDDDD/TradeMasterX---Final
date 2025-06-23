@@ -1,0 +1,244 @@
+# TradeMasterX Strategy Configuration
+# Trading strategies and their parameters
+
+# Global Strategy Settings
+global:
+  enabled_strategies: ["momentum", "mean_reversion", "breakout", "trend_following"]
+  max_concurrent_strategies: 3
+  strategy_timeout: 300  # seconds
+  min_confidence_threshold: 0.65
+  
+# Individual Strategy Configurations
+
+# Momentum Strategy
+momentum:
+  enabled: true
+  description: "Trend-following momentum strategy"
+  
+  parameters:
+    # Technical Indicators
+    sma_short: 10
+    sma_long: 30
+    rsi_period: 14
+    rsi_overbought: 70
+    rsi_oversold: 30
+    
+    # Entry Conditions
+    momentum_threshold: 0.02  # 2% price movement
+    volume_confirmation: true
+    volume_multiplier: 1.5
+    
+    # Position Management
+    entry_signals:
+      - "price_above_sma_long"
+      - "sma_short_above_sma_long"
+      - "rsi_above_50"
+      - "volume_above_average"
+    
+    exit_signals:
+      - "price_below_sma_short"
+      - "rsi_below_30"
+      - "stop_loss_hit"
+      - "take_profit_hit"
+    
+    # Risk Management
+    stop_loss_percent: 0.02
+    take_profit_percent: 0.04
+    trailing_stop: true
+    trailing_stop_percent: 0.015
+    
+  # Backtesting Parameters
+  backtest:
+    lookback_days: 252
+    commission: 0.001  # 0.1%
+    slippage: 0.0005  # 0.05%
+
+# Mean Reversion Strategy
+mean_reversion:
+  enabled: true
+  description: "Statistical mean reversion strategy"
+  
+  parameters:
+    # Statistical Measures
+    lookback_period: 50
+    std_dev_multiplier: 2.0
+    bollinger_period: 20
+    
+    # Mean Reversion Indicators
+    rsi_period: 14
+    rsi_oversold: 30
+    rsi_overbought: 70
+    
+    # Entry Conditions
+    entry_signals:
+      - "price_below_lower_bollinger"
+      - "rsi_oversold"
+      - "price_deviation_negative"
+    
+    exit_signals:
+      - "price_above_sma"
+      - "rsi_above_50"
+      - "bollinger_squeeze"
+    
+    # Position Management
+    position_sizing_method: "volatility_adjusted"
+    max_position_hold_days: 10
+    
+    # Risk Management
+    stop_loss_percent: 0.025
+    take_profit_percent: 0.03
+    
+  backtest:
+    lookback_days: 252
+    commission: 0.001
+    slippage: 0.0005
+
+# Breakout Strategy
+breakout:
+  enabled: true
+  description: "Support/resistance breakout strategy"
+  
+  parameters:
+    # Support/Resistance
+    sr_lookback_period: 50
+    sr_touch_tolerance: 0.002  # 0.2%
+    min_touches: 3
+    
+    # Breakout Conditions
+    breakout_threshold: 0.005  # 0.5%
+    volume_confirmation: true
+    volume_threshold: 1.5  # 1.5x average volume
+    
+    # Entry Conditions
+    entry_signals:
+      - "resistance_breakout"
+      - "volume_spike"
+      - "momentum_confirmation"
+    
+    exit_signals:
+      - "failed_breakout"
+      - "stop_loss_hit"
+      - "take_profit_hit"
+      - "volume_exhaustion"
+    
+    # Position Management
+    entry_delay_candles: 1  # Wait 1 candle for confirmation
+    false_breakout_protection: true
+    
+    # Risk Management
+    stop_loss_percent: 0.015
+    take_profit_percent: 0.045
+    
+  backtest:
+    lookback_days: 252
+    commission: 0.001
+    slippage: 0.0005
+
+# Trend Following Strategy
+trend_following:
+  enabled: true
+  description: "Long-term trend following strategy"
+  
+  parameters:
+    # Trend Indicators
+    ema_fast: 12
+    ema_slow: 26
+    macd_signal: 9
+    adx_period: 14
+    adx_threshold: 25
+    
+    # Trend Confirmation
+    trend_strength_min: 0.6
+    trend_duration_min: 5  # days
+    
+    # Entry Conditions
+    entry_signals:
+      - "ema_crossover"
+      - "macd_bullish"
+      - "adx_strong_trend"
+      - "higher_highs_lows"
+    
+    exit_signals:
+      - "ema_crossunder"
+      - "macd_bearish"
+      - "trend_exhaustion"
+      - "stop_loss_hit"
+    
+    # Position Management
+    pyramid_scaling: true
+    max_pyramid_levels: 3
+    pyramid_scale_factor: 0.5
+    
+    # Risk Management
+    stop_loss_method: "atr_based"
+    atr_period: 14
+    atr_multiplier: 2.0
+    take_profit_percent: 0.08
+    
+  backtest:
+    lookback_days: 504  # 2 years
+    commission: 0.001
+    slippage: 0.0005
+
+# Strategy Combination Rules
+combination_rules:
+  # Multi-strategy signals
+  consensus_required: 2  # Number of strategies that must agree
+  conflicting_signal_handling: "weighted_average"
+  
+  # Strategy weights based on recent performance
+  dynamic_weights: true
+  weight_adjustment_period: 30  # days
+  min_weight: 0.1
+  max_weight: 0.5
+  
+  # Performance-based allocation
+  performance_lookback: 90  # days
+  sharpe_ratio_weight: 0.4
+  return_weight: 0.3
+  drawdown_weight: 0.3
+
+# Risk Management Across Strategies
+portfolio_risk:
+  max_total_exposure: 0.8  # 80% of portfolio
+  max_strategy_allocation: 0.4  # 40% per strategy
+  correlation_limit: 0.7  # Max correlation between active positions
+  
+  # Diversification Rules
+  max_sector_exposure: 0.3
+  max_single_position: 0.1
+  min_positions: 3
+  max_positions: 15
+
+# Performance Monitoring
+performance_tracking:
+  metrics:
+    - "total_return"
+    - "sharpe_ratio"
+    - "max_drawdown"
+    - "win_rate"
+    - "profit_factor"
+    - "average_trade_duration"
+    
+  benchmarks:
+    - "SPY"  # S&P 500 ETF
+    - "QQQ"  # NASDAQ ETF
+    
+  reporting_frequency: "daily"
+  performance_review_days: 30
+
+# Backtesting Configuration
+backtesting:
+  default_capital: 100000  # $100K
+  commission_per_trade: 1.0  # $1 per trade
+  commission_percent: 0.001  # 0.1%
+  slippage_percent: 0.0005  # 0.05%
+  
+  # Data Requirements
+  min_data_points: 252  # 1 year
+  warm_up_period: 50  # days
+  
+  # Analysis
+  monte_carlo_runs: 1000
+  confidence_intervals: [0.05, 0.95]  # 90% confidence
+  stress_test_scenarios: true

@@ -1,0 +1,835 @@
+{% extends "base.html" %}
+
+{% block title %}Risk Monitoring - TradeMasterX 2.0{% endblock %}
+
+{% block page_title %}Risk Monitoring{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- Risk Overview Cards -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card gradient-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-white-50 mb-1">Risk Level</h6>
+                            <h3 class="text-white mb-0" id="riskLevel">-</h3>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fas fa-shield-alt fa-2x text-white-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card gradient-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-white-50 mb-1">Portfolio VaR</h6>
+                            <h3 class="text-white mb-0" id="portfolioVar">-</h3>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fas fa-exclamation-triangle fa-2x text-white-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card gradient-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-white-50 mb-1">Max Drawdown</h6>
+                            <h3 class="text-white mb-0" id="maxDrawdown">-</h3>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fas fa-arrow-down fa-2x text-white-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card gradient-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-white-50 mb-1">Exposure</h6>
+                            <h3 class="text-white mb-0" id="totalExposure">-</h3>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fas fa-chart-pie fa-2x text-white-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Risk Dashboard -->
+    <div class="row mb-4">
+        <!-- Risk Metrics Chart -->
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-chart-area me-2"></i>Risk Metrics Timeline
+                    </h5>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-primary btn-sm" onclick="updateRiskChart('var')">VaR</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm active" onclick="updateRiskChart('drawdown')">Drawdown</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm" onclick="updateRiskChart('volatility')">Volatility</button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <canvas id="riskMetricsChart" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Risk Alerts -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-bell me-2"></i>Risk Alerts
+                    </h5>
+                    <span class="badge bg-danger" id="alertsCount">0</span>
+                </div>
+                <div class="card-body">
+                    <div id="riskAlertsList" style="max-height: 300px; overflow-y: auto;">
+                        <!-- Risk alerts will be loaded here -->
+                        <div class="text-center text-muted">
+                            <i class="fas fa-check-circle fa-2x mb-3 text-success"></i>
+                            <p>No active risk alerts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Risk Analysis -->
+    <div class="row mb-4">
+        <!-- Position Risk -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-coins me-2"></i>Position Risk Analysis
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-sm" id="positionRiskTable">
+                            <thead>
+                                <tr>
+                                    <th>Symbol</th>
+                                    <th>Size</th>
+                                    <th>Risk %</th>
+                                    <th>P&L</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="positionRiskBody">
+                                <!-- Position risk data will be loaded here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Correlation Matrix -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-project-diagram me-2"></i>Correlation Matrix
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="correlationChart" height="250"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Risk Controls -->
+    <div class="row mb-4">
+        <!-- Risk Limits -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-sliders-h me-2"></i>Risk Limits
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <form id="riskLimitsForm">
+                        <div class="mb-3">
+                            <label class="form-label">Max Portfolio VaR (%)</label>
+                            <input type="number" class="form-control" id="maxVarLimit" 
+                                   value="5" min="1" max="20" step="0.1">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Max Drawdown (%)</label>
+                            <input type="number" class="form-control" id="maxDrawdownLimit" 
+                                   value="10" min="1" max="50" step="0.5">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Max Position Size (%)</label>
+                            <input type="number" class="form-control" id="maxPositionSize" 
+                                   value="25" min="1" max="100" step="1">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Max Correlation</label>
+                            <input type="number" class="form-control" id="maxCorrelation" 
+                                   value="0.7" min="0.1" max="1" step="0.1">
+                        </div>
+                        
+                        <button type="button" class="btn btn-primary" onclick="updateRiskLimits()">
+                            Update Limits
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stress Testing -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-vial me-2"></i>Stress Testing
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label">Scenario</label>
+                        <select class="form-select" id="stressScenario">
+                            <option value="market_crash">Market Crash (-20%)</option>
+                            <option value="volatility_spike">Volatility Spike (+50%)</option>
+                            <option value="correlation_breakdown">Correlation Breakdown</option>
+                            <option value="liquidity_crisis">Liquidity Crisis</option>
+                            <option value="custom">Custom Scenario</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-3" id="customScenarioInputs" style="display: none;">
+                        <label class="form-label">Market Move (%)</label>
+                        <input type="number" class="form-control" id="customMarketMove" 
+                               value="-10" min="-50" max="50" step="1">
+                    </div>
+                    
+                    <button type="button" class="btn btn-warning" onclick="runStressTest()">
+                        Run Stress Test
+                    </button>
+                    
+                    <div id="stressTestResults" class="mt-3" style="display: none;">
+                        <!-- Stress test results will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Risk Analytics -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-calculator me-2"></i>Risk Analytics
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label small">Sharpe Ratio</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 0%" id="sharpeProgress">0</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label small">Sortino Ratio</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 0%" id="sortinoProgress">0</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label small">Calmar Ratio</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 0%" id="calmarProgress">0</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label small">Beta</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" id="betaProgress">0</div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-outline-primary btn-sm w-100" onclick="refreshRiskAnalytics()">
+                        Refresh Analytics
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Risk History -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-history me-2"></i>Risk Events History
+                    </h5>
+                    <div>
+                        <button class="btn btn-sm btn-outline-success" onclick="exportRiskData()">
+                            <i class="fas fa-download me-1"></i>Export
+                        </button>
+                        <button class="btn btn-sm btn-outline-primary" onclick="refreshRiskHistory()">
+                            <i class="fas fa-sync me-1"></i>Refresh
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover" id="riskHistoryTable">
+                            <thead>
+                                <tr>
+                                    <th>Timestamp</th>
+                                    <th>Event Type</th>
+                                    <th>Severity</th>
+                                    <th>Description</th>
+                                    <th>Impact</th>
+                                    <th>Action Taken</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="riskHistoryBody">
+                                <!-- Risk history data will be loaded here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Risk Alert Modal -->
+<div class="modal fade" id="riskAlertModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">
+                    <i class="fas fa-exclamation-triangle me-2"></i>Risk Alert
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="riskAlertContent">
+                <!-- Risk alert content will be loaded here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Acknowledge</button>
+                <button type="button" class="btn btn-danger" onclick="takeRiskAction()">Take Action</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Risk Monitoring JavaScript
+let riskMetricsChart = null;
+let correlationChart = null;
+let currentRiskData = {};
+
+document.addEventListener('DOMContentLoaded', function() {
+    initializeRiskCharts();
+    loadRiskData();
+    setupRiskAlerts();
+    
+    // Setup real-time updates
+    if (typeof socket !== 'undefined') {
+        socket.on('risk_update', function(data) {
+            updateRiskDisplay(data);
+        });
+        
+        socket.on('risk_alert', function(alert) {
+            showRiskAlert(alert);
+        });
+    }
+    
+    // Auto-refresh every 30 seconds
+    setInterval(loadRiskData, 30000);
+    
+    // Setup scenario change listener
+    document.getElementById('stressScenario').addEventListener('change', function() {
+        const customInputs = document.getElementById('customScenarioInputs');
+        customInputs.style.display = this.value === 'custom' ? 'block' : 'none';
+    });
+});
+
+function initializeRiskCharts() {
+    // Initialize Risk Metrics Chart
+    const riskCtx = document.getElementById('riskMetricsChart').getContext('2d');
+    riskMetricsChart = new Chart(riskCtx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Risk Metric',
+                data: [],
+                borderColor: 'rgb(255, 99, 132)',
+                backgroundColor: 'rgba(255, 99, 132, 0.1)',
+                tension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#6c757d' }
+                },
+                x: {
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#6c757d' }
+                }
+            },
+            plugins: {
+                legend: { labels: { color: '#6c757d' } }
+            }
+        }
+    });
+
+    // Initialize Correlation Chart
+    const correlationCtx = document.getElementById('correlationChart').getContext('2d');
+    correlationChart = new Chart(correlationCtx, {
+        type: 'scatter',
+        data: {
+            datasets: []
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: { 
+                    title: { display: true, text: 'Asset 1 Returns', color: '#6c757d' },
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#6c757d' }
+                },
+                y: { 
+                    title: { display: true, text: 'Asset 2 Returns', color: '#6c757d' },
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#6c757d' }
+                }
+            },
+            plugins: {
+                legend: { labels: { color: '#6c757d' } }
+            }
+        }
+    });
+}
+
+function loadRiskData() {
+    fetch('/api/risk/summary')
+        .then(response => response.json())
+        .then(data => {
+            currentRiskData = data;
+            updateRiskOverview(data);
+            updatePositionRisk(data.positions || {});
+            updateRiskHistory(data.history || []);
+            updateRiskAnalytics(data.analytics || {});
+        })
+        .catch(error => {
+            console.error('Error loading risk data:', error);
+            showToast('Error loading risk data', 'danger');
+        });
+}
+
+function updateRiskOverview(data) {
+    const riskLevel = data.risk_level || 'Unknown';
+    const riskLevelColor = getRiskLevelColor(riskLevel);
+    
+    document.getElementById('riskLevel').textContent = riskLevel;
+    document.getElementById('riskLevel').className = `text-${riskLevelColor}`;
+    
+    document.getElementById('portfolioVar').textContent = data.portfolio_var ? 
+        (data.portfolio_var * 100).toFixed(1) + '%' : '-';
+    document.getElementById('maxDrawdown').textContent = data.max_drawdown ? 
+        (data.max_drawdown * 100).toFixed(1) + '%' : '-';
+    document.getElementById('totalExposure').textContent = data.total_exposure ? 
+        '$' + data.total_exposure.toFixed(0) : '-';
+}
+
+function getRiskLevelColor(level) {
+    switch(level.toLowerCase()) {
+        case 'low': return 'success';
+        case 'medium': return 'warning';
+        case 'high': return 'danger';
+        default: return 'secondary';
+    }
+}
+
+function updateRiskChart(metric) {
+    fetch(`/api/risk/metrics?metric=${metric}`)
+        .then(response => response.json())
+        .then(data => {
+            riskMetricsChart.data.labels = data.labels || [];
+            riskMetricsChart.data.datasets[0].data = data.values || [];
+            riskMetricsChart.data.datasets[0].label = getMetricLabel(metric);
+            
+            // Update colors based on metric
+            const colors = getMetricColors(metric);
+            riskMetricsChart.data.datasets[0].borderColor = colors.border;
+            riskMetricsChart.data.datasets[0].backgroundColor = colors.background;
+            
+            riskMetricsChart.update();
+        })
+        .catch(error => {
+            console.error('Error updating risk chart:', error);
+        });
+    
+    // Update button states
+    document.querySelectorAll('.btn-group .btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+}
+
+function getMetricLabel(metric) {
+    switch(metric) {
+        case 'var': return 'Value at Risk (%)';
+        case 'drawdown': return 'Drawdown (%)';
+        case 'volatility': return 'Volatility (%)';
+        default: return 'Risk Metric';
+    }
+}
+
+function getMetricColors(metric) {
+    switch(metric) {
+        case 'var':
+            return {
+                border: 'rgb(255, 99, 132)',
+                background: 'rgba(255, 99, 132, 0.1)'
+            };
+        case 'drawdown':
+            return {
+                border: 'rgb(255, 159, 64)',
+                background: 'rgba(255, 159, 64, 0.1)'
+            };
+        case 'volatility':
+            return {
+                border: 'rgb(153, 102, 255)',
+                background: 'rgba(153, 102, 255, 0.1)'
+            };
+        default:
+            return {
+                border: 'rgb(54, 162, 235)',
+                background: 'rgba(54, 162, 235, 0.1)'
+            };
+    }
+}
+
+function updatePositionRisk(positions) {
+    const tbody = document.getElementById('positionRiskBody');
+    tbody.innerHTML = '';
+    
+    if (Object.keys(positions).length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" class="text-center text-muted">No open positions</td></tr>';
+        return;
+    }
+    
+    Object.entries(positions).forEach(([symbol, position]) => {
+        const row = document.createElement('tr');
+        const riskClass = position.risk_percent > 5 ? 'text-danger' : 
+                         position.risk_percent > 3 ? 'text-warning' : 'text-success';
+        const pnlClass = position.unrealized_pnl > 0 ? 'text-success' : 'text-danger';
+        
+        row.innerHTML = `
+            <td>${symbol}</td>
+            <td>$${position.size.toFixed(0)}</td>
+            <td class="${riskClass}">${position.risk_percent.toFixed(1)}%</td>
+            <td class="${pnlClass}">$${position.unrealized_pnl.toFixed(2)}</td>
+            <td><span class="badge bg-${position.status === 'normal' ? 'success' : 'warning'}">${position.status}</span></td>
+        `;
+        tbody.appendChild(row);
+    });
+}
+
+function updateRiskHistory(history) {
+    const tbody = document.getElementById('riskHistoryBody');
+    tbody.innerHTML = '';
+    
+    if (history.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" class="text-center text-muted">No risk events recorded</td></tr>';
+        return;
+    }
+    
+    history.slice(0, 10).forEach(event => {
+        const row = document.createElement('tr');
+        const severityClass = event.severity === 'high' ? 'danger' : 
+                             event.severity === 'medium' ? 'warning' : 'info';
+        
+        row.innerHTML = `
+            <td>${new Date(event.timestamp).toLocaleString()}</td>
+            <td>${event.event_type}</td>
+            <td><span class="badge bg-${severityClass}">${event.severity}</span></td>
+            <td>${event.description}</td>
+            <td>${event.impact || '-'}</td>
+            <td>${event.action_taken || '-'}</td>
+            <td><span class="badge bg-${event.status === 'resolved' ? 'success' : 'warning'}">${event.status}</span></td>
+        `;
+        tbody.appendChild(row);
+    });
+}
+
+function updateRiskAnalytics(analytics) {
+    updateProgressBar('sharpeProgress', analytics.sharpe_ratio || 0, 3);
+    updateProgressBar('sortinoProgress', analytics.sortino_ratio || 0, 3);
+    updateProgressBar('calmarProgress', analytics.calmar_ratio || 0, 3);
+    updateProgressBar('betaProgress', analytics.beta || 0, 2);
+}
+
+function updateProgressBar(elementId, value, maxValue) {
+    const element = document.getElementById(elementId);
+    const percentage = Math.min((Math.abs(value) / maxValue) * 100, 100);
+    element.style.width = percentage + '%';
+    element.textContent = value.toFixed(2);
+}
+
+function setupRiskAlerts() {
+    fetch('/api/risk/alerts')
+        .then(response => response.json())
+        .then(data => {
+            updateRiskAlerts(data.alerts || []);
+        })
+        .catch(error => {
+            console.error('Error loading risk alerts:', error);
+        });
+}
+
+function updateRiskAlerts(alerts) {
+    const container = document.getElementById('riskAlertsList');
+    const count = document.getElementById('alertsCount');
+    
+    count.textContent = alerts.length;
+    
+    if (alerts.length === 0) {
+        container.innerHTML = `
+            <div class="text-center text-muted">
+                <i class="fas fa-check-circle fa-2x mb-3 text-success"></i>
+                <p>No active risk alerts</p>
+            </div>
+        `;
+        return;
+    }
+    
+    let html = '';
+    alerts.forEach(alert => {
+        const severityClass = alert.severity === 'high' ? 'danger' : 
+                             alert.severity === 'medium' ? 'warning' : 'info';
+        
+        html += `
+            <div class="alert alert-${severityClass} alert-dismissible">
+                <strong>${alert.title}</strong>
+                <br><small>${alert.description}</small>
+                <br><small class="text-muted">${new Date(alert.timestamp).toLocaleString()}</small>
+                <button type="button" class="btn-close" onclick="dismissAlert('${alert.id}')"></button>
+            </div>
+        `;
+    });
+    
+    container.innerHTML = html;
+}
+
+function showRiskAlert(alert) {
+    const content = document.getElementById('riskAlertContent');
+    content.innerHTML = `
+        <h6>${alert.title}</h6>
+        <p>${alert.description}</p>
+        <div class="row">
+            <div class="col-md-6">
+                <strong>Severity:</strong> <span class="badge bg-danger">${alert.severity}</span>
+            </div>
+            <div class="col-md-6">
+                <strong>Affected:</strong> ${alert.affected_positions || 'Portfolio'}
+            </div>
+        </div>
+        <div class="mt-3">
+            <strong>Recommended Actions:</strong>
+            <ul>
+                ${alert.recommendations.map(rec => `<li>${rec}</li>`).join('')}
+            </ul>
+        </div>
+    `;
+    
+    const modal = new bootstrap.Modal(document.getElementById('riskAlertModal'));
+    modal.show();
+    
+    // Show toast notification
+    showToast(`Risk Alert: ${alert.title}`, 'danger');
+}
+
+function updateRiskLimits() {
+    const limits = {
+        max_var: parseFloat(document.getElementById('maxVarLimit').value),
+        max_drawdown: parseFloat(document.getElementById('maxDrawdownLimit').value),
+        max_position_size: parseFloat(document.getElementById('maxPositionSize').value),
+        max_correlation: parseFloat(document.getElementById('maxCorrelation').value)
+    };
+    
+    fetch('/api/risk/limits', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(limits)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            showToast('Risk limits updated successfully', 'success');
+        } else {
+            showToast('Error updating risk limits', 'danger');
+        }
+    })
+    .catch(error => {
+        showToast('Error updating risk limits', 'danger');
+    });
+}
+
+function runStressTest() {
+    const scenario = document.getElementById('stressScenario').value;
+    const customMove = document.getElementById('customMarketMove').value;
+    
+    const params = {
+        scenario: scenario,
+        custom_market_move: scenario === 'custom' ? parseFloat(customMove) : null
+    };
+    
+    const resultsContainer = document.getElementById('stressTestResults');
+    resultsContainer.style.display = 'block';
+    resultsContainer.innerHTML = '<div class="text-center"><i class="fas fa-spinner fa-spin"></i> Running stress test...</div>';
+    
+    fetch('/api/risk/stress-test', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(params)
+    })
+    .then(response => response.json())
+    .then(data => {
+        displayStressTestResults(data);
+    })
+    .catch(error => {
+        resultsContainer.innerHTML = '<div class="text-danger">Error running stress test</div>';
+    });
+}
+
+function displayStressTestResults(results) {
+    const container = document.getElementById('stressTestResults');
+    
+    container.innerHTML = `
+        <h6>Stress Test Results</h6>
+        <div class="table-responsive">
+            <table class="table table-sm">
+                <tr>
+                    <td><strong>Portfolio Loss:</strong></td>
+                    <td class="text-danger">$${results.portfolio_loss.toFixed(2)}</td>
+                </tr>
+                <tr>
+                    <td><strong>VaR Breach:</strong></td>
+                    <td class="text-${results.var_breach ? 'danger' : 'success'}">${results.var_breach ? 'Yes' : 'No'}</td>
+                </tr>
+                <tr>
+                    <td><strong>Worst Position:</strong></td>
+                    <td>${results.worst_position.symbol} (${results.worst_position.loss.toFixed(2)}%)</td>
+                </tr>
+                <tr>
+                    <td><strong>Recovery Time:</strong></td>
+                    <td>${results.recovery_time_days} days</td>
+                </tr>
+            </table>
+        </div>
+        ${results.var_breach ? '<div class="alert alert-danger mt-2">Warning: VaR limits would be breached!</div>' : ''}
+    `;
+}
+
+function refreshRiskAnalytics() {
+    showToast('Refreshing risk analytics...', 'info');
+    loadRiskData();
+}
+
+function refreshRiskHistory() {
+    showToast('Refreshing risk history...', 'info');
+    loadRiskData();
+}
+
+function exportRiskData() {
+    fetch('/api/risk/export')
+        .then(response => response.blob())
+        .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `risk_data_${new Date().toISOString().split('T')[0]}.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+            showToast('Risk data exported', 'success');
+        })
+        .catch(error => {
+            showToast('Error exporting risk data', 'danger');
+        });
+}
+
+function dismissAlert(alertId) {
+    fetch(`/api/risk/alerts/${alertId}/dismiss`, { method: 'POST' })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                setupRiskAlerts(); // Refresh alerts
+            }
+        })
+        .catch(error => {
+            console.error('Error dismissing alert:', error);
+        });
+}
+
+function takeRiskAction() {
+    showToast('Risk mitigation action initiated', 'warning');
+    // Implementation for automated risk actions
+    bootstrap.Modal.getInstance(document.getElementById('riskAlertModal')).hide();
+}
+
+function updateRiskDisplay(data) {
+    // Real-time updates from WebSocket
+    if (data.overview) {
+        updateRiskOverview(data.overview);
+    }
+    
+    if (data.alerts) {
+        updateRiskAlerts(data.alerts);
+    }
+    
+    if (data.positions) {
+        updatePositionRisk(data.positions);
+    }
+}
+</script>
+{% endblock %}

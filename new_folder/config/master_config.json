@@ -1,0 +1,48 @@
+{
+  "session_duration_hours": 168,
+  "trade_interval_seconds": 30,
+  "retraining_interval_hours": 12,
+  "monitoring_interval_minutes": 10,
+  "reporting_time": "00:00",
+  "bybit_testnet": {
+    "api_key": "your_testnet_api_key_here",
+    "api_secret": "your_testnet_api_secret_here",
+    "base_url": "https://api-testnet.bybit.com"
+  },
+  "trading": {
+    "symbols": ["BTCUSDT", "ETHUSDT", "ADAUSDT"],
+    "position_size": 0.01,
+    "initial_confidence_threshold": 0.75,
+    "max_position_size": 0.05,
+    "stop_loss_percentage": 0.02,
+    "take_profit_percentage": 0.03
+  },
+  "retraining": {
+    "improvement_threshold": 0.02,
+    "rollback_threshold": 0.05,
+    "max_training_time_minutes": 60,
+    "validation_samples": 1000
+  },
+  "monitoring": {
+    "error_spike_threshold": 10,
+    "pause_duration_minutes": 15,
+    "accuracy_window_trades": 100,
+    "confidence_adjustment_step": 0.02
+  },
+  "paths": {
+    "data": "data",
+    "models": "models",
+    "reports": "reports",
+    "logs": "logs"
+  },
+  "database": {
+    "trades_db": "data/trades.db",
+    "models_db": "data/models.db",
+    "monitoring_db": "data/monitoring.db"
+  },
+  "alerts": {
+    "email_notifications": false,
+    "slack_webhook": "",
+    "critical_error_threshold": 5
+  }
+}

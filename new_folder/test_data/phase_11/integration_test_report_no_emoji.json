@@ -1,0 +1,82 @@
+{
+  "report_timestamp": "2025-06-22T16:05:02.283865",
+  "report_period": "24_hours",
+  "system_overview": {
+    "optimization_cycles": 4,
+    "system_health": {},
+    "optimization_efficiency": {}
+  },
+  "bot_performance": {
+    "timestamp": "2025-06-22T16:05:02.283649",
+    "total_bots": 0,
+    "qualified_bots": 0,
+    "summary_statistics": {
+      "average_reliability": 0,
+      "average_accuracy": 0,
+      "average_win_rate": 0,
+      "total_predictions": 0,
+      "total_errors": 0
+    },
+    "top_performers": [],
+    "underperformers": [],
+    "trending_up": [],
+    "trending_down": [],
+    "recommendations": [
+      "No qualified bots found - need more prediction data"
+    ]
+  },
+  "strategy_analysis": {
+    "timestamp": "2025-06-22T16:05:02.283719",
+    "current_strategy": null,
+    "total_strategies": 0,
+    "total_switches": 0,
+    "last_switch": null,
+    "strategy_rankings": [],
+    "recent_switches": [],
+    "strategy_performance": {},
+    "switching_statistics": {
+      "avg_time_between_switches": 0.0,
+      "most_switched_from": "None",
+      "most_switched_to": "None",
+      "switch_success_rate": 0.0
+    },
+    "recommendations": [
+      "Consider activating more backup strategies for better diversity"
+    ]
+  },
+  "anomaly_analysis": {
+    "timestamp": "2025-06-22T16:05:02.283791",
+    "summary": {
+      "total_anomalies": 0,
+      "recent_24h": 0,
+      "critical_unresolved": 0,
+      "average_deviation": 0.0
+    },
+    "statistics": {
+      "total_anomalies": 0,
+      "anomalies_by_type": {},
+      "anomalies_by_severity": {},
+      "average_deviation": 0.0,
+      "false_positive_rate": 0.0,
+      "detection_accuracy": 0.0,
+      "last_updated": "2025-06-22T16:04:49.237785"
+    },
+    "recent_anomalies": [],
+    "critical_anomalies": [],
+    "patterns": {},
+    "anomaly_distribution": {
+      "by_type": {},
+      "by_severity": {}
+    },
+    "recommendations": [
+      "No recent anomalies detected - system operating normally"
+    ]
+  },
+  "dashboard_metrics": {
+    "error": "No metrics available"
+  },
+  "recommendations": [
+    "Consider retraining or replacing low-performing bots",
+    "Review strategy switching thresholds and criteria"
+  ]
+}

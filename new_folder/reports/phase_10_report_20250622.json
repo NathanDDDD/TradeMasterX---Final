@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-06-22T16:28:48.449596",
+  "period": "7d",
+  "bots": {
+    "test_bot": {
+      "accuracy": 0.8,
+      "avg_return": 0.16,
+      "sharpe_ratio": 4.697761756117629,
+      "max_drawdown": 0.0,
+      "win_loss_ratio": 5,
+      "contribution_score": 0.9952799999999999,
+      "total_predictions": 5,
+      "recommendations": []
+    }
+  },
+  "system": {
+    "total_trades": 0,
+    "avg_system_return": 0,
+    "win_rate": 0,
+    "best_performing_bot": "test_bot",
+    "worst_performing_bot": "test_bot",
+    "optimization_recommendations": [
+      "System win rate below 50% - Review overall strategy mix"
+    ],
+    "readiness_score": 11
+  }
+}

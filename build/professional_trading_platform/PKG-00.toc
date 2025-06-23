@@ -1,0 +1,3488 @@
+('C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+ 'server\\build\\professional_trading_platform\\professional_trading_platform.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\build\\professional_trading_platform\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\build\\professional_trading_platform\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\build\\professional_trading_platform\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\build\\professional_trading_platform\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\build\\professional_trading_platform\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\build\\professional_trading_platform\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('professional_trading_platform',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\professional_trading_platform.py',
+   'PYSOURCE'),
+  ('python313.dll', 'C:\\Python313\\python313.dll', 'BINARY'),
+  ('select.pyd', 'C:\\Python313\\DLLs\\select.pyd', 'EXTENSION'),
+  ('_socket.pyd', 'C:\\Python313\\DLLs\\_socket.pyd', 'EXTENSION'),
+  ('_lzma.pyd', 'C:\\Python313\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_bz2.pyd', 'C:\\Python313\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('unicodedata.pyd', 'C:\\Python313\\DLLs\\unicodedata.pyd', 'EXTENSION'),
+  ('_queue.pyd', 'C:\\Python313\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('_ctypes.pyd', 'C:\\Python313\\DLLs\\_ctypes.pyd', 'EXTENSION'),
+  ('_wmi.pyd', 'C:\\Python313\\DLLs\\_wmi.pyd', 'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Python313\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd', 'C:\\Python313\\DLLs\\pyexpat.pyd', 'EXTENSION'),
+  ('_ssl.pyd', 'C:\\Python313\\DLLs\\_ssl.pyd', 'EXTENSION'),
+  ('_decimal.pyd', 'C:\\Python313\\DLLs\\_decimal.pyd', 'EXTENSION'),
+  ('_hashlib.pyd', 'C:\\Python313\\DLLs\\_hashlib.pyd', 'EXTENSION'),
+  ('yaml\\_yaml.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\yaml\\_yaml.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('multidict\\_multidict.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\multidict\\_multidict.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('aiohttp\\_websocket\\mask.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\aiohttp\\_websocket\\mask.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('aiohttp\\_http_writer.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\aiohttp\\_http_writer.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('aiohttp\\_http_parser.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\aiohttp\\_http_parser.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('yarl\\_quoting_c.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\yarl\\_quoting_c.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('propcache\\_helpers_c.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\propcache\\_helpers_c.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('frozenlist\\_frozenlist.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\frozenlist\\_frozenlist.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('pycares\\_cares.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\pycares\\_cares.pyd',
+   'EXTENSION'),
+  ('_cffi_backend.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_cffi_backend.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd', 'C:\\Python313\\DLLs\\_uuid.pyd', 'EXTENSION'),
+  ('aiohttp\\_websocket\\reader_c.cp313-win_amd64.pyd',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\aiohttp\\_websocket\\reader_c.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd', 'C:\\Python313\\DLLs\\_asyncio.pyd', 'EXTENSION'),
+  ('_overlapped.pyd', 'C:\\Python313\\DLLs\\_overlapped.pyd', 'EXTENSION'),
+  ('VCRUNTIME140.dll', 'C:\\Python313\\VCRUNTIME140.dll', 'BINARY'),
+  ('libffi-8.dll', 'C:\\Python313\\DLLs\\libffi-8.dll', 'BINARY'),
+  ('VCRUNTIME140_1.dll', 'C:\\Python313\\VCRUNTIME140_1.dll', 'BINARY'),
+  ('libcrypto-3.dll', 'C:\\Python313\\DLLs\\libcrypto-3.dll', 'BINARY'),
+  ('libssl-3.dll', 'C:\\Python313\\DLLs\\libssl-3.dll', 'BINARY'),
+  ('python3.dll', 'C:\\Python313\\python3.dll', 'BINARY'),
+  ('new_folder\\.env',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\.env',
+   'DATA'),
+  ('new_folder\\.env.example',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\.env.example',
+   'DATA'),
+  ('new_folder\\.pytest_cache\\.gitignore',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\.pytest_cache\\.gitignore',
+   'DATA'),
+  ('new_folder\\.pytest_cache\\CACHEDIR.TAG',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\.pytest_cache\\CACHEDIR.TAG',
+   'DATA'),
+  ('new_folder\\.pytest_cache\\README.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\.pytest_cache\\README.md',
+   'DATA'),
+  ('new_folder\\.pytest_cache\\v\\cache\\lastfailed',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\.pytest_cache\\v\\cache\\lastfailed',
+   'DATA'),
+  ('new_folder\\.pytest_cache\\v\\cache\\nodeids',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\.pytest_cache\\v\\cache\\nodeids',
+   'DATA'),
+  ('new_folder\\.pytest_cache\\v\\cache\\stepwise',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\.pytest_cache\\v\\cache\\stepwise',
+   'DATA'),
+  ('new_folder\\COMMAND_ASSISTANT_COMPLETION_REPORT.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\COMMAND_ASSISTANT_COMPLETION_REPORT.md',
+   'DATA'),
+  ('new_folder\\COMMAND_ASSISTANT_FINAL_REPORT.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\COMMAND_ASSISTANT_FINAL_REPORT.py',
+   'DATA'),
+  ('new_folder\\DESKTOP_GUI_COMPLETION_REPORT.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\DESKTOP_GUI_COMPLETION_REPORT.md',
+   'DATA'),
+  ('new_folder\\DESKTOP_GUI_FINAL_COMPLETION.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\DESKTOP_GUI_FINAL_COMPLETION.md',
+   'DATA'),
+  ('new_folder\\DESKTOP_GUI_FINAL_SUCCESS.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\DESKTOP_GUI_FINAL_SUCCESS.md',
+   'DATA'),
+  ('new_folder\\DESKTOP_GUI_SUCCESS_REPORT.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\DESKTOP_GUI_SUCCESS_REPORT.md',
+   'DATA'),
+  ('new_folder\\Dockerfile',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\Dockerfile',
+   'DATA'),
+  ('new_folder\\FINAL_STATUS.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\FINAL_STATUS.txt',
+   'DATA'),
+  ('new_folder\\PHASE_11_COMPLETION_REPORT.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\PHASE_11_COMPLETION_REPORT.md',
+   'DATA'),
+  ('new_folder\\PHASE_14_COMPLETION_REPORT.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\PHASE_14_COMPLETION_REPORT.md',
+   'DATA'),
+  ('new_folder\\PHASE_14_MISSION_ACCOMPLISHED.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\PHASE_14_MISSION_ACCOMPLISHED.md',
+   'DATA'),
+  ('new_folder\\PHASE_15_COMPLETION_REPORT.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\PHASE_15_COMPLETION_REPORT.md',
+   'DATA'),
+  ('new_folder\\PHASE_15_MISSION_ACCOMPLISHED.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\PHASE_15_MISSION_ACCOMPLISHED.md',
+   'DATA'),
+  ('new_folder\\README.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\README.md',
+   'DATA'),
+  ('new_folder\\REFACTORING_COMPLETION_REPORT.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\REFACTORING_COMPLETION_REPORT.md',
+   'DATA'),
+  ('new_folder\\TRADEMASTERX_2.0_COMPLETION_REPORT.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\TRADEMASTERX_2.0_COMPLETION_REPORT.md',
+   'DATA'),
+  ('new_folder\\TRADEMASTERX_2.0_FINAL_SUCCESS.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\TRADEMASTERX_2.0_FINAL_SUCCESS.md',
+   'DATA'),
+  ('new_folder\\__pycache__\\integration_test.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\integration_test.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\main_app.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\main_app.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\main_app.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\main_app.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\phase_10_direct_controller.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\phase_10_direct_controller.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\phase_14_complete_autonomous_ai.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\phase_14_complete_autonomous_ai.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\phase_14_complete_autonomous_ai.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\phase_14_complete_autonomous_ai.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\phase_15_final_demo_fixed.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\phase_15_final_demo_fixed.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\phase_tester.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\phase_tester.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\simple_package_test.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\simple_package_test.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_clean_assistant.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_clean_assistant.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_command_assistant.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_command_assistant.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_dashboard.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_dashboard.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_fixed_assistant.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_fixed_assistant.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_import_ai.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_import_ai.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_import_verification.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_import_verification.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_imports.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_imports.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_orchestrator_simple.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_orchestrator_simple.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_10_integration.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_10_integration.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_10_simple.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_10_simple.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_11_complete.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_11_complete.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_11_integration.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_11_integration.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_11_integration_new.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_11_integration_new.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_11_integration_no_emoji.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_11_integration_no_emoji.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_11_simple.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_11_simple.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_12_cli.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_12_cli.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_12_comprehensive.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_12_comprehensive.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_12_functional.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_12_functional.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_12_functional.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_12_functional.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_12_integration.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_12_integration.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_12_integration.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_12_integration.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_12_minimal.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_12_minimal.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_13_chat.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_13_chat.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_13_direct.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_13_direct.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_14_complete.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_14_complete.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_14_components.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_14_components.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_phase_14_integration.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_phase_14_integration.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_runner.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_runner.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_system.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_system.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_system_backup.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_system_backup.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_system_new.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_system_new.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\__pycache__\\test_web_server.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\__pycache__\\test_web_server.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\cleanup_project.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\cleanup_project.py',
+   'DATA'),
+  ('new_folder\\comprehensive_test_results.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\comprehensive_test_results.txt',
+   'DATA'),
+  ('new_folder\\config\\master_config.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\config\\master_config.json',
+   'DATA'),
+  ('new_folder\\config\\system.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\config\\system.yaml',
+   'DATA'),
+  ('new_folder\\config\\test.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\config\\test.yaml',
+   'DATA'),
+  ('new_folder\\configs\\strategy_profiles\\aggressive_momentum.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\configs\\strategy_profiles\\aggressive_momentum.json',
+   'DATA'),
+  ('new_folder\\configs\\strategy_profiles\\balanced_multi_signal.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\configs\\strategy_profiles\\balanced_multi_signal.json',
+   'DATA'),
+  ('new_folder\\configs\\strategy_profiles\\conservative_trend.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\configs\\strategy_profiles\\conservative_trend.json',
+   'DATA'),
+  ('new_folder\\core\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\__init__.py',
+   'DATA'),
+  ('new_folder\\core\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\core\\assessment\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\assessment\\__init__.py',
+   'DATA'),
+  ('new_folder\\core\\assessment\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\assessment\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\assessment\\__pycache__\\readiness_estimator.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\assessment\\__pycache__\\readiness_estimator.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\assessment\\readiness_estimator.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\assessment\\readiness_estimator.py',
+   'DATA'),
+  ('new_folder\\core\\execution\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\execution\\__init__.py',
+   'DATA'),
+  ('new_folder\\core\\execution\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\execution\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\execution\\__pycache__\\trade_executor.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\execution\\__pycache__\\trade_executor.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\execution\\trade_executor.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\execution\\trade_executor.py',
+   'DATA'),
+  ('new_folder\\core\\monitoring\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\monitoring\\__init__.py',
+   'DATA'),
+  ('new_folder\\core\\monitoring\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\monitoring\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\monitoring\\__pycache__\\real_time_monitor.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\monitoring\\__pycache__\\real_time_monitor.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\monitoring\\real_time_monitor.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\monitoring\\real_time_monitor.py',
+   'DATA'),
+  ('new_folder\\core\\reporting\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\reporting\\__init__.py',
+   'DATA'),
+  ('new_folder\\core\\reporting\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\reporting\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\reporting\\__pycache__\\daily_reporter.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\reporting\\__pycache__\\daily_reporter.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\reporting\\daily_reporter.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\reporting\\daily_reporter.py',
+   'DATA'),
+  ('new_folder\\core\\training\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\training\\__init__.py',
+   'DATA'),
+  ('new_folder\\core\\training\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\training\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\training\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\training\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\core\\training\\__pycache__\\continuous_retrainer.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\training\\__pycache__\\continuous_retrainer.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\training\\__pycache__\\continuous_retrainer.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\training\\__pycache__\\continuous_retrainer.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\core\\training\\continuous_retrainer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\training\\continuous_retrainer.py',
+   'DATA'),
+  ('new_folder\\core\\tuning\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\tuning\\__init__.py',
+   'DATA'),
+  ('new_folder\\core\\tuning\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\tuning\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\tuning\\__pycache__\\dynamic_tuner.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\tuning\\__pycache__\\dynamic_tuner.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\core\\tuning\\dynamic_tuner.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\core\\tuning\\dynamic_tuner.py',
+   'DATA'),
+  ('new_folder\\data\\conversation_memory.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\conversation_memory.db',
+   'DATA'),
+  ('new_folder\\data\\feedback_generator\\feedback_data.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\feedback_generator\\feedback_data.db',
+   'DATA'),
+  ('new_folder\\data\\intelligent_analyzer\\analyzer_data.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\intelligent_analyzer\\analyzer_data.db',
+   'DATA'),
+  ('new_folder\\data\\memory_bot.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\memory_bot.db',
+   'DATA'),
+  ('new_folder\\data\\performance.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\performance.db',
+   'DATA'),
+  ('new_folder\\data\\performance\\performance_data.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\performance\\performance_data.json',
+   'DATA'),
+  ('new_folder\\data\\performance\\trade_log.csv',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\performance\\trade_log.csv',
+   'DATA'),
+  ('new_folder\\data\\performance\\trades_2025-06-11.csv',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\performance\\trades_2025-06-11.csv',
+   'DATA'),
+  ('new_folder\\data\\performance\\trades_2025-06-13.csv',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\performance\\trades_2025-06-13.csv',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_090537.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_090537.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_090537.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_090537.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_090705.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_090705.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_090705.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_090705.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_092711.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_092711.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_092711.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_092711.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_092810.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_092810.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_092810.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_092810.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_093256.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_093256.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_093256.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_093256.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_093347.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_093347.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250529_093347.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250529_093347.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250531_144624.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250531_144624.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250531_144624.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250531_144624.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021756.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021756.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021756.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021756.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021817.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021817.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021817.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021817.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021958.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021958.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021958.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_021958.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022104.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022104.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022104.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022104.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022113.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022113.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022113.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022113.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022546.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022546.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022546.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022546.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022818.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022818.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022818.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250601_022818.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_135629.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_135629.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_135629.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_135629.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_135947.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_135947.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_135947.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_135947.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_141019.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_141019.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_141019.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_141019.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142215.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142215.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142215.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142215.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142321.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142321.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142321.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142321.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142757.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142757.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142757.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_142757.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_143118.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_143118.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250602_143118.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250602_143118.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250622_154055.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250622_154055.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250622_154055.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250622_154055.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250622_154513.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250622_154513.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250622_154513.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250622_154513.pkl',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250622_160504.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250622_160504.json',
+   'DATA'),
+  ('new_folder\\data\\recovery\\snapshots\\snapshot_20250622_160504.pkl',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\recovery\\snapshots\\snapshot_20250622_160504.pkl',
+   'DATA'),
+  ('new_folder\\data\\safety\\kill_switch.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\safety\\kill_switch.json',
+   'DATA'),
+  ('new_folder\\data\\safety\\risk_guard_data.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\safety\\risk_guard_data.json',
+   'DATA'),
+  ('new_folder\\data\\safety_lock.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\safety_lock.json',
+   'DATA'),
+  ('new_folder\\data\\training_set_v1.csv',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\data\\training_set_v1.csv',
+   'DATA'),
+  ('new_folder\\demo_fixed_assistant.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\demo_fixed_assistant.py',
+   'DATA'),
+  ('new_folder\\demo_phase_11.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\demo_phase_11.py',
+   'DATA'),
+  ('new_folder\\demo_phase_11_complete.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\demo_phase_11_complete.py',
+   'DATA'),
+  ('new_folder\\demo_phase_11_final.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\demo_phase_11_final.py',
+   'DATA'),
+  ('new_folder\\demo_phase_14.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\demo_phase_14.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\.streamlit\\config.toml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\.streamlit\\config.toml',
+   'DATA'),
+  ('new_folder\\desktop_app\\.streamlit\\secrets.toml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\.streamlit\\secrets.toml',
+   'DATA'),
+  ('new_folder\\desktop_app\\README.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\README.md',
+   'DATA'),
+  ('new_folder\\desktop_app\\app.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\app.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\__init__.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\__pycache__\\system_control.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\__pycache__\\system_control.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\__pycache__\\system_control.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\__pycache__\\system_control.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\__pycache__\\system_control_clean.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\__pycache__\\system_control_clean.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\__pycache__\\test_simple.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\__pycache__\\test_simple.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\ai_chat.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\ai_chat.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\ai_chat_enhanced.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\ai_chat_enhanced.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\status_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\status_dashboard.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\system_control.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\system_control.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\system_control_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\system_control_clean.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\system_control_fixed.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\system_control_fixed.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\test_simple.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\test_simple.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\components\\trade_history.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\components\\trade_history.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\config\\gui_settings.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\config\\gui_settings.json',
+   'DATA'),
+  ('new_folder\\desktop_app\\data\\performance.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\data\\performance.db',
+   'DATA'),
+  ('new_folder\\desktop_app\\data\\safety\\kill_switch.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\data\\safety\\kill_switch.json',
+   'DATA'),
+  ('new_folder\\desktop_app\\data\\safety\\risk_guard_data.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\data\\safety\\risk_guard_data.json',
+   'DATA'),
+  ('new_folder\\desktop_app\\logs\\command_assistant.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\logs\\command_assistant.log',
+   'DATA'),
+  ('new_folder\\desktop_app\\requirements.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\requirements.txt',
+   'DATA'),
+  ('new_folder\\desktop_app\\settings.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\settings.json',
+   'DATA'),
+  ('new_folder\\desktop_app\\utils\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\utils\\__init__.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\utils\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\utils\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\utils\\__pycache__\\api_manager.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\utils\\__pycache__\\api_manager.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\utils\\__pycache__\\system_interface.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\utils\\__pycache__\\system_interface.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\desktop_app\\utils\\api_manager.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\utils\\api_manager.py',
+   'DATA'),
+  ('new_folder\\desktop_app\\utils\\system_interface.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\desktop_app\\utils\\system_interface.py',
+   'DATA'),
+  ('new_folder\\docker-compose.yml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\docker-compose.yml',
+   'DATA'),
+  ('new_folder\\docs\\API_REFERENCE.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\docs\\API_REFERENCE.md',
+   'DATA'),
+  ('new_folder\\docs\\BOT_REFERENCE.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\docs\\BOT_REFERENCE.md',
+   'DATA'),
+  ('new_folder\\docs\\CONFIGURATION.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\docs\\CONFIGURATION.md',
+   'DATA'),
+  ('new_folder\\docs\\PHASE_10_GUIDE.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\docs\\PHASE_10_GUIDE.md',
+   'DATA'),
+  ('new_folder\\docs\\PROJECT_STRUCTURE.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\docs\\PROJECT_STRUCTURE.md',
+   'DATA'),
+  ('new_folder\\final_demo.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\final_demo.py',
+   'DATA'),
+  ('new_folder\\full_test_report.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\full_test_report.txt',
+   'DATA'),
+  ('new_folder\\integration_test.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\integration_test.py',
+   'DATA'),
+  ('new_folder\\launch\\testnet_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\launch\\testnet_controller.py',
+   'DATA'),
+  ('new_folder\\launch_app.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\launch_app.py',
+   'DATA'),
+  ('new_folder\\launch_desktop_gui.bat',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\launch_desktop_gui.bat',
+   'DATA'),
+  ('new_folder\\launch_production.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\launch_production.py',
+   'DATA'),
+  ('new_folder\\launch_trademasterx.bat',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\launch_trademasterx.bat',
+   'DATA'),
+  ('new_folder\\launch_trademasterx.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\launch_trademasterx.py',
+   'DATA'),
+  ('new_folder\\launch_trademasterx.sh',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\launch_trademasterx.sh',
+   'DATA'),
+  ('new_folder\\logs\\command_assistant.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\command_assistant.log',
+   'DATA'),
+  ('new_folder\\logs\\dashboard.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\dashboard.log',
+   'DATA'),
+  ('new_folder\\logs\\emergency_shutdown.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\emergency_shutdown.log',
+   'DATA'),
+  ('new_folder\\logs\\errors_20250527.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\errors_20250527.log',
+   'DATA'),
+  ('new_folder\\logs\\errors_20250622.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\errors_20250622.log',
+   'DATA'),
+  ('new_folder\\logs\\logger_bot.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\logger_bot.db',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_182814.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_182814.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_184444.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_184444.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_185047.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_185047.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_185048.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_185048.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_200952.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_200952.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_201414.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_201414.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_201415.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_201415.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_202722.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_202722.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_202841.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_202841.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_202917.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_202917.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_202951.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_202951.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203029.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203029.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203252.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203252.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203253.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203253.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203356.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203356.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203357.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203357.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203429.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203429.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203444.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203444.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203820.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203820.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_203937.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_203937.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_204007.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_204007.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_204241.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_204241.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250527_204302.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250527_204302.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250622_154108.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250622_154108.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250622_154110.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250622_154110.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250622_154526.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250622_154526.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250622_154528.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250622_154528.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250622_160517.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250622_160517.log',
+   'DATA'),
+  ('new_folder\\logs\\master_bot_20250622_160519.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\master_bot_20250622_160519.log',
+   'DATA'),
+  ('new_folder\\logs\\observer_log.csv',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\observer_log.csv',
+   'DATA'),
+  ('new_folder\\logs\\phase_10_20250528_143953.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\phase_10_20250528_143953.log',
+   'DATA'),
+  ('new_folder\\logs\\phase_10_learning.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\phase_10_learning.log',
+   'DATA'),
+  ('new_folder\\logs\\phase_11_controller.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\phase_11_controller.log',
+   'DATA'),
+  ('new_folder\\logs\\phase_11_integration_test.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\phase_11_integration_test.log',
+   'DATA'),
+  ('new_folder\\logs\\phase_14_complete.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\phase_14_complete.log',
+   'DATA'),
+  ('new_folder\\logs\\test_logs\\dashboard.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\test_logs\\dashboard.log',
+   'DATA'),
+  ('new_folder\\logs\\test_logs\\phase_11\\dashboard.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\test_logs\\phase_11\\dashboard.log',
+   'DATA'),
+  ('new_folder\\logs\\test_logs\\phase_11\\integration_test.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\test_logs\\phase_11\\integration_test.log',
+   'DATA'),
+  ('new_folder\\logs\\test_logs\\phase_11\\integration_test_no_emoji.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\test_logs\\phase_11\\integration_test_no_emoji.log',
+   'DATA'),
+  ('new_folder\\logs\\test_logs\\phase_11\\phase_11_controller.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\test_logs\\phase_11\\phase_11_controller.log',
+   'DATA'),
+  ('new_folder\\logs\\test_logs\\phase_11_controller.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\test_logs\\phase_11_controller.log',
+   'DATA'),
+  ('new_folder\\logs\\test_logs\\phase_12_integration_test.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\test_logs\\phase_12_integration_test.log',
+   'DATA'),
+  ('new_folder\\logs\\trademasterx_20250527.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\trademasterx_20250527.log',
+   'DATA'),
+  ('new_folder\\logs\\trademasterx_20250622.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\trademasterx_20250622.log',
+   'DATA'),
+  ('new_folder\\logs\\trademasterx_production.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs\\trademasterx_production.log',
+   'DATA'),
+  ('new_folder\\logs_clean\\comprehensive_test.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs_clean\\comprehensive_test.log',
+   'DATA'),
+  ('new_folder\\logs_clean\\startup_info.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs_clean\\startup_info.json',
+   'DATA'),
+  ('new_folder\\logs_clean\\trademasterx_main.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\logs_clean\\trademasterx_main.log',
+   'DATA'),
+  ('new_folder\\main_app.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\main_app.py',
+   'DATA'),
+  ('new_folder\\main_app_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\main_app_clean.py',
+   'DATA'),
+  ('new_folder\\organize_project.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\organize_project.py',
+   'DATA'),
+  ('new_folder\\package\\DEPLOYMENT_GUIDE.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\DEPLOYMENT_GUIDE.md',
+   'DATA'),
+  ('new_folder\\package\\PRODUCTION_README.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\PRODUCTION_README.md',
+   'DATA'),
+  ('new_folder\\package\\README.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\README.md',
+   'DATA'),
+  ('new_folder\\package\\RELEASE_NOTES.md',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\RELEASE_NOTES.md',
+   'DATA'),
+  ('new_folder\\package\\__pycache__\\launcher.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\__pycache__\\launcher.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\__pycache__\\quick_test.cpython-312-pytest-8.3.5.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\__pycache__\\quick_test.cpython-312-pytest-8.3.5.pyc',
+   'DATA'),
+  ('new_folder\\package\\__pycache__\\validate_package.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\__pycache__\\validate_package.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\launcher.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\launcher.py',
+   'DATA'),
+  ('new_folder\\package\\phase_tester.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\phase_tester.py',
+   'DATA'),
+  ('new_folder\\package\\quick_start.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\quick_start.py',
+   'DATA'),
+  ('new_folder\\package\\quick_test.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\quick_test.py',
+   'DATA'),
+  ('new_folder\\package\\requirements.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\requirements.txt',
+   'DATA'),
+  ('new_folder\\package\\requirements_production.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\requirements_production.txt',
+   'DATA'),
+  ('new_folder\\package\\setup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\setup.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\analytics\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\analytics\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\analytics\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\analytics\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\analytics\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\analytics\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\analytics\\__pycache__\\analytics_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\analytics\\__pycache__\\analytics_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\analytics\\__pycache__\\analytics_bot.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\analytics\\__pycache__\\analytics_bot.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\analytics\\analytics_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\analytics\\analytics_bot.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\strategy\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\strategy\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\strategy\\strategy.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\strategy\\strategy.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\system\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\system\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\system\\logger_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\system\\logger_bot.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\system\\memory_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\system\\memory_bot.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\bots\\system\\risk_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\bots\\system\\risk_bot.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\__pycache__\\config_loader.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\__pycache__\\config_loader.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\__pycache__\\config_loader.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\__pycache__\\config_loader.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\bots.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\bots.yaml',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\config_loader.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\config_loader.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\phase_10.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\phase_10.yaml',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\phase_11.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\phase_11.yaml',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\phase_12.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\phase_12.yaml',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\strategies.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\strategies.yaml',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\config\\system.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\config\\system.yaml',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\bot_registry.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\bot_registry.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\bot_registry.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\bot_registry.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\failover_recovery.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\failover_recovery.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\failover_recovery.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\failover_recovery.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\kill_switch.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\kill_switch.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\kill_switch.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\kill_switch.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\risk_guard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\risk_guard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\risk_guard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\risk_guard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\safety_dashboard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\safety_dashboard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\scoring.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\scoring.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\scoring.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\scoring.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\trade_deviation_alert.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\trade_deviation_alert.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\__pycache__\\trade_deviation_alert.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\__pycache__\\trade_deviation_alert.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\analytics\\analytics_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\analytics\\analytics_bot.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\bot_registry.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\bot_registry.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\failover_recovery.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\failover_recovery.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\kill_switch.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\kill_switch.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\kill_switch_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\kill_switch_backup.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\kill_switch_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\kill_switch_clean.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\learning_phase_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\learning_phase_controller.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\master_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\master_bot.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\master_bot.py.new',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\master_bot.py.new',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\phase10_optimizer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\phase10_optimizer.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\risk_guard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\risk_guard.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\risk_guard_new.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\risk_guard_new.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\risk_guard_old.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\risk_guard_old.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\safety_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\safety_controller.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\safety_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\safety_dashboard.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\scoring.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\scoring.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\trade_deviation_alert.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\trade_deviation_alert.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\core\\validation\\retraining_validator.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\core\\validation\\retraining_validator.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\api_integration.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\api_integration.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\api_integration.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\api_integration.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\command_assistant.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\command_assistant.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\command_assistant.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\command_assistant.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\conversation_engine.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\conversation_engine.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\conversation_engine.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\__pycache__\\conversation_engine.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\api_integration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\api_integration.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\command_assistant.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\command_assistant.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\assistant\\conversation_engine.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\assistant\\conversation_engine.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\cli\\cli.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\cli\\cli.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\app.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\app.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\safety_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\safety_dashboard.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\static\\css\\style.css',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\static\\css\\style.css',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\static\\js\\main.js',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\static\\js\\main.js',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\analytics.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\analytics.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\base.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\base.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\bots.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\bots.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\config.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\config.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\dashboard.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\dashboard.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\logs.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\logs.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\risk.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\risk.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\safety.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\safety.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\interface\\web\\templates\\strategies.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\interface\\web\\templates\\strategies.html',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\adaptive_strategy_reinforcer.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\adaptive_strategy_reinforcer.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\adaptive_strategy_reinforcer.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\adaptive_strategy_reinforcer.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\anomaly_detector.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\anomaly_detector.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\anomaly_detector.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\anomaly_detector.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\bot_performance_scorer.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\bot_performance_scorer.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\bot_performance_scorer.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\bot_performance_scorer.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\live_optimization_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\live_optimization_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\live_optimization_dashboard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\live_optimization_dashboard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\phase_11_controller.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\phase_11_controller.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\phase_11_controller.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\phase_11_controller.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\strategy_switcher.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\strategy_switcher.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\strategy_switcher.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\__pycache__\\strategy_switcher.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\adaptive_strategy_reinforcer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\adaptive_strategy_reinforcer.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\anomaly_detector.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\anomaly_detector.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\bot_performance_scorer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\bot_performance_scorer.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\config.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\config.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\live_optimization_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\live_optimization_dashboard.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\phase_11_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\phase_11_controller.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_11\\strategy_switcher.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_11\\strategy_switcher.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__init__.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\ai_copilot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\ai_copilot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\ai_copilot.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\ai_copilot.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\feedback_generator.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\feedback_generator.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\feedback_generator.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\feedback_generator.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\intelligent_analyzer.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\intelligent_analyzer.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\intelligent_analyzer.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\intelligent_analyzer.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\real_time_monitor.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\real_time_monitor.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\real_time_monitor.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\__pycache__\\real_time_monitor.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\ai_copilot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\ai_copilot.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\feedback_generator.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\feedback_generator.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\intelligent_analyzer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\intelligent_analyzer.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\optimizers\\phase_14\\real_time_monitor.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\optimizers\\phase_14\\real_time_monitor.py',
+   'DATA'),
+  ('new_folder\\package\\trademasterx\\requirements.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\trademasterx\\requirements.txt',
+   'DATA'),
+  ('new_folder\\package\\validate_package.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\package\\validate_package.py',
+   'DATA'),
+  ('new_folder\\phase_10_analyzer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_10_analyzer.py',
+   'DATA'),
+  ('new_folder\\phase_10_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_10_dashboard.py',
+   'DATA'),
+  ('new_folder\\phase_10_direct_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_10_direct_controller.py',
+   'DATA'),
+  ('new_folder\\phase_10_operations.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_10_operations.py',
+   'DATA'),
+  ('new_folder\\phase_10_reporter.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_10_reporter.py',
+   'DATA'),
+  ('new_folder\\phase_10_status_monitor.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_10_status_monitor.py',
+   'DATA'),
+  ('new_folder\\phase_10_validation_report.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_10_validation_report.py',
+   'DATA'),
+  ('new_folder\\phase_11_web_integration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_11_web_integration.py',
+   'DATA'),
+  ('new_folder\\phase_11_web_integration_complete.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_11_web_integration_complete.py',
+   'DATA'),
+  ('new_folder\\phase_14_autonomous_intelligence.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_14_autonomous_intelligence.py',
+   'DATA'),
+  ('new_folder\\phase_14_complete_autonomous_ai.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_14_complete_autonomous_ai.py',
+   'DATA'),
+  ('new_folder\\phase_14_complete_status_check.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_14_complete_status_check.py',
+   'DATA'),
+  ('new_folder\\phase_14_final_demonstration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_14_final_demonstration.py',
+   'DATA'),
+  ('new_folder\\phase_15_final_demo.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_15_final_demo.py',
+   'DATA'),
+  ('new_folder\\phase_15_final_demo_fixed.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_15_final_demo_fixed.py',
+   'DATA'),
+  ('new_folder\\phase_15_final_status.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_15_final_status.py',
+   'DATA'),
+  ('new_folder\\phase_tester.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\phase_tester.py',
+   'DATA'),
+  ('new_folder\\pip_list.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\pip_list.txt',
+   'DATA'),
+  ('new_folder\\quick_fix.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\quick_fix.py',
+   'DATA'),
+  ('new_folder\\quick_phase_11_status.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\quick_phase_11_status.py',
+   'DATA'),
+  ('new_folder\\quick_phase_14_status.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\quick_phase_14_status.py',
+   'DATA'),
+  ('new_folder\\quick_phase_15_validation.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\quick_phase_15_validation.py',
+   'DATA'),
+  ('new_folder\\quick_status.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\quick_status.py',
+   'DATA'),
+  ('new_folder\\reports\\adaptive_weights.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\adaptive_weights.yaml',
+   'DATA'),
+  ('new_folder\\reports\\ai_status.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\ai_status.json',
+   'DATA'),
+  ('new_folder\\reports\\anomaly_log.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\anomaly_log.json',
+   'DATA'),
+  ('new_folder\\reports\\anomaly_patterns.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\anomaly_patterns.json',
+   'DATA'),
+  ('new_folder\\reports\\audit_log.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\audit_log.json',
+   'DATA'),
+  ('new_folder\\reports\\phase_10_bot_performance.csv',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\phase_10_bot_performance.csv',
+   'DATA'),
+  ('new_folder\\reports\\phase_10_metrics.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\phase_10_metrics.json',
+   'DATA'),
+  ('new_folder\\reports\\phase_10_predictions.csv',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\phase_10_predictions.csv',
+   'DATA'),
+  ('new_folder\\reports\\phase_10_report_20250622.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\phase_10_report_20250622.json',
+   'DATA'),
+  ('new_folder\\reports\\phase_14_status.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\phase_14_status.json',
+   'DATA'),
+  ('new_folder\\reports\\retrain_log.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports\\retrain_log.json',
+   'DATA'),
+  ('new_folder\\reports_clean\\final_phase15_run_log.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports_clean\\final_phase15_run_log.txt',
+   'DATA'),
+  ('new_folder\\reports_clean\\final_phase15_run_log_20250613_025455.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports_clean\\final_phase15_run_log_20250613_025455.txt',
+   'DATA'),
+  ('new_folder\\reports_clean\\final_test_report_20250613_024929.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports_clean\\final_test_report_20250613_024929.json',
+   'DATA'),
+  ('new_folder\\reports_clean\\final_test_report_20250613_210549.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports_clean\\final_test_report_20250613_210549.json',
+   'DATA'),
+  ('new_folder\\reports_clean\\final_test_report_20250613_210801.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports_clean\\final_test_report_20250613_210801.json',
+   'DATA'),
+  ('new_folder\\reports_clean\\final_test_report_20250613_211945.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\reports_clean\\final_test_report_20250613_211945.json',
+   'DATA'),
+  ('new_folder\\requirements.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\requirements.txt',
+   'DATA'),
+  ('new_folder\\requirements_new.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\requirements_new.txt',
+   'DATA'),
+  ('new_folder\\run_phase_10_direct.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\run_phase_10_direct.py',
+   'DATA'),
+  ('new_folder\\run_phase_10_no_emoji.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\run_phase_10_no_emoji.py',
+   'DATA'),
+  ('new_folder\\run_phase_10_simple.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\run_phase_10_simple.py',
+   'DATA'),
+  ('new_folder\\run_tests.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\run_tests.py',
+   'DATA'),
+  ('new_folder\\setup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\setup.py',
+   'DATA'),
+  ('new_folder\\setup_logging.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\setup_logging.py',
+   'DATA'),
+  ('new_folder\\simple_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\simple_dashboard.py',
+   'DATA'),
+  ('new_folder\\simple_package_test.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\simple_package_test.py',
+   'DATA'),
+  ('new_folder\\simple_validation.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\simple_validation.py',
+   'DATA'),
+  ('new_folder\\start_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\start_dashboard.py',
+   'DATA'),
+  ('new_folder\\start_phase_10.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\start_phase_10.py',
+   'DATA'),
+  ('new_folder\\strategy_weights.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\strategy_weights.json',
+   'DATA'),
+  ('new_folder\\test_command_assistant.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_command_assistant.py',
+   'DATA'),
+  ('new_folder\\test_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_dashboard.py',
+   'DATA'),
+  ('new_folder\\test_data\\adaptive_weights.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\adaptive_weights.yaml',
+   'DATA'),
+  ('new_folder\\test_data\\phase_11\\adaptive_weights.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_11\\adaptive_weights.yaml',
+   'DATA'),
+  ('new_folder\\test_data\\phase_11\\dashboard\\alerts.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_11\\dashboard\\alerts.json',
+   'DATA'),
+  ('new_folder\\test_data\\phase_11\\dashboard\\optimization_events.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_11\\dashboard\\optimization_events.json',
+   'DATA'),
+  ('new_folder\\test_data\\phase_11\\dashboard\\performance_history.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_11\\dashboard\\performance_history.json',
+   'DATA'),
+  ('new_folder\\test_data\\phase_11\\integration_test_report.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_11\\integration_test_report.json',
+   'DATA'),
+  ('new_folder\\test_data\\phase_11\\integration_test_report_no_emoji.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_11\\integration_test_report_no_emoji.json',
+   'DATA'),
+  ('new_folder\\test_data\\phase_11\\integration_test_results.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_11\\integration_test_results.json',
+   'DATA'),
+  ('new_folder\\test_data\\phase_11\\integration_test_results_no_emoji.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_11\\integration_test_results_no_emoji.json',
+   'DATA'),
+  ('new_folder\\test_data\\phase_14\\analyzer_data.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_14\\analyzer_data.db',
+   'DATA'),
+  ('new_folder\\test_data\\phase_14\\feedback_data.db',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_data\\phase_14\\feedback_data.db',
+   'DATA'),
+  ('new_folder\\test_fixed_assistant.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_fixed_assistant.py',
+   'DATA'),
+  ('new_folder\\test_import_ai.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_import_ai.py',
+   'DATA'),
+  ('new_folder\\test_import_verification.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_import_verification.py',
+   'DATA'),
+  ('new_folder\\test_imports.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_imports.py',
+   'DATA'),
+  ('new_folder\\test_logs\\dashboard.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_logs\\dashboard.log',
+   'DATA'),
+  ('new_folder\\test_logs\\phase_11\\dashboard.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_logs\\phase_11\\dashboard.log',
+   'DATA'),
+  ('new_folder\\test_logs\\phase_11\\integration_test.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_logs\\phase_11\\integration_test.log',
+   'DATA'),
+  ('new_folder\\test_logs\\phase_11\\integration_test_no_emoji.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_logs\\phase_11\\integration_test_no_emoji.log',
+   'DATA'),
+  ('new_folder\\test_logs\\phase_11\\phase_11_controller.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_logs\\phase_11\\phase_11_controller.log',
+   'DATA'),
+  ('new_folder\\test_logs\\phase_11_controller.log',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_logs\\phase_11_controller.log',
+   'DATA'),
+  ('new_folder\\test_models\\model_v1.8928.0_metadata.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_models\\model_v1.8928.0_metadata.json',
+   'DATA'),
+  ('new_folder\\test_orchestrator_simple.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_orchestrator_simple.py',
+   'DATA'),
+  ('new_folder\\test_output.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_output.txt',
+   'DATA'),
+  ('new_folder\\test_phase_10_integration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_10_integration.py',
+   'DATA'),
+  ('new_folder\\test_phase_10_simple.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_10_simple.py',
+   'DATA'),
+  ('new_folder\\test_phase_11_complete.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_11_complete.py',
+   'DATA'),
+  ('new_folder\\test_phase_11_integration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_11_integration.py',
+   'DATA'),
+  ('new_folder\\test_phase_11_integration_new.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_11_integration_new.py',
+   'DATA'),
+  ('new_folder\\test_phase_11_integration_no_emoji.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_11_integration_no_emoji.py',
+   'DATA'),
+  ('new_folder\\test_phase_11_simple.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_11_simple.py',
+   'DATA'),
+  ('new_folder\\test_phase_12_cli.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_12_cli.py',
+   'DATA'),
+  ('new_folder\\test_phase_12_comprehensive.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_12_comprehensive.py',
+   'DATA'),
+  ('new_folder\\test_phase_12_functional.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_12_functional.py',
+   'DATA'),
+  ('new_folder\\test_phase_12_integration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_12_integration.py',
+   'DATA'),
+  ('new_folder\\test_phase_12_minimal.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_12_minimal.py',
+   'DATA'),
+  ('new_folder\\test_phase_13_chat.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_13_chat.py',
+   'DATA'),
+  ('new_folder\\test_phase_13_direct.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_13_direct.py',
+   'DATA'),
+  ('new_folder\\test_phase_14_complete.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_14_complete.py',
+   'DATA'),
+  ('new_folder\\test_phase_14_components.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_14_components.py',
+   'DATA'),
+  ('new_folder\\test_phase_14_integration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_phase_14_integration.py',
+   'DATA'),
+  ('new_folder\\test_reports\\adaptive_weights.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_reports\\adaptive_weights.yaml',
+   'DATA'),
+  ('new_folder\\test_reports\\phase_12_functional_test_20250622_160504.json',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_reports\\phase_12_functional_test_20250622_160504.json',
+   'DATA'),
+  ('new_folder\\test_runner.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_runner.py',
+   'DATA'),
+  ('new_folder\\test_system.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_system.py',
+   'DATA'),
+  ('new_folder\\test_system_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_system_backup.py',
+   'DATA'),
+  ('new_folder\\test_system_new.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_system_new.py',
+   'DATA'),
+  ('new_folder\\test_web_server.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\test_web_server.py',
+   'DATA'),
+  ('new_folder\\tests\\final_phase_tester.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\tests\\final_phase_tester.py',
+   'DATA'),
+  ('new_folder\\trade_deviation_alert_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trade_deviation_alert_backup.py',
+   'DATA'),
+  ('new_folder\\trade_deviation_alert_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trade_deviation_alert_clean.py',
+   'DATA'),
+  ('new_folder\\trademasterx.egg-info\\PKG-INFO',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx.egg-info\\PKG-INFO',
+   'DATA'),
+  ('new_folder\\trademasterx.egg-info\\SOURCES.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx.egg-info\\SOURCES.txt',
+   'DATA'),
+  ('new_folder\\trademasterx.egg-info\\dependency_links.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx.egg-info\\dependency_links.txt',
+   'DATA'),
+  ('new_folder\\trademasterx.egg-info\\entry_points.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx.egg-info\\entry_points.txt',
+   'DATA'),
+  ('new_folder\\trademasterx.egg-info\\not-zip-safe',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx.egg-info\\not-zip-safe',
+   'DATA'),
+  ('new_folder\\trademasterx.egg-info\\requires.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx.egg-info\\requires.txt',
+   'DATA'),
+  ('new_folder\\trademasterx.egg-info\\top_level.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx.egg-info\\top_level.txt',
+   'DATA'),
+  ('new_folder\\trademasterx\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\__pycache__\\ai_orchestrator.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\__pycache__\\ai_orchestrator.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\__pycache__\\ai_orchestrator.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\__pycache__\\ai_orchestrator.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\__pycache__\\anomaly_auditor.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\__pycache__\\anomaly_auditor.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\__pycache__\\anomaly_auditor.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\__pycache__\\anomaly_auditor.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\__pycache__\\observer_agent.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\__pycache__\\observer_agent.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\__pycache__\\observer_agent.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\__pycache__\\observer_agent.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\__pycache__\\reinforcement_engine.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\__pycache__\\reinforcement_engine.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\__pycache__\\reinforcement_engine.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\__pycache__\\reinforcement_engine.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\ai_orchestrator.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\ai_orchestrator.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\ai_orchestrator_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\ai_orchestrator_backup.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\ai_orchestrator_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\ai_orchestrator_clean.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\anomaly_auditor.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\anomaly_auditor.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\observer_agent.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\observer_agent.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\reinforcement_engine.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\reinforcement_engine.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\reinforcement_engine_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\reinforcement_engine_backup.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\ai\\reinforcement_engine_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\ai\\reinforcement_engine_clean.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__pycache__\\analytics_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__pycache__\\analytics_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__pycache__\\analytics_bot.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__pycache__\\analytics_bot.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__pycache__\\market_analysis.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__pycache__\\market_analysis.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__pycache__\\market_analysis.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__pycache__\\market_analysis.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__pycache__\\sentiment.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__pycache__\\sentiment.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\__pycache__\\sentiment.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\__pycache__\\sentiment.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\analytics_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\analytics_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\market_analysis.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\market_analysis.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\analytics\\sentiment.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\analytics\\sentiment.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\strategy\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\strategy\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\strategy\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\strategy\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\strategy\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\strategy\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\strategy\\__pycache__\\strategy.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\strategy\\__pycache__\\strategy.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\strategy\\__pycache__\\strategy.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\strategy\\__pycache__\\strategy.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\strategy\\strategy.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\strategy\\strategy.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\logger.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\logger.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\logger.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\logger.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\logger_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\logger_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\logger_bot.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\logger_bot.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\memory_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\memory_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\memory_bot.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\memory_bot.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\risk_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\risk_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\__pycache__\\risk_bot.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\__pycache__\\risk_bot.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\logger.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\logger.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\logger_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\logger_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\memory_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\memory_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\bots\\system\\risk_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\bots\\system\\risk_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\__pycache__\\config_loader.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\__pycache__\\config_loader.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\__pycache__\\config_loader.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\__pycache__\\config_loader.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\bots.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\bots.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\config_loader.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\config_loader.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\phase_10.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\phase_10.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\phase_11.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\phase_11.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\phase_12.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\phase_12.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\strategies.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\strategies.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\config\\system.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\config\\system.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\bot_registry.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\bot_registry.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\bot_registry.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\bot_registry.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\failover_recovery.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\failover_recovery.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\failover_recovery.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\failover_recovery.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\kill_switch.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\kill_switch.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\kill_switch.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\kill_switch.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\learning_phase_controller.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\learning_phase_controller.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\learning_phase_controller.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\learning_phase_controller.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\master_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\master_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\master_bot.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\master_bot.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\phase10_optimizer.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\phase10_optimizer.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\phase10_optimizer.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\phase10_optimizer.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\risk_guard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\risk_guard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\risk_guard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\risk_guard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\safety_controller.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\safety_controller.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\safety_controller.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\safety_controller.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\safety_dashboard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\safety_dashboard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\scoring.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\scoring.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\scoring.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\scoring.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\trade_deviation_alert.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\trade_deviation_alert.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\__pycache__\\trade_deviation_alert.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\__pycache__\\trade_deviation_alert.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\__pycache__\\ai_orchestrator.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\__pycache__\\ai_orchestrator.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\__pycache__\\ai_orchestrator.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\__pycache__\\ai_orchestrator.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\__pycache__\\anomaly_auditor.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\__pycache__\\anomaly_auditor.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\__pycache__\\anomaly_auditor.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\__pycache__\\anomaly_auditor.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\__pycache__\\observer_agent.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\__pycache__\\observer_agent.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\__pycache__\\observer_agent.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\__pycache__\\observer_agent.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\__pycache__\\reinforcement_engine.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\__pycache__\\reinforcement_engine.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\__pycache__\\reinforcement_engine.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\__pycache__\\reinforcement_engine.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\ai_orchestrator.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\ai_orchestrator.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\ai_orchestrator_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\ai_orchestrator_backup.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\ai_orchestrator_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\ai_orchestrator_clean.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\anomaly_auditor.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\anomaly_auditor.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\observer_agent.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\observer_agent.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\reinforcement_engine.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\reinforcement_engine.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\reinforcement_engine_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\reinforcement_engine_backup.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\ai\\reinforcement_engine_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\ai\\reinforcement_engine_clean.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\analytics\\analytics_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\analytics\\analytics_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bot_registry.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bot_registry.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\analytics\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\analytics\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\analytics\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\analytics\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\analytics\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\analytics\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\analytics\\__pycache__\\analytics_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\analytics\\__pycache__\\analytics_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\analytics\\__pycache__\\analytics_bot.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\analytics\\__pycache__\\analytics_bot.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\analytics\\analytics_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\analytics\\analytics_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\strategy\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\strategy\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\strategy\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\strategy\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\strategy\\__pycache__\\strategy.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\strategy\\__pycache__\\strategy.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\strategy\\strategy.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\strategy\\strategy.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\system\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\system\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\system\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\system\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\system\\__pycache__\\logger_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\system\\__pycache__\\logger_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\system\\__pycache__\\memory_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\system\\__pycache__\\memory_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\system\\__pycache__\\risk_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\system\\__pycache__\\risk_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\system\\logger_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\system\\logger_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\system\\memory_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\system\\memory_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\bots\\system\\risk_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\bots\\system\\risk_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\__pycache__\\config_loader.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\__pycache__\\config_loader.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\__pycache__\\config_loader.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\__pycache__\\config_loader.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\bots.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\bots.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\config_loader.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\config_loader.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\phase_10.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\phase_10.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\phase_11.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\phase_11.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\phase_12.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\phase_12.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\strategies.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\strategies.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\config\\system.yaml',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\config\\system.yaml',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\failover_recovery.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\failover_recovery.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\api_integration.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\api_integration.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\api_integration.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\api_integration.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\command_assistant.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\command_assistant.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\command_assistant.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\command_assistant.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\conversation_engine.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\conversation_engine.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\conversation_engine.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\__pycache__\\conversation_engine.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\api_integration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\api_integration.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\command_assistant.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\command_assistant.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\assistant\\conversation_engine.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\assistant\\conversation_engine.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\cli\\__pycache__\\cli.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\cli\\__pycache__\\cli.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\cli\\cli.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\cli\\cli.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\ai_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\ai_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\ai_dashboard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\ai_dashboard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\app.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\app.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\ai_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\ai_dashboard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\app.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\app.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\safety_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\safety_dashboard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\static\\css\\style.css',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\static\\css\\style.css',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\static\\js\\main.js',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\static\\js\\main.js',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\analytics.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\analytics.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\base.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\base.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\bots.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\bots.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\config.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\config.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\dashboard.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\dashboard.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\logs.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\logs.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\risk.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\risk.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\safety.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\safety.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\interface\\web\\templates\\strategies.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\interface\\web\\templates\\strategies.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\kill_switch.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\kill_switch.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\kill_switch_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\kill_switch_backup.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\kill_switch_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\kill_switch_clean.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\learning_phase_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\learning_phase_controller.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\master_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\master_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\master_bot.py.new',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\master_bot.py.new',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\phase10_optimizer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\phase10_optimizer.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\risk_guard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\risk_guard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\risk_guard_new.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\risk_guard_new.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\risk_guard_old.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\risk_guard_old.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\safety_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\safety_controller.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\safety_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\safety_dashboard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\scoring.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\scoring.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\bot_registry.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\bot_registry.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\bot_registry.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\bot_registry.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\failover_recovery.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\failover_recovery.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\failover_recovery.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\failover_recovery.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\kill_switch.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\kill_switch.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\kill_switch.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\kill_switch.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\learning_phase_controller.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\learning_phase_controller.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\master_bot.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\master_bot.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\risk_guard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\risk_guard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\risk_guard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\risk_guard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\safety_controller.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\safety_controller.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\safety_dashboard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\safety_dashboard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\scoring.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\scoring.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\scoring.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\scoring.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\trade_deviation_alert.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\trade_deviation_alert.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\__pycache__\\trade_deviation_alert.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\__pycache__\\trade_deviation_alert.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\analytics\\analytics_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\analytics\\analytics_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\bot_registry.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\bot_registry.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\failover_recovery.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\failover_recovery.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\kill_switch.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\kill_switch.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\kill_switch_backup.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\kill_switch_backup.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\kill_switch_clean.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\kill_switch_clean.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\learning_phase_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\learning_phase_controller.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\master_bot.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\master_bot.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\master_bot.py.new',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\master_bot.py.new',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\phase10_optimizer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\phase10_optimizer.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\risk_guard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\risk_guard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\risk_guard_new.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\risk_guard_new.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\risk_guard_old.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\risk_guard_old.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\safety_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\safety_controller.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\safety_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\safety_dashboard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\scoring.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\scoring.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\trade_deviation_alert.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\trade_deviation_alert.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\validation\\__pycache__\\retraining_validator.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\validation\\__pycache__\\retraining_validator.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\system\\validation\\retraining_validator.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\system\\validation\\retraining_validator.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\trade_deviation_alert.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\trade_deviation_alert.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\validation\\__pycache__\\retraining_validator.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\validation\\__pycache__\\retraining_validator.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\core\\validation\\retraining_validator.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\core\\validation\\retraining_validator.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__pycache__\\api_integration.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__pycache__\\api_integration.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__pycache__\\api_integration.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__pycache__\\api_integration.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__pycache__\\command_assistant.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__pycache__\\command_assistant.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__pycache__\\command_assistant.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__pycache__\\command_assistant.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__pycache__\\conversation_engine.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__pycache__\\conversation_engine.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\__pycache__\\conversation_engine.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\__pycache__\\conversation_engine.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\api_integration.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\api_integration.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\command_assistant.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\command_assistant.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\assistant\\conversation_engine.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\assistant\\conversation_engine.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\cli\\__pycache__\\cli.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\cli\\__pycache__\\cli.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\cli\\__pycache__\\cli.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\cli\\__pycache__\\cli.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\cli\\cli.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\cli\\cli.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\__pycache__\\ai_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\__pycache__\\ai_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\__pycache__\\ai_dashboard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\__pycache__\\ai_dashboard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\__pycache__\\app.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\__pycache__\\app.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\__pycache__\\safety_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\__pycache__\\safety_dashboard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\__pycache__\\safety_dashboard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\ai_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\ai_dashboard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\app.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\app.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\safety_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\safety_dashboard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\static\\css\\style.css',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\static\\css\\style.css',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\static\\js\\main.js',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\static\\js\\main.js',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\analytics.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\analytics.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\base.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\base.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\bots.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\bots.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\config.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\config.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\dashboard.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\dashboard.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\logs.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\logs.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\risk.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\risk.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\safety.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\safety.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\interface\\web\\templates\\strategies.html',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\interface\\web\\templates\\strategies.html',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__init__.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__init__.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\__init__.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\adaptive_strategy_reinforcer.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\adaptive_strategy_reinforcer.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\adaptive_strategy_reinforcer.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\adaptive_strategy_reinforcer.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\anomaly_detector.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\anomaly_detector.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\anomaly_detector.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\anomaly_detector.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\bot_performance_scorer.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\bot_performance_scorer.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\bot_performance_scorer.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\bot_performance_scorer.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\config.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\config.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\config.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\config.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\live_optimization_dashboard.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\live_optimization_dashboard.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\live_optimization_dashboard.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\live_optimization_dashboard.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\phase_11_controller.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\phase_11_controller.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\phase_11_controller.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\phase_11_controller.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\strategy_switcher.cpython-312.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\strategy_switcher.cpython-312.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\strategy_switcher.cpython-313.pyc',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\__pycache__\\strategy_switcher.cpython-313.pyc',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\adaptive_strategy_reinforcer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\adaptive_strategy_reinforcer.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\anomaly_detector.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\anomaly_detector.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\bot_performance_scorer.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\bot_performance_scorer.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\config.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\config.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\live_optimization_dashboard.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\live_optimization_dashboard.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\phase_11_controller.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\phase_11_controller.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\optimizers\\phase_11\\strategy_switcher.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\optimizers\\phase_11\\strategy_switcher.py',
+   'DATA'),
+  ('new_folder\\trademasterx\\requirements.txt',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\trademasterx\\requirements.txt',
+   'DATA'),
+  ('new_folder\\validate_system.py',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\new_folder\\validate_system.py',
+   'DATA'),
+  ('static\\custom_script.js',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\static\\custom_script.js',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('attrs-25.3.0.dist-info\\RECORD',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\attrs-25.3.0.dist-info\\RECORD',
+   'DATA'),
+  ('attrs-25.3.0.dist-info\\WHEEL',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\attrs-25.3.0.dist-info\\WHEEL',
+   'DATA'),
+  ('attrs-25.3.0.dist-info\\METADATA',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\attrs-25.3.0.dist-info\\METADATA',
+   'DATA'),
+  ('attrs-25.3.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\attrs-25.3.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('attrs-25.3.0.dist-info\\INSTALLER',
+   'C:\\Users\\natan\\AppData\\Roaming\\Python\\Python313\\site-packages\\attrs-25.3.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\natan\\OneDrive\\שולחן העבודה\\Apps\\minecraft '
+   'server\\build\\professional_trading_platform\\base_library.zip',
+   'DATA')],
+ 'python313.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

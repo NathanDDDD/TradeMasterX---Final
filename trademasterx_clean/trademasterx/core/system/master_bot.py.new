@@ -1,0 +1,300 @@
+"""
+TradeMasterX 2.0 - Master Bot Orchestration System
+Unified controller for all trading bots, execution cycles, and system coordination.
+Consolidates functionality from the original testnet_controller.py with optimizations.
+"""
+
+import asyncio
+import json
+import logging
+import signal
+import sys
+from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Dict, List, Optional, Any, Union
+import threading
+import time
+
+from ..config.config_loader import ConfigLoader
+from .bot_registry import BotRegistry
+from .scoring import ScoringEngine
+from .safety_controller import SafetyController
+from .learning_phase_controller import LearningPhaseController
+
+
+class MasterBot:
+    """
+    Master orchestration system for TradeMasterX 2.0
+    
+    Coordinates:
+    - Trading bot execution cycles
+    - Model retraining and validation
+    - Real-time monitoring and reporting
+    - Session management and assessment
+    - Risk management and emergency controls
+    """
+    def __init__(self, config_path: Union[str, Dict[str, Any]] = "config/system.yaml"):
+        """Initialize master bot with configuration"""
+        self.config_loader = ConfigLoader()
+        
+        # Handle both string path and dict config
+        if isinstance(config_path, dict):
+            self.config = config_path
+        else:
+            self.config = self.config_loader.load_system_config(config_path)
+        
+        # Setup logging
+        self.logger = self._setup_logging()
+        
+        # Initialize core components
+        self.bot_registry = BotRegistry(self.config)
+        self.scoring_engine = ScoringEngine(self.config)
+        self.safety_controller = SafetyController(self.config)
+        self.learning_phase_controller = LearningPhaseController(self.config, self.bot_registry)
+        
+        # Phase 10: Check if we're in mainnet demo mode
+        self.mainnet_demo_mode = self.config.get('trading_mode', {}).get('mainnet_demo', False)
+        self.demo_mode = self.config.get('trading_mode', {}).get('DEMO_MODE', True)
+        
+        # Session management
+        self.session_start_time = datetime.now()
+        self.session_duration = timedelta(hours=self.config.get('session_duration_hours', 168))
+        self.is_running = False
+        self.shutdown_requested = False
+        
+        # Background tasks
+        self.tasks = []
+        
+        # Setup signal handlers
+        self._setup_signal_handlers()
+        
+        self.logger.info("MasterBot initialized successfully")
+
+    def _setup_logging(self) -> logging.Logger:
+        """Setup master bot logging"""
+        logger = logging.getLogger("MasterBot")
+        logger.setLevel(logging.INFO)
+        
+        # Create logs directory
+        log_dir = Path(self.config.get('paths', {}).get('logs', 'logs'))
+        log_dir.mkdir(exist_ok=True)
+        
+        # File handler
+        log_file = log_dir / f"master_bot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        file_handler = logging.FileHandler(log_file)
+        
+        # Console handler
+        console_handler = logging.StreamHandler()
+        
+        # Formatter
+        formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        )
+        file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+        
+        logger.addHandler(file_handler)
+        logger.addHandler(console_handler)
+        
+        return logger
+
+    def _setup_signal_handlers(self):
+        """Setup graceful shutdown signal handlers"""
+        if sys.platform != "win32":
+            # Unix-like systems
+            for sig in (signal.SIGINT, signal.SIGTERM):
+                asyncio.get_event_loop().add_signal_handler(
+                    sig, lambda: asyncio.create_task(self.shutdown())
+                )
+        else:
+            # Windows
+            signal.signal(signal.SIGINT, lambda sig, frame: asyncio.create_task(self.shutdown()))
+            signal.signal(signal.SIGTERM, lambda sig, frame: asyncio.create_task(self.shutdown()))
+
+    async def start(self):
+        """Start the master bot controller"""
+        try:
+            self.logger.info("=" * 80)
+            self.logger.info(f" Starting TradeMasterX 2.0 Master Bot")
+            self.logger.info(f"🕒 Session start: {self.session_start_time}")
+            self.logger.info(f"⏱️ Session duration: {self.session_duration}")
+            
+            # Safety checks
+            if not self.safety_controller.system_ready():
+                self.logger.error("❌ System safety checks failed - aborting startup")
+                return
+                
+            self.is_running = True
+            
+            # Initialize all bots
+            self.logger.info("🤖 Initializing bot registry...")
+            await self.bot_registry.initialize_all_bots()
+            
+            # Start background tasks
+            self.logger.info("🔄 Starting background tasks...")
+            await self._start_background_tasks()
+            
+            # Start in demo mode if configured
+            if self.demo_mode and self.mainnet_demo_mode:
+                self.logger.info("🎯 Starting in Phase 10 Mainnet Demo Mode")
+                await self.start_learning_phase()
+            else:
+                self.logger.info("⏳ Waiting for commands...")
+            
+            # Keep running until shutdown requested
+            while self.is_running:
+                await asyncio.sleep(1)
+                
+        except Exception as e:
+            self.logger.error(f"❌ Master bot error: {e}", exc_info=True)
+        finally:
+            await self.shutdown()
+
+    async def _start_background_tasks(self):
+        """Start all background monitoring and maintenance tasks"""
+        monitoring_interval = self.config.get('master_bot', {}).get('monitoring_interval', 5)
+        health_check_interval = self.config.get('master_bot', {}).get('health_check_interval', 30)
+        
+        # System monitoring task
+        self.tasks.append(
+            asyncio.create_task(self._run_system_monitoring(monitoring_interval))
+        )
+        
+        # Health check task
+        self.tasks.append(
+            asyncio.create_task(self._run_health_checks(health_check_interval))
+        )
+        
+        # Session timeout task
+        self.tasks.append(
+            asyncio.create_task(self._monitor_session_timeout())
+        )
+
+    async def _run_system_monitoring(self, interval: int):
+        """Monitor system performance and resource usage"""
+        try:
+            while self.is_running and not self.shutdown_requested:
+                # Get memory and CPU usage
+                # Note: This would use a platform-specific implementation
+                
+                # Log current status
+                self.logger.debug(f"🖥️ System monitoring tick")
+                
+                # Wait for next interval
+                await asyncio.sleep(interval)
+        except asyncio.CancelledError:
+            self.logger.debug("System monitoring task cancelled")
+        except Exception as e:
+            self.logger.error(f"System monitoring error: {e}")
+
+    async def _run_health_checks(self, interval: int):
+        """Run periodic health checks on all system components"""
+        try:
+            while self.is_running and not self.shutdown_requested:
+                # Check bot registry health
+                registry_status = self.bot_registry.health_check()
+                
+                # Check safety system
+                safety_status = self.safety_controller.health_check()
+                
+                # Log health status
+                self.logger.debug(f"🩺 Health check completed")
+                
+                # Wait for next interval
+                await asyncio.sleep(interval)
+        except asyncio.CancelledError:
+            self.logger.debug("Health check task cancelled")
+        except Exception as e:
+            self.logger.error(f"Health check error: {e}")
+
+    async def _monitor_session_timeout(self):
+        """Monitor for session timeout"""
+        try:
+            while self.is_running and not self.shutdown_requested:
+                # Check if session duration has elapsed
+                elapsed = datetime.now() - self.session_start_time
+                if elapsed >= self.session_duration:
+                    self.logger.info("⏰ Session duration reached - initiating shutdown")
+                    await self.shutdown()
+                    break
+                
+                # Wait before checking again
+                await asyncio.sleep(60)  # Check once per minute
+        except asyncio.CancelledError:
+            self.logger.debug("Session timeout task cancelled")
+        except Exception as e:
+            self.logger.error(f"Session timeout monitor error: {e}")
+
+    async def shutdown(self):
+        """Gracefully shutdown all components"""
+        if self.shutdown_requested:
+            return
+            
+        self.shutdown_requested = True
+        self.is_running = False
+        
+        self.logger.info("🛑 Shutting down master bot...")
+        
+        # Cancel all tasks
+        for task in self.tasks:
+            task.cancel()
+            
+        if self.tasks:
+            await asyncio.gather(*self.tasks, return_exceptions=True)
+        
+        # Shutdown components in reverse initialization order
+        await self._cleanup_session()
+        
+        self.logger.info("👋 Master bot shutdown complete")
+
+    async def _cleanup_session(self):
+        """Clean up the current trading session"""
+        try:
+            # Shutdown bot registry
+            if hasattr(self, 'bot_registry'):
+                self.logger.info("🤖 Shutting down bot registry...")
+                await self.bot_registry.shutdown_all_bots()
+                
+            # Persist any state needed
+            self.logger.info("💾 Persisting system state...")
+            # Implementation would persist state to disk
+            
+        except Exception as e:
+            self.logger.error(f"Cleanup error: {e}")
+
+    async def start_learning_phase(self):
+        """
+        Start Phase 10: Mainnet Demo Learning Loop
+        """
+        if not self.mainnet_demo_mode or not self.demo_mode:
+            self.logger.error("❌ Learning phase requires mainnet_demo and DEMO_MODE to be enabled")
+            return False
+            
+        self.logger.info("=" * 80)
+        self.logger.info("🎯 STARTING PHASE 10: MAINNET DEMO LEARNING LOOP")
+        self.logger.info("=" * 80)
+        self.logger.info(f"🛡️ DEMO_MODE: {self.demo_mode}")
+        self.logger.info(f"🌐 Mainnet Demo: {self.mainnet_demo_mode}")
+        self.logger.info(f"⚡ Trade Frequency: {self.config.get('learning', {}).get('trade_frequency', 30)}s")
+        self.logger.info(f"🔄 Retrain Interval: {self.config.get('learning', {}).get('retrain_interval', 43200)}s")
+        self.logger.info("=" * 80)
+        
+        try:
+            # Safety validation before starting
+            if not self.safety_controller.validate_trading_request("START_LEARNING_PHASE"):
+                self.logger.error("❌ Safety validation failed - cannot start learning phase")
+                return False
+                
+            # Initialize all bots
+            await self.bot_registry.initialize_all_bots()
+            
+            # Start the learning phase controller
+            await self.learning_phase_controller.start_learning_phase()
+            
+        except Exception as e:
+            self.logger.error(f"❌ Learning phase failed: {e}")
+            return False
+        finally:
+            await self._cleanup_session()
+            
+        return True

@@ -1,0 +1,23 @@
+2025-06-13 21:05:49,752 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 21:05:49,761 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-13 21:05:49,848 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 21:05:49,857 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-13 21:05:49,902 - Phase14AI - INFO -    Trades Monitored (24h): 3
+2025-06-13 21:05:49,902 - Phase14AI - INFO -    Win Rate (24h): 100.00%
+2025-06-13 21:05:49,907 - Phase14AI - INFO -    Anomaly Rate (24h): 100.00%
+2025-06-13 21:08:00,933 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 21:08:00,943 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-13 21:08:01,022 - ReinforcementEngine - INFO - Recorded performance for strategy test_strategy
+2025-06-13 21:08:01,040 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 21:08:01,049 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-13 21:08:01,110 - Phase14AI - INFO -    Trades Monitored (24h): 3
+2025-06-13 21:08:01,111 - Phase14AI - INFO -    Win Rate (24h): 100.00%
+2025-06-13 21:08:01,115 - Phase14AI - INFO -    Anomaly Rate (24h): 100.00%
+2025-06-13 21:19:45,374 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 21:19:45,383 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-13 21:19:45,466 - ReinforcementEngine - INFO - Recorded performance for strategy test_strategy
+2025-06-13 21:19:45,480 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 21:19:45,489 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-13 21:19:45,548 - Phase14AI - INFO -    Trades Monitored (24h): 3
+2025-06-13 21:19:45,548 - Phase14AI - INFO -    Win Rate (24h): 100.00%
+2025-06-13 21:19:45,553 - Phase14AI - INFO -    Anomaly Rate (24h): 100.00%

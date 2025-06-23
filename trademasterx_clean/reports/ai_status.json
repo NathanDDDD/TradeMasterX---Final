@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-06-22T17:00:29.520107",
+  "phase": 14,
+  "orchestrator_state": {
+    "last_retrain_time": "2025-06-22T17:00:29.516368",
+    "retrain_triggers": [
+      "Sharpe ratio decline: 0.000 < 1.000"
+    ],
+    "system_health": "HEALTHY",
+    "performance_trend": "STABLE"
+  },
+  "system_metrics": {
+    "timestamp": "2025-06-22T17:00:29.510509",
+    "observer_summary": {
+      "error": "time data \"2025-06-13 22:15:00\" doesn't match format \"%Y-%m-%dT%H:%M:%S.%f\", at position 3. You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."
+    },
+    "reinforcement_metrics": {
+      "strategies": {},
+      "bots": {},
+      "summary": {
+        "total_strategies": 1,
+        "total_bots": 1,
+        "avg_strategy_weight": 0.906851299250627,
+        "avg_bot_weight": 0.906851299250627
+      }
+    },
+    "anomaly_stats": {
+      "message": "No audits in last 24 hours"
+    },
+    "performance_data": {
+      "sharpe_ratio": 0.0,
+      "max_drawdown": 0.0,
+      "win_rate": 0.0,
+      "total_trades": 0,
+      "avg_return": 0.0
+    }
+  },
+  "system_health": {
+    "status": "HEALTHY",
+    "issues": [
+      "Low Sharpe ratio: 0.00"
+    ],
+    "score": 85
+  },
+  "components": {
+    "observer_agent": true,
+    "reinforcement_engine": true,
+    "anomaly_auditor": true
+  }
+}

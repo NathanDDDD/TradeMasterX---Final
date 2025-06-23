@@ -1,0 +1,53 @@
+[
+  {
+    "timestamp": "2025-06-13T20:50:25.804988",
+    "trade_metrics": {
+      "timestamp": "2025-06-13T20:50:25.803750",
+      "symbol": "BTCUSDT",
+      "signal": "BUY",
+      "confidence": 0.75,
+      "expected_return": 0.02,
+      "actual_return": 0.025,
+      "bot_name": "TestBot",
+      "strategy": "test",
+      "success": true,
+      "deviation": 0.25000000000000006
+    },
+    "anomaly_type": "CONFIDENCE_ERROR",
+    "severity": "MEDIUM"
+  },
+  {
+    "timestamp": "2025-06-13T20:52:28.041198",
+    "trade_metrics": {
+      "timestamp": "2025-06-13T20:52:28.039695",
+      "symbol": "BTCUSDT",
+      "signal": "BUY",
+      "confidence": 0.75,
+      "expected_return": 0.02,
+      "actual_return": 0.025,
+      "bot_name": "TestBot",
+      "strategy": "test",
+      "success": true,
+      "deviation": 0.25000000000000006
+    },
+    "anomaly_type": "CONFIDENCE_ERROR",
+    "severity": "MEDIUM"
+  },
+  {
+    "timestamp": "2025-06-13T21:00:48.362117",
+    "trade_metrics": {
+      "timestamp": "2025-06-13T21:00:48.361445",
+      "symbol": "BTCUSDT",
+      "signal": "BUY",
+      "confidence": 0.75,
+      "expected_return": 0.02,
+      "actual_return": 0.025,
+      "bot_name": "TestBot",
+      "strategy": "test",
+      "success": true,
+      "deviation": 0.25000000000000006
+    },
+    "anomaly_type": "CONFIDENCE_ERROR",
+    "severity": "MEDIUM"
+  }
+]

@@ -1,0 +1,95 @@
+# Phase 10: Mainnet Demo Learning Loop Configuration
+# 
+# This configuration contains specific parameters for the Phase 10 
+# continuous learning loop with strict safety controls
+
+learning:
+  # Trading cycle frequency in seconds
+  trade_frequency: 30
+  
+  # Retraining interval in seconds (12 hours)
+  retrain_interval: 43200
+  
+  # Enable weekly performance reports
+  weekly_report: true
+  
+  # Top bot selection threshold
+  top_bot_threshold: 0.7
+  
+  # Historical data window for retraining (hours)
+  history_window: 168
+  
+  # Optimization parameters
+  optimization:
+    # Minimum number of samples needed for optimization
+    min_samples: 100
+    
+    # How aggressively to optimize (0.0-1.0)
+    learning_rate: 0.2
+    
+    # Scoring weights
+    weights:
+      accuracy: 0.3
+      return: 0.3
+      sharpe: 0.2
+      drawdown: 0.1
+      contribution: 0.1
+      
+    # Performance thresholds for bot evaluation  
+    thresholds:
+      min_accuracy: 0.45
+      min_return: 0.0
+      min_contribution: 0.2
+      max_drawdown: 0.3
+
+# Safety parameters
+safety:
+  # Confidence threshold for trade execution
+  confidence_threshold: 0.80
+  
+  # Minimum expected return threshold
+  min_return_threshold: 0.15
+  
+  # Maximum position size for demo trading
+  max_position_size: 1000
+  
+  # Demo mode enforcement
+  demo_mode: true
+  mainnet_demo: true
+  
+  # Strict safety limits
+  max_trades_per_hour: 120
+  max_trades_per_day: 2880
+  
+  # Circuit breakers
+  circuit_breakers:
+    # Maximum consecutive losing trades
+    max_consecutive_losses: 5
+    
+    # Maximum drawdown percentage before pausing
+    max_drawdown_percent: 5.0
+    
+    # Pause minutes on violation
+    pause_minutes: 60
+
+# Reporting configuration
+reporting:
+  # Report file formats
+  formats:
+    - json
+    - csv
+    
+  # What to include in reports
+  include:
+    bot_performance: true
+    trade_details: true
+    optimization_data: true
+    market_conditions: true
+    
+  # Charts to generate
+  charts:
+    - performance_by_bot
+    - hourly_returns
+    - drawdown_chart
+    - win_rate_by_time
+    - confidence_vs_return

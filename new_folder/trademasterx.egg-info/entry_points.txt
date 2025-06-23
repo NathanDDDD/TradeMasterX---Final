@@ -1,0 +1,25 @@
+[console_scripts]
+tmx = trademasterx.cli:main
+tmx-analytics = trademasterx.bots.analytics.analytics_bot:main
+tmx-backup = trademasterx.utils.backup:main
+tmx-bot = trademasterx.cli.bot_cli:main
+tmx-config = trademasterx.config.config_loader:main
+tmx-logs = trademasterx.bots.system.logger_bot:main
+tmx-master = trademasterx.core.master_bot:main
+tmx-risk = trademasterx.bots.system.risk_bot:main
+tmx-strategy = trademasterx.bots.strategy.strategy:main
+tmx-validate = trademasterx.core.validation:main
+tmx-web = trademasterx.interface.web.app:main
+trademasterx = trademasterx.cli:main
+
+[trademasterx.bots]
+analytics = trademasterx.bots.analytics.analytics_bot:AnalyticsBot
+logger = trademasterx.bots.system.logger_bot:LoggerBot
+memory = trademasterx.bots.system.memory_bot:MemoryBot
+risk = trademasterx.bots.system.risk_bot:RiskBot
+strategy = trademasterx.bots.strategy.strategy:StrategyBot
+
+[trademasterx.presets]
+aggressive = trademasterx.config.presets:aggressive_config
+balanced = trademasterx.config.presets:balanced_config
+conservative = trademasterx.config.presets:conservative_config

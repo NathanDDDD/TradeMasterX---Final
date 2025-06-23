@@ -1,0 +1,2 @@
+timestamp,bot_id,prediction,confidence,signal,expected_return,actual_return,was_correct,market_conditions
+2025-06-22T16:28:48.395855,test_bot,"{""signal"": ""buy"", ""confidence"": 0.85, ""expected_return"": 0.18, ""symbol"": ""BTCUSDT""}",0.85,buy,0.18,0.2,True,"{""volatility"": 0.15, ""trend"": ""bullish""}"

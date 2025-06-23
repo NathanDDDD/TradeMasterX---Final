@@ -1,0 +1,337 @@
+{% extends "base.html" %}
+
+{% block title %}Log Viewer - TradeMasterX{% endblock %}
+
+{% block extra_css %}
+<style>
+    .log-container {
+        background: #1a1a1a;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        height: 500px;
+        overflow-y: auto;
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        border: 1px solid #333;
+    }
+    
+    .log-entry {
+        padding: 5px 0;
+        border-bottom: 1px solid #333;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    
+    .log-entry.info { color: #4CAF50; }
+    .log-entry.warning { color: #FF9800; }
+    .log-entry.error { color: #F44336; }
+    .log-entry.debug { color: #2196F3; }
+    
+    .log-controls {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .log-filter {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .log-search {
+        flex: 1;
+        min-width: 200px;
+    }
+    
+    .log-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .log-stat-card {
+        background: #2a2a2a;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px solid #333;
+    }
+    
+    .log-stat-value {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    .auto-scroll-toggle {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2><i class="fas fa-file-alt"></i> System Logs</h2>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-outline-primary" onclick="clearLogs()">
+                        <i class="fas fa-trash"></i> Clear
+                    </button>
+                    <button class="btn btn-outline-success" onclick="downloadLogs()">
+                        <i class="fas fa-download"></i> Download
+                    </button>
+                    <button class="btn btn-outline-info" onclick="refreshLogs()">
+                        <i class="fas fa-sync"></i> Refresh
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Log Statistics -->
+            <div class="log-stats">
+                <div class="log-stat-card">
+                    <div class="log-stat-value text-info" id="total-logs">0</div>
+                    <div>Total Logs</div>
+                </div>
+                <div class="log-stat-card">
+                    <div class="log-stat-value text-danger" id="error-count">0</div>
+                    <div>Errors</div>
+                </div>
+                <div class="log-stat-card">
+                    <div class="log-stat-value text-warning" id="warning-count">0</div>
+                    <div>Warnings</div>
+                </div>
+                <div class="log-stat-card">
+                    <div class="log-stat-value text-success" id="info-count">0</div>
+                    <div>Info</div>
+                </div>
+            </div>
+            
+            <!-- Log Controls -->
+            <div class="log-controls">
+                <div class="log-filter">
+                    <label for="log-level">Level:</label>
+                    <select id="log-level" class="form-select" onchange="filterLogs()">
+                        <option value="all">All Levels</option>
+                        <option value="debug">Debug</option>
+                        <option value="info">Info</option>
+                        <option value="warning">Warning</option>
+                        <option value="error">Error</option>
+                    </select>
+                </div>
+                
+                <div class="log-filter">
+                    <label for="log-source">Source:</label>
+                    <select id="log-source" class="form-select" onchange="filterLogs()">
+                        <option value="all">All Sources</option>
+                        <option value="master_bot">Master Bot</option>
+                        <option value="analytics_bot">Analytics Bot</option>
+                        <option value="strategy_bot">Strategy Bot</option>
+                        <option value="risk_bot">Risk Bot</option>
+                        <option value="memory_bot">Memory Bot</option>
+                        <option value="logger_bot">Logger Bot</option>
+                    </select>
+                </div>
+                
+                <div class="log-search">
+                    <input type="text" id="log-search-input" class="form-control" placeholder="Search logs..." onkeyup="searchLogs()">
+                </div>
+                
+                <div class="auto-scroll-toggle">
+                    <input type="checkbox" id="auto-scroll" checked>
+                    <label for="auto-scroll">Auto-scroll</label>
+                </div>
+            </div>
+            
+            <!-- Log Container -->
+            <div class="log-container" id="log-container">
+                <div class="text-center text-muted">
+                    <i class="fas fa-spinner fa-spin"></i> Loading logs...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let allLogs = [];
+let filteredLogs = [];
+let logSocket = null;
+
+$(document).ready(function() {
+    initializeLogViewer();
+    connectLogSocket();
+    loadInitialLogs();
+});
+
+function initializeLogViewer() {
+    // Set up real-time log updates
+    setInterval(updateLogStats, 5000);
+}
+
+function connectLogSocket() {
+    if (socket) {
+        socket.on('log_entry', function(data) {
+            addLogEntry(data);
+        });
+        
+        socket.on('log_batch', function(data) {
+            data.logs.forEach(addLogEntry);
+        });
+    }
+}
+
+function loadInitialLogs() {
+    fetch('/api/logs')
+        .then(response => response.json())
+        .then(data => {
+            if (data.logs) {
+                allLogs = data.logs;
+                filterLogs();
+            }
+        })
+        .catch(error => {
+            console.error('Error loading logs:', error);
+            $('#log-container').html('<div class="text-danger">Error loading logs: ' + error.message + '</div>');
+        });
+}
+
+function addLogEntry(logEntry) {
+    allLogs.unshift(logEntry); // Add to beginning
+    
+    // Keep only last 1000 logs in memory
+    if (allLogs.length > 1000) {
+        allLogs.pop();
+    }
+    
+    filterLogs();
+}
+
+function filterLogs() {
+    const level = $('#log-level').val();
+    const source = $('#log-source').val();
+    const searchTerm = $('#log-search-input').val().toLowerCase();
+    
+    filteredLogs = allLogs.filter(log => {
+        const levelMatch = level === 'all' || log.level === level;
+        const sourceMatch = source === 'all' || log.source === source;
+        const searchMatch = searchTerm === '' || 
+            log.message.toLowerCase().includes(searchTerm) ||
+            log.source.toLowerCase().includes(searchTerm);
+        
+        return levelMatch && sourceMatch && searchMatch;
+    });
+    
+    displayLogs();
+    updateLogStats();
+}
+
+function displayLogs() {
+    const container = $('#log-container');
+    
+    if (filteredLogs.length === 0) {
+        container.html('<div class="text-muted text-center">No logs match the current filters</div>');
+        return;
+    }
+    
+    const html = filteredLogs.map(log => {
+        const timestamp = new Date(log.timestamp).toLocaleString();
+        const level = log.level || 'info';
+        return `<div class="log-entry ${level}">
+            <span class="text-muted">[${timestamp}]</span> 
+            <span class="badge bg-secondary">${log.source}</span> 
+            <span class="badge bg-${getBadgeColor(level)}">${level.toUpperCase()}</span> 
+            ${escapeHtml(log.message)}
+        </div>`;
+    }).join('');
+    
+    container.html(html);
+    
+    // Auto-scroll to bottom if enabled
+    if ($('#auto-scroll').is(':checked')) {
+        container.scrollTop(container[0].scrollHeight);
+    }
+}
+
+function getBadgeColor(level) {
+    switch (level) {
+        case 'error': return 'danger';
+        case 'warning': return 'warning';
+        case 'info': return 'info';
+        case 'debug': return 'secondary';
+        default: return 'primary';
+    }
+}
+
+function updateLogStats() {
+    const stats = {
+        total: allLogs.length,
+        error: allLogs.filter(log => log.level === 'error').length,
+        warning: allLogs.filter(log => log.level === 'warning').length,
+        info: allLogs.filter(log => log.level === 'info').length
+    };
+    
+    $('#total-logs').text(stats.total);
+    $('#error-count').text(stats.error);
+    $('#warning-count').text(stats.warning);
+    $('#info-count').text(stats.info);
+}
+
+function searchLogs() {
+    filterLogs();
+}
+
+function clearLogs() {
+    if (confirm('Are you sure you want to clear all logs?')) {
+        fetch('/api/logs/clear', { method: 'POST' })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    allLogs = [];
+                    filterLogs();
+                    showNotification('Logs cleared successfully', 'success');
+                } else {
+                    showNotification('Error clearing logs: ' + data.error, 'error');
+                }
+            })
+            .catch(error => {
+                showNotification('Error clearing logs: ' + error.message, 'error');
+            });
+    }
+}
+
+function downloadLogs() {
+    const dataStr = JSON.stringify(filteredLogs, null, 2);
+    const dataBlob = new Blob([dataStr], {type: 'application/json'});
+    const url = URL.createObjectURL(dataBlob);
+    
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `trademasterx-logs-${new Date().toISOString().split('T')[0]}.json`;
+    link.click();
+    
+    URL.revokeObjectURL(url);
+    showNotification('Logs downloaded successfully', 'success');
+}
+
+function refreshLogs() {
+    loadInitialLogs();
+    showNotification('Logs refreshed', 'info');
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+</script>
+{% endblock %}

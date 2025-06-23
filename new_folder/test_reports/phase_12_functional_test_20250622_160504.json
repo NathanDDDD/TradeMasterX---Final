@@ -1,0 +1,45 @@
+{
+  "test_time": "2025-06-22T16:05:04.106926",
+  "emergency_scenarios": {
+    "kill_switch": {
+      "emergency_activation": true,
+      "system_lockdown": true,
+      "recovery_procedure": true,
+      "system_restoration": true,
+      "overall_success": true
+    },
+    "risk_guard": {
+      "normal_trade_validation": true,
+      "risky_trade_rejection": true,
+      "daily_limits_enforced": true,
+      "overall_success": true
+    }
+  },
+  "component_interactions": {
+    "dashboard_aggregation": true,
+    "cross_component_communication": true,
+    "recovery_coordination": true,
+    "overall_success": true
+  },
+  "performance_tests": {
+    "dashboard_queries": {
+      "time": 0.036180734634399414,
+      "success_rate": 1.0,
+      "performance_ok": true
+    },
+    "trade_validations": {
+      "time": 9.34600830078125e-05,
+      "success_rate": 1.0,
+      "performance_ok": true
+    },
+    "overall_success": true
+  },
+  "dashboard_integration": {
+    "core_dashboard": true,
+    "standalone_functions": true,
+    "emergency_function": true,
+    "web_interface": false,
+    "overall_success": true
+  },
+  "overall_status": "SUCCESS"
+}

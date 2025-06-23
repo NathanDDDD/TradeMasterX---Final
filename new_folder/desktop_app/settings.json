@@ -1,0 +1,5 @@
+{
+  "demo_mode": true,
+  "log_level": "DEBUG",
+  "auto_start": true
+}

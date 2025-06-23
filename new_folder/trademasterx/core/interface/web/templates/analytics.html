@@ -1,0 +1,663 @@
+{% extends "base.html" %}
+
+{% block title %}Analytics Dashboard - TradeMasterX 2.0{% endblock %}
+
+{% block page_title %}Analytics Dashboard{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- Performance Summary Cards -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card gradient-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-white-50 mb-1">Total Patterns</h6>
+                            <h3 class="text-white mb-0" id="totalPatterns">-</h3>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fas fa-chart-line fa-2x text-white-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card gradient-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-white-50 mb-1">Active Signals</h6>
+                            <h3 class="text-white mb-0" id="activeSignals">-</h3>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fas fa-signal fa-2x text-white-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card gradient-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-white-50 mb-1">Win Rate</h6>
+                            <h3 class="text-white mb-0" id="winRate">-</h3>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fas fa-trophy fa-2x text-white-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card gradient-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-white-50 mb-1">Total PnL</h6>
+                            <h3 class="text-white mb-0" id="totalPnL">-</h3>
+                        </div>
+                        <div class="icon-container">
+                            <i class="fas fa-dollar-sign fa-2x text-white-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Charts Row -->
+    <div class="row mb-4">
+        <!-- Performance Chart -->
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-chart-area me-2"></i>Performance Analytics
+                    </h5>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-primary btn-sm" onclick="updatePerformanceChart('1D')">1D</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm active" onclick="updatePerformanceChart('7D')">7D</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm" onclick="updatePerformanceChart('30D')">30D</button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <canvas id="performanceChart" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Pattern Distribution -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-pie-chart me-2"></i>Pattern Distribution
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="patternChart" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Market Analysis and Signals -->
+    <div class="row mb-4">
+        <!-- Market Analysis -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-chart-bar me-2"></i>Market Analysis
+                    </h5>
+                    <button class="btn btn-sm btn-outline-primary" onclick="refreshMarketAnalysis()">
+                        <i class="fas fa-sync"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div id="marketAnalysisContent">
+                        <!-- Market analysis data will be loaded here -->
+                        <div class="text-center text-muted">
+                            <i class="fas fa-spinner fa-spin fa-2x mb-3"></i>
+                            <p>Loading market analysis...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Active Signals -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-bell me-2"></i>Active Signals
+                    </h5>
+                    <span class="badge bg-info" id="signalsCount">0</span>
+                </div>
+                <div class="card-body">
+                    <div id="activeSignalsList">
+                        <!-- Active signals will be loaded here -->
+                        <div class="text-center text-muted">
+                            <i class="fas fa-search fa-2x mb-3"></i>
+                            <p>No active signals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bot Performance Table -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-robot me-2"></i>Bot Performance Summary
+                    </h5>
+                    <div>
+                        <button class="btn btn-sm btn-outline-success" onclick="exportBotPerformance()">
+                            <i class="fas fa-download me-1"></i>Export
+                        </button>
+                        <button class="btn btn-sm btn-outline-primary" onclick="refreshBotPerformance()">
+                            <i class="fas fa-sync me-1"></i>Refresh
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover" id="botPerformanceTable">
+                            <thead>
+                                <tr>
+                                    <th>Bot ID</th>
+                                    <th>Type</th>
+                                    <th>Status</th>
+                                    <th>Trades</th>
+                                    <th>Win Rate</th>
+                                    <th>PnL</th>
+                                    <th>Drawdown</th>
+                                    <th>Sharpe Ratio</th>
+                                    <th>Last Active</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="botPerformanceBody">
+                                <!-- Bot performance data will be loaded here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Advanced Analytics -->
+    <div class="row">
+        <!-- Risk Analysis -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-shield-alt me-2"></i>Risk Analysis
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label small">Value at Risk (VaR)</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" id="varProgress">0%</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label small">Maximum Drawdown</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 0%" id="drawdownProgress">0%</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label small">Portfolio Correlation</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 0%" id="correlationProgress">0%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Strategy Performance -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-brain me-2"></i>Strategy Performance
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="strategyPerformanceChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Market Sentiment -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-thermometer-half me-2"></i>Market Sentiment
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="text-center">
+                        <canvas id="sentimentGauge" width="200" height="200"></canvas>
+                        <p class="mt-2 mb-0" id="sentimentText">Neutral</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bot Details Modal -->
+<div class="modal fade" id="botDetailsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Bot Performance Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="botDetailsContent">
+                <!-- Bot details content will be loaded here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="optimizeBot()">Optimize</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Analytics Dashboard JavaScript
+let performanceChart = null;
+let patternChart = null;
+let strategyChart = null;
+let sentimentGauge = null;
+
+document.addEventListener('DOMContentLoaded', function() {
+    initializeAnalyticsCharts();
+    loadAnalyticsData();
+    
+    // Setup real-time updates
+    if (typeof socket !== 'undefined') {
+        socket.on('analytics_update', function(data) {
+            updateAnalyticsDisplay(data);
+        });
+    }
+    
+    // Auto-refresh every 30 seconds
+    setInterval(loadAnalyticsData, 30000);
+});
+
+function initializeAnalyticsCharts() {
+    // Initialize Performance Chart
+    const performanceCtx = document.getElementById('performanceChart').getContext('2d');
+    performanceChart = new Chart(performanceCtx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'PnL',
+                data: [],
+                borderColor: 'rgb(54, 162, 235)',
+                backgroundColor: 'rgba(54, 162, 235, 0.1)',
+                tension: 0.4
+            }, {
+                label: 'Cumulative Return',
+                data: [],
+                borderColor: 'rgb(75, 192, 192)',
+                backgroundColor: 'rgba(75, 192, 192, 0.1)',
+                tension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#6c757d' }
+                },
+                x: {
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#6c757d' }
+                }
+            },
+            plugins: {
+                legend: { labels: { color: '#6c757d' } }
+            }
+        }
+    });
+
+    // Initialize Pattern Distribution Chart
+    const patternCtx = document.getElementById('patternChart').getContext('2d');
+    patternChart = new Chart(patternCtx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Bullish', 'Bearish', 'Neutral', 'Reversal'],
+            datasets: [{
+                data: [0, 0, 0, 0],
+                backgroundColor: [
+                    'rgba(75, 192, 192, 0.8)',
+                    'rgba(255, 99, 132, 0.8)',
+                    'rgba(255, 205, 86, 0.8)',
+                    'rgba(153, 102, 255, 0.8)'
+                ]
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { labels: { color: '#6c757d' } }
+            }
+        }
+    });
+
+    // Initialize Strategy Performance Chart
+    const strategyCtx = document.getElementById('strategyPerformanceChart').getContext('2d');
+    strategyChart = new Chart(strategyCtx, {
+        type: 'bar',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Performance',
+                data: [],
+                backgroundColor: 'rgba(54, 162, 235, 0.8)'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#6c757d' }
+                },
+                x: {
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#6c757d' }
+                }
+            },
+            plugins: {
+                legend: { labels: { color: '#6c757d' } }
+            }
+        }
+    });
+
+    // Initialize Sentiment Gauge
+    const sentimentCtx = document.getElementById('sentimentGauge').getContext('2d');
+    sentimentGauge = new Chart(sentimentCtx, {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [50, 50],
+                backgroundColor: ['rgba(75, 192, 192, 0.8)', 'rgba(255,255,255,0.1)'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: false,
+            rotation: -90,
+            circumference: 180,
+            cutout: '80%',
+            plugins: {
+                legend: { display: false },
+                tooltip: { enabled: false }
+            }
+        }
+    });
+}
+
+function loadAnalyticsData() {
+    // Load analytics summary
+    fetch('/api/analytics/summary')
+        .then(response => response.json())
+        .then(data => {
+            updateAnalyticsSummary(data);
+        })
+        .catch(error => {
+            console.error('Error loading analytics:', error);
+            showToast('Error loading analytics data', 'danger');
+        });
+
+    // Load bot performance data
+    refreshBotPerformance();
+    
+    // Load market analysis
+    refreshMarketAnalysis();
+}
+
+function updateAnalyticsSummary(data) {
+    document.getElementById('totalPatterns').textContent = data.total_patterns || 0;
+    document.getElementById('activeSignals').textContent = data.active_signals || 0;
+    
+    if (data.bot_performance) {
+        const winRate = data.bot_performance.win_rate || 0;
+        const totalPnL = data.bot_performance.total_pnl || 0;
+        
+        document.getElementById('winRate').textContent = `${(winRate * 100).toFixed(1)}%`;
+        document.getElementById('totalPnL').textContent = `$${totalPnL.toFixed(2)}`;
+    }
+    
+    // Update charts with new data
+    if (data.performance_data) {
+        updatePerformanceChart('7D', data.performance_data);
+    }
+    
+    if (data.pattern_distribution) {
+        updatePatternChart(data.pattern_distribution);
+    }
+}
+
+function updatePerformanceChart(period, data = null) {
+    if (!data) {
+        // Fetch data for the specific period
+        fetch(`/api/analytics/performance?period=${period}`)
+            .then(response => response.json())
+            .then(data => updatePerformanceChart(period, data))
+            .catch(error => console.error('Error fetching performance data:', error));
+        return;
+    }
+    
+    performanceChart.data.labels = data.labels || [];
+    performanceChart.data.datasets[0].data = data.pnl || [];
+    performanceChart.data.datasets[1].data = data.cumulative_return || [];
+    performanceChart.update();
+    
+    // Update button states
+    document.querySelectorAll('.btn-group .btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+}
+
+function updatePatternChart(data) {
+    patternChart.data.datasets[0].data = [
+        data.bullish || 0,
+        data.bearish || 0,
+        data.neutral || 0,
+        data.reversal || 0
+    ];
+    patternChart.update();
+}
+
+function refreshMarketAnalysis() {
+    const content = document.getElementById('marketAnalysisContent');
+    content.innerHTML = '<div class="text-center"><i class="fas fa-spinner fa-spin"></i> Loading...</div>';
+    
+    fetch('/api/analytics/market')
+        .then(response => response.json())
+        .then(data => {
+            let html = '';
+            
+            if (data.trends) {
+                html += '<h6>Market Trends</h6><ul class="list-unstyled">';
+                data.trends.forEach(trend => {
+                    html += `<li><i class="fas fa-arrow-${trend.direction === 'up' ? 'up text-success' : 'down text-danger'}"></i> ${trend.symbol}: ${trend.strength}</li>`;
+                });
+                html += '</ul>';
+            }
+            
+            if (data.volatility) {
+                html += `<h6>Volatility Index</h6><div class="progress mb-3">
+                    <div class="progress-bar" style="width: ${data.volatility}%">${data.volatility.toFixed(1)}%</div>
+                </div>`;
+            }
+            
+            content.innerHTML = html || '<p class="text-muted">No market analysis data available</p>';
+        })
+        .catch(error => {
+            content.innerHTML = '<p class="text-danger">Error loading market analysis</p>';
+        });
+}
+
+function refreshBotPerformance() {
+    fetch('/api/bots/performance')
+        .then(response => response.json())
+        .then(data => {
+            updateBotPerformanceTable(data);
+        })
+        .catch(error => {
+            console.error('Error loading bot performance:', error);
+        });
+}
+
+function updateBotPerformanceTable(bots) {
+    const tbody = document.getElementById('botPerformanceBody');
+    tbody.innerHTML = '';
+    
+    Object.entries(bots).forEach(([botId, bot]) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${botId}</td>
+            <td><span class="badge bg-secondary">${bot.type}</span></td>
+            <td><span class="badge bg-${bot.status === 'active' ? 'success' : 'warning'}">${bot.status}</span></td>
+            <td>${bot.trades || 0}</td>
+            <td>${bot.win_rate ? (bot.win_rate * 100).toFixed(1) + '%' : '-'}</td>
+            <td class="${bot.pnl > 0 ? 'text-success' : 'text-danger'}">$${(bot.pnl || 0).toFixed(2)}</td>
+            <td>${bot.max_drawdown ? (bot.max_drawdown * 100).toFixed(1) + '%' : '-'}</td>
+            <td>${bot.sharpe_ratio ? bot.sharpe_ratio.toFixed(2) : '-'}</td>
+            <td>${bot.last_active ? new Date(bot.last_active).toLocaleString() : '-'}</td>
+            <td>
+                <button class="btn btn-sm btn-outline-info" onclick="showBotDetails('${botId}')">
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </td>
+        `;
+        tbody.appendChild(row);
+    });
+}
+
+function showBotDetails(botId) {
+    fetch(`/api/bots/${botId}/details`)
+        .then(response => response.json())
+        .then(data => {
+            const content = document.getElementById('botDetailsContent');
+            content.innerHTML = `
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>Configuration</h6>
+                        <pre class="bg-light p-3">${JSON.stringify(data.config, null, 2)}</pre>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Performance Metrics</h6>
+                        <ul class="list-unstyled">
+                            <li><strong>Total Trades:</strong> ${data.metrics.total_trades}</li>
+                            <li><strong>Win Rate:</strong> ${(data.metrics.win_rate * 100).toFixed(1)}%</li>
+                            <li><strong>Average Return:</strong> ${(data.metrics.avg_return * 100).toFixed(2)}%</li>
+                            <li><strong>Sharpe Ratio:</strong> ${data.metrics.sharpe_ratio.toFixed(2)}</li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+            
+            const modal = new bootstrap.Modal(document.getElementById('botDetailsModal'));
+            modal.show();
+        })
+        .catch(error => {
+            showToast('Error loading bot details', 'danger');
+        });
+}
+
+function exportBotPerformance() {
+    fetch('/api/analytics/export/performance')
+        .then(response => response.blob())
+        .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `bot_performance_${new Date().toISOString().split('T')[0]}.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+            showToast('Performance data exported', 'success');
+        })
+        .catch(error => {
+            showToast('Error exporting data', 'danger');
+        });
+}
+
+function optimizeBot() {
+    showToast('Bot optimization started', 'info');
+    // Implementation for bot optimization
+}
+
+function updateAnalyticsDisplay(data) {
+    // Real-time updates from WebSocket
+    if (data.summary) {
+        updateAnalyticsSummary(data.summary);
+    }
+    
+    if (data.signals) {
+        updateActiveSignals(data.signals);
+    }
+}
+
+function updateActiveSignals(signals) {
+    const container = document.getElementById('activeSignalsList');
+    const count = document.getElementById('signalsCount');
+    
+    count.textContent = signals.length;
+    
+    if (signals.length === 0) {
+        container.innerHTML = '<div class="text-center text-muted"><i class="fas fa-search fa-2x mb-3"></i><p>No active signals</p></div>';
+        return;
+    }
+    
+    let html = '';
+    signals.forEach(signal => {
+        html += `
+            <div class="alert alert-${signal.type === 'buy' ? 'success' : 'warning'} alert-dismissible">
+                <strong>${signal.symbol}</strong> - ${signal.type.toUpperCase()}
+                <br><small>${signal.description}</small>
+                <br><small class="text-muted">${new Date(signal.timestamp).toLocaleString()}</small>
+            </div>
+        `;
+    });
+    
+    container.innerHTML = html;
+}
+</script>
+{% endblock %}

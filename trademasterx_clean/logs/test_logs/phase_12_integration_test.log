@@ -1,0 +1,1138 @@
+2025-05-28 16:27:40,020 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_wfs8qfpu
+2025-05-28 16:27:40,023 - __main__ - INFO - ============================================================
+2025-05-28 16:27:40,024 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-28 16:27:40,024 - __main__ - INFO - ============================================================
+2025-05-28 16:27:40,024 - __main__ - INFO - 
+========================================
+2025-05-28 16:27:40,025 - __main__ - INFO - Running: Kill Switch System
+2025-05-28 16:27:40,026 - __main__ - INFO - ========================================
+2025-05-28 16:27:40,026 - __main__ - INFO - Testing Kill Switch System...
+2025-05-28 16:27:40,055 - __main__ - INFO - 
+========================================
+2025-05-28 16:27:40,055 - __main__ - INFO - Running: Risk Guard System
+2025-05-28 16:27:40,055 - __main__ - INFO - ========================================
+2025-05-28 16:27:40,056 - __main__ - INFO - Testing Risk Guard System...
+2025-05-28 16:27:40,061 - __main__ - INFO - 
+========================================
+2025-05-28 16:27:40,062 - __main__ - INFO - Running: Deviation Alert System
+2025-05-28 16:27:40,062 - __main__ - INFO - ========================================
+2025-05-28 16:27:40,062 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-28 16:27:40,067 - __main__ - INFO - 
+========================================
+2025-05-28 16:27:40,067 - __main__ - INFO - Running: Failover Recovery System
+2025-05-28 16:27:40,067 - __main__ - INFO - ========================================
+2025-05-28 16:27:40,067 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-28 16:27:40,073 - __main__ - INFO - 
+========================================
+2025-05-28 16:27:40,074 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-28 16:27:40,074 - __main__ - INFO - ========================================
+2025-05-28 16:27:40,074 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-28 16:27:40,297 - __main__ - INFO - 
+========================================
+2025-05-28 16:27:40,298 - __main__ - INFO - Running: Full System Integration
+2025-05-28 16:27:40,298 - __main__ - INFO - ========================================
+2025-05-28 16:27:40,298 - __main__ - INFO - Testing Full System Integration...
+2025-05-28 16:27:40,329 - __main__ - INFO - 
+============================================================
+2025-05-28 16:27:40,329 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-28 16:27:40,329 - __main__ - INFO - ============================================================
+2025-05-28 16:27:40,329 - __main__ - INFO - Total Tests: 6
+2025-05-28 16:27:40,329 - __main__ - INFO - Passed: 0
+2025-05-28 16:27:40,329 - __main__ - INFO - Failed: 6
+2025-05-28 16:27:40,329 - __main__ - INFO - Success Rate: 0.0%
+2025-05-28 16:27:40,330 - __main__ - INFO - Duration: 0:00:00.302764
+2025-05-28 16:27:40,330 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748438860.json
+2025-05-28 16:27:40,331 - __main__ - INFO - ============================================================
+2025-05-28 16:31:56,408 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_ma1vkduu
+2025-05-28 16:31:56,410 - __main__ - INFO - ============================================================
+2025-05-28 16:31:56,410 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-28 16:31:56,411 - __main__ - INFO - ============================================================
+2025-05-28 16:31:56,411 - __main__ - INFO - 
+========================================
+2025-05-28 16:31:56,411 - __main__ - INFO - Running: Kill Switch System
+2025-05-28 16:31:56,411 - __main__ - INFO - ========================================
+2025-05-28 16:31:56,411 - __main__ - INFO - Testing Kill Switch System...
+2025-05-28 16:31:56,442 - __main__ - INFO - 
+========================================
+2025-05-28 16:31:56,442 - __main__ - INFO - Running: Risk Guard System
+2025-05-28 16:31:56,442 - __main__ - INFO - ========================================
+2025-05-28 16:31:56,444 - __main__ - INFO - Testing Risk Guard System...
+2025-05-28 16:31:56,447 - __main__ - INFO - 
+========================================
+2025-05-28 16:31:56,447 - __main__ - INFO - Running: Deviation Alert System
+2025-05-28 16:31:56,447 - __main__ - INFO - ========================================
+2025-05-28 16:31:56,447 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-28 16:31:56,450 - __main__ - INFO - 
+========================================
+2025-05-28 16:31:56,450 - __main__ - INFO - Running: Failover Recovery System
+2025-05-28 16:31:56,450 - __main__ - INFO - ========================================
+2025-05-28 16:31:56,450 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-28 16:31:56,454 - __main__ - INFO - 
+========================================
+2025-05-28 16:31:56,454 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-28 16:31:56,454 - __main__ - INFO - ========================================
+2025-05-28 16:31:56,455 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-28 16:31:56,681 - __main__ - INFO - 
+========================================
+2025-05-28 16:31:56,681 - __main__ - INFO - Running: Full System Integration
+2025-05-28 16:31:56,681 - __main__ - INFO - ========================================
+2025-05-28 16:31:56,681 - __main__ - INFO - Testing Full System Integration...
+2025-05-28 16:31:56,711 - __main__ - INFO - 
+============================================================
+2025-05-28 16:31:56,711 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-28 16:31:56,711 - __main__ - INFO - ============================================================
+2025-05-28 16:31:56,712 - __main__ - INFO - Total Tests: 6
+2025-05-28 16:31:56,712 - __main__ - INFO - Passed: 0
+2025-05-28 16:31:56,712 - __main__ - INFO - Failed: 6
+2025-05-28 16:31:56,712 - __main__ - INFO - Success Rate: 0.0%
+2025-05-28 16:31:56,712 - __main__ - INFO - Duration: 0:00:00.297472
+2025-05-28 16:31:56,712 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748439116.json
+2025-05-28 16:31:56,714 - __main__ - INFO - ============================================================
+2025-05-28 16:36:17,936 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_idxfgwin
+2025-05-28 16:36:17,940 - __main__ - INFO - ============================================================
+2025-05-28 16:36:17,940 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-28 16:36:17,940 - __main__ - INFO - ============================================================
+2025-05-28 16:36:17,942 - __main__ - INFO - 
+========================================
+2025-05-28 16:36:17,942 - __main__ - INFO - Running: Kill Switch System
+2025-05-28 16:36:17,943 - __main__ - INFO - ========================================
+2025-05-28 16:36:17,943 - __main__ - INFO - Testing Kill Switch System...
+2025-05-28 16:36:17,982 - __main__ - INFO - 
+========================================
+2025-05-28 16:36:17,983 - __main__ - INFO - Running: Risk Guard System
+2025-05-28 16:36:17,983 - __main__ - INFO - ========================================
+2025-05-28 16:36:17,983 - __main__ - INFO - Testing Risk Guard System...
+2025-05-28 16:36:17,987 - __main__ - INFO - 
+========================================
+2025-05-28 16:36:17,988 - __main__ - INFO - Running: Deviation Alert System
+2025-05-28 16:36:17,989 - __main__ - INFO - ========================================
+2025-05-28 16:36:17,989 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-28 16:36:17,993 - __main__ - INFO - 
+========================================
+2025-05-28 16:36:17,994 - __main__ - INFO - Running: Failover Recovery System
+2025-05-28 16:36:17,994 - __main__ - INFO - ========================================
+2025-05-28 16:36:17,994 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-28 16:36:17,999 - __main__ - INFO - 
+========================================
+2025-05-28 16:36:18,000 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-28 16:36:18,000 - __main__ - INFO - ========================================
+2025-05-28 16:36:18,000 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-28 16:36:18,398 - __main__ - INFO - 
+========================================
+2025-05-28 16:36:18,398 - __main__ - INFO - Running: Full System Integration
+2025-05-28 16:36:18,398 - __main__ - INFO - ========================================
+2025-05-28 16:36:18,398 - __main__ - INFO - Testing Full System Integration...
+2025-05-28 16:36:18,432 - __main__ - INFO - 
+============================================================
+2025-05-28 16:36:18,432 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-28 16:36:18,432 - __main__ - INFO - ============================================================
+2025-05-28 16:36:18,433 - __main__ - INFO - Total Tests: 6
+2025-05-28 16:36:18,433 - __main__ - INFO - Passed: 0
+2025-05-28 16:36:18,433 - __main__ - INFO - Failed: 6
+2025-05-28 16:36:18,433 - __main__ - INFO - Success Rate: 0.0%
+2025-05-28 16:36:18,434 - __main__ - INFO - Duration: 0:00:00.487086
+2025-05-28 16:36:18,434 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748439378.json
+2025-05-28 16:36:18,435 - __main__ - INFO - ============================================================
+2025-05-28 16:53:27,479 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_5rrwpdqf
+2025-05-28 16:53:27,481 - __main__ - INFO - ============================================================
+2025-05-28 16:53:27,482 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-28 16:53:27,482 - __main__ - INFO - ============================================================
+2025-05-28 16:53:27,482 - __main__ - INFO - 
+========================================
+2025-05-28 16:53:27,482 - __main__ - INFO - Running: Kill Switch System
+2025-05-28 16:53:27,483 - __main__ - INFO - ========================================
+2025-05-28 16:53:27,483 - __main__ - INFO - Testing Kill Switch System...
+2025-05-28 16:53:27,515 - __main__ - INFO - 
+========================================
+2025-05-28 16:53:27,515 - __main__ - INFO - Running: Risk Guard System
+2025-05-28 16:53:27,516 - __main__ - INFO - ========================================
+2025-05-28 16:53:27,516 - __main__ - INFO - Testing Risk Guard System...
+2025-05-28 16:53:27,517 - RiskGuard - INFO - Daily counters reset for new trading day
+2025-05-28 16:53:27,519 - RiskGuard - INFO - Risk Guard initialized with multi-layer protection
+2025-05-28 16:53:27,525 - __main__ - INFO - 
+========================================
+2025-05-28 16:53:27,526 - __main__ - INFO - Running: Deviation Alert System
+2025-05-28 16:53:27,526 - __main__ - INFO - ========================================
+2025-05-28 16:53:27,527 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-28 16:53:27,537 - __main__ - INFO - 
+========================================
+2025-05-28 16:53:27,538 - __main__ - INFO - Running: Failover Recovery System
+2025-05-28 16:53:27,538 - __main__ - INFO - ========================================
+2025-05-28 16:53:27,538 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-28 16:53:27,547 - __main__ - INFO - 
+========================================
+2025-05-28 16:53:27,547 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-28 16:53:27,547 - __main__ - INFO - ========================================
+2025-05-28 16:53:27,548 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-28 16:53:27,815 - RiskGuard - INFO - Risk Guard initialized with multi-layer protection
+2025-05-28 16:53:29,434 - __main__ - INFO - 
+========================================
+2025-05-28 16:53:29,435 - __main__ - INFO - Running: Full System Integration
+2025-05-28 16:53:29,435 - __main__ - INFO - ========================================
+2025-05-28 16:53:29,435 - __main__ - INFO - Testing Full System Integration...
+2025-05-28 16:53:29,462 - RiskGuard - INFO - Risk Guard initialized with multi-layer protection
+2025-05-28 16:53:29,476 - __main__ - INFO - 
+============================================================
+2025-05-28 16:53:29,477 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-28 16:53:29,477 - __main__ - INFO - ============================================================
+2025-05-28 16:53:29,478 - __main__ - INFO - Total Tests: 6
+2025-05-28 16:53:29,478 - __main__ - INFO - Passed: 0
+2025-05-28 16:53:29,478 - __main__ - INFO - Failed: 6
+2025-05-28 16:53:29,478 - __main__ - INFO - Success Rate: 0.0%
+2025-05-28 16:53:29,478 - __main__ - INFO - Duration: 0:00:01.991378
+2025-05-28 16:53:29,479 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748440409.json
+2025-05-28 16:53:29,480 - __main__ - INFO - ============================================================
+2025-05-28 16:54:05,709 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_htp89iq5
+2025-05-28 16:54:05,711 - __main__ - INFO - ============================================================
+2025-05-28 16:54:05,711 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-28 16:54:05,711 - __main__ - INFO - ============================================================
+2025-05-28 16:54:05,712 - __main__ - INFO - 
+========================================
+2025-05-28 16:54:05,712 - __main__ - INFO - Running: Kill Switch System
+2025-05-28 16:54:05,712 - __main__ - INFO - ========================================
+2025-05-28 16:54:05,713 - __main__ - INFO - Testing Kill Switch System...
+2025-05-28 16:54:05,744 - __main__ - INFO - 
+========================================
+2025-05-28 16:54:05,745 - __main__ - INFO - Running: Risk Guard System
+2025-05-28 16:54:05,745 - __main__ - INFO - ========================================
+2025-05-28 16:54:05,745 - __main__ - INFO - Testing Risk Guard System...
+2025-05-28 16:54:05,747 - RiskGuard - INFO - Risk Guard initialized with multi-layer protection
+2025-05-28 16:54:05,752 - __main__ - INFO - 
+========================================
+2025-05-28 16:54:05,753 - __main__ - INFO - Running: Deviation Alert System
+2025-05-28 16:54:05,753 - __main__ - INFO - ========================================
+2025-05-28 16:54:05,753 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-28 16:54:05,766 - __main__ - INFO - 
+========================================
+2025-05-28 16:54:05,767 - __main__ - INFO - Running: Failover Recovery System
+2025-05-28 16:54:05,767 - __main__ - INFO - ========================================
+2025-05-28 16:54:05,768 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-28 16:54:05,775 - __main__ - INFO - 
+========================================
+2025-05-28 16:54:05,776 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-28 16:54:05,776 - __main__ - INFO - ========================================
+2025-05-28 16:54:05,777 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-28 16:54:06,042 - RiskGuard - INFO - Risk Guard initialized with multi-layer protection
+2025-05-28 16:54:07,079 - __main__ - INFO - 
+========================================
+2025-05-28 16:54:07,080 - __main__ - INFO - Running: Full System Integration
+2025-05-28 16:54:07,080 - __main__ - INFO - ========================================
+2025-05-28 16:54:07,080 - __main__ - INFO - Testing Full System Integration...
+2025-05-28 16:54:07,106 - RiskGuard - INFO - Risk Guard initialized with multi-layer protection
+2025-05-28 16:54:07,121 - __main__ - INFO - 
+============================================================
+2025-05-28 16:54:07,121 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-28 16:54:07,122 - __main__ - INFO - ============================================================
+2025-05-28 16:54:07,122 - __main__ - INFO - Total Tests: 6
+2025-05-28 16:54:07,122 - __main__ - INFO - Passed: 0
+2025-05-28 16:54:07,122 - __main__ - INFO - Failed: 6
+2025-05-28 16:54:07,123 - __main__ - INFO - Success Rate: 0.0%
+2025-05-28 16:54:07,123 - __main__ - INFO - Duration: 0:00:01.406190
+2025-05-28 16:54:07,123 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748440447.json
+2025-05-28 16:54:07,125 - __main__ - INFO - ============================================================
+2025-05-29 09:05:37,751 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_5coo3v6s
+2025-05-29 09:05:37,753 - __main__ - INFO - ============================================================
+2025-05-29 09:05:37,754 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-29 09:05:37,754 - __main__ - INFO - ============================================================
+2025-05-29 09:05:37,754 - __main__ - INFO - 
+========================================
+2025-05-29 09:05:37,754 - __main__ - INFO - Running: Kill Switch System
+2025-05-29 09:05:37,755 - __main__ - INFO - ========================================
+2025-05-29 09:05:37,755 - __main__ - INFO - Testing Kill Switch System...
+2025-05-29 09:05:37,812 - __main__ - INFO - 
+========================================
+2025-05-29 09:05:37,812 - __main__ - INFO - Running: Risk Guard System
+2025-05-29 09:05:37,813 - __main__ - INFO - ========================================
+2025-05-29 09:05:37,813 - __main__ - INFO - Testing Risk Guard System...
+2025-05-29 09:05:37,817 - __main__ - INFO - 
+========================================
+2025-05-29 09:05:37,818 - __main__ - INFO - Running: Deviation Alert System
+2025-05-29 09:05:37,818 - __main__ - INFO - ========================================
+2025-05-29 09:05:37,818 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-29 09:05:37,819 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-29 09:05:37,820 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-29 09:05:37,824 - __main__ - INFO - 
+========================================
+2025-05-29 09:05:37,824 - __main__ - INFO - Running: Failover Recovery System
+2025-05-29 09:05:37,824 - __main__ - INFO - ========================================
+2025-05-29 09:05:37,824 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-29 09:05:37,829 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-05-29 09:05:37,839 - __main__ - INFO - 
+========================================
+2025-05-29 09:05:37,839 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-29 09:05:37,840 - __main__ - INFO - ========================================
+2025-05-29 09:05:37,840 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-29 09:05:38,235 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-29 09:05:38,235 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-29 09:05:38,239 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-05-29 09:05:39,758 - __main__ - INFO - 
+========================================
+2025-05-29 09:05:39,759 - __main__ - INFO - Running: Full System Integration
+2025-05-29 09:05:39,759 - __main__ - INFO - ========================================
+2025-05-29 09:05:39,759 - __main__ - INFO - Testing Full System Integration...
+2025-05-29 09:05:39,788 - __main__ - INFO - 
+============================================================
+2025-05-29 09:05:39,789 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-29 09:05:39,789 - __main__ - INFO - ============================================================
+2025-05-29 09:05:39,790 - __main__ - INFO - Total Tests: 6
+2025-05-29 09:05:39,790 - __main__ - INFO - Passed: 0
+2025-05-29 09:05:39,790 - __main__ - INFO - Failed: 6
+2025-05-29 09:05:39,792 - __main__ - INFO - Success Rate: 0.0%
+2025-05-29 09:05:39,792 - __main__ - INFO - Duration: 0:00:02.032613
+2025-05-29 09:05:39,792 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748498739.json
+2025-05-29 09:05:39,793 - __main__ - INFO - ============================================================
+2025-05-29 09:07:05,027 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_rzv34yyt
+2025-05-29 09:07:05,029 - __main__ - INFO - ============================================================
+2025-05-29 09:07:05,030 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-29 09:07:05,030 - __main__ - INFO - ============================================================
+2025-05-29 09:07:05,031 - __main__ - INFO - 
+========================================
+2025-05-29 09:07:05,031 - __main__ - INFO - Running: Kill Switch System
+2025-05-29 09:07:05,031 - __main__ - INFO - ========================================
+2025-05-29 09:07:05,031 - __main__ - INFO - Testing Kill Switch System...
+2025-05-29 09:07:05,053 - __main__ - INFO - 
+========================================
+2025-05-29 09:07:05,053 - __main__ - INFO - Running: Risk Guard System
+2025-05-29 09:07:05,054 - __main__ - INFO - ========================================
+2025-05-29 09:07:05,054 - __main__ - INFO - Testing Risk Guard System...
+2025-05-29 09:07:05,059 - __main__ - INFO - 
+========================================
+2025-05-29 09:07:05,061 - __main__ - INFO - Running: Deviation Alert System
+2025-05-29 09:07:05,061 - __main__ - INFO - ========================================
+2025-05-29 09:07:05,061 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-29 09:07:05,063 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-29 09:07:05,064 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-29 09:07:05,067 - __main__ - INFO - 
+========================================
+2025-05-29 09:07:05,067 - __main__ - INFO - Running: Failover Recovery System
+2025-05-29 09:07:05,067 - __main__ - INFO - ========================================
+2025-05-29 09:07:05,068 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-29 09:07:05,073 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-05-29 09:07:05,081 - __main__ - INFO - 
+========================================
+2025-05-29 09:07:05,081 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-29 09:07:05,082 - __main__ - INFO - ========================================
+2025-05-29 09:07:05,082 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-29 09:07:05,352 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-29 09:07:05,353 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-29 09:07:05,359 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-05-29 09:07:06,389 - __main__ - INFO - 
+========================================
+2025-05-29 09:07:06,389 - __main__ - INFO - Running: Full System Integration
+2025-05-29 09:07:06,390 - __main__ - INFO - ========================================
+2025-05-29 09:07:06,390 - __main__ - INFO - Testing Full System Integration...
+2025-05-29 09:07:06,421 - __main__ - INFO - 
+============================================================
+2025-05-29 09:07:06,421 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-29 09:07:06,422 - __main__ - INFO - ============================================================
+2025-05-29 09:07:06,422 - __main__ - INFO - Total Tests: 6
+2025-05-29 09:07:06,422 - __main__ - INFO - Passed: 0
+2025-05-29 09:07:06,423 - __main__ - INFO - Failed: 6
+2025-05-29 09:07:06,423 - __main__ - INFO - Success Rate: 0.0%
+2025-05-29 09:07:06,423 - __main__ - INFO - Duration: 0:00:01.387983
+2025-05-29 09:07:06,424 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748498826.json
+2025-05-29 09:07:06,426 - __main__ - INFO - ============================================================
+2025-05-29 09:27:11,951 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_eos9f2d4
+2025-05-29 09:27:11,952 - __main__ - INFO - ============================================================
+2025-05-29 09:27:11,952 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-29 09:27:11,954 - __main__ - INFO - ============================================================
+2025-05-29 09:27:11,954 - __main__ - INFO - 
+========================================
+2025-05-29 09:27:11,954 - __main__ - INFO - Running: Kill Switch System
+2025-05-29 09:27:11,954 - __main__ - INFO - ========================================
+2025-05-29 09:27:11,955 - __main__ - INFO - Testing Kill Switch System...
+2025-05-29 09:27:11,978 - __main__ - INFO - 
+========================================
+2025-05-29 09:27:11,978 - __main__ - INFO - Running: Risk Guard System
+2025-05-29 09:27:11,978 - __main__ - INFO - ========================================
+2025-05-29 09:27:11,979 - __main__ - INFO - Testing Risk Guard System...
+2025-05-29 09:27:11,983 - __main__ - INFO - 
+========================================
+2025-05-29 09:27:11,983 - __main__ - INFO - Running: Deviation Alert System
+2025-05-29 09:27:11,983 - __main__ - INFO - ========================================
+2025-05-29 09:27:11,983 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-29 09:27:11,985 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-29 09:27:11,985 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-29 09:27:11,990 - __main__ - INFO - 
+========================================
+2025-05-29 09:27:11,990 - __main__ - INFO - Running: Failover Recovery System
+2025-05-29 09:27:11,990 - __main__ - INFO - ========================================
+2025-05-29 09:27:11,990 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-29 09:27:11,992 - RecoveryManager - INFO - Recovery Manager initialized
+2025-05-29 09:27:11,992 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-05-29 09:27:11,997 - RecoveryManager - INFO - Created snapshot: 20250529_092711 (scheduled)
+2025-05-29 09:27:12,002 - __main__ - INFO - 
+========================================
+2025-05-29 09:27:12,002 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-29 09:27:12,003 - __main__ - INFO - ========================================
+2025-05-29 09:27:12,003 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-29 09:27:12,011 - __main__ - INFO - 
+========================================
+2025-05-29 09:27:12,011 - __main__ - INFO - Running: Full System Integration
+2025-05-29 09:27:12,012 - __main__ - INFO - ========================================
+2025-05-29 09:27:12,012 - __main__ - INFO - Testing Full System Integration...
+2025-05-29 09:27:12,042 - __main__ - INFO - 
+============================================================
+2025-05-29 09:27:12,043 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-29 09:27:12,043 - __main__ - INFO - ============================================================
+2025-05-29 09:27:12,043 - __main__ - INFO - Total Tests: 6
+2025-05-29 09:27:12,043 - __main__ - INFO - Passed: 0
+2025-05-29 09:27:12,043 - __main__ - INFO - Failed: 6
+2025-05-29 09:27:12,043 - __main__ - INFO - Success Rate: 0.0%
+2025-05-29 09:27:12,044 - __main__ - INFO - Duration: 0:00:00.087466
+2025-05-29 09:27:12,044 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748500032.json
+2025-05-29 09:27:12,045 - __main__ - INFO - ============================================================
+2025-05-29 09:28:10,266 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_i04jilm_
+2025-05-29 09:28:10,267 - __main__ - INFO - ============================================================
+2025-05-29 09:28:10,268 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-29 09:28:10,268 - __main__ - INFO - ============================================================
+2025-05-29 09:28:10,268 - __main__ - INFO - 
+========================================
+2025-05-29 09:28:10,269 - __main__ - INFO - Running: Kill Switch System
+2025-05-29 09:28:10,269 - __main__ - INFO - ========================================
+2025-05-29 09:28:10,270 - __main__ - INFO - Testing Kill Switch System...
+2025-05-29 09:28:10,292 - __main__ - INFO - 
+========================================
+2025-05-29 09:28:10,293 - __main__ - INFO - Running: Risk Guard System
+2025-05-29 09:28:10,293 - __main__ - INFO - ========================================
+2025-05-29 09:28:10,293 - __main__ - INFO - Testing Risk Guard System...
+2025-05-29 09:28:10,297 - __main__ - INFO - 
+========================================
+2025-05-29 09:28:10,297 - __main__ - INFO - Running: Deviation Alert System
+2025-05-29 09:28:10,297 - __main__ - INFO - ========================================
+2025-05-29 09:28:10,298 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-29 09:28:10,299 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-29 09:28:10,299 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-29 09:28:10,304 - __main__ - INFO - 
+========================================
+2025-05-29 09:28:10,304 - __main__ - INFO - Running: Failover Recovery System
+2025-05-29 09:28:10,304 - __main__ - INFO - ========================================
+2025-05-29 09:28:10,304 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-29 09:28:10,307 - RecoveryManager - INFO - Recovery Manager initialized
+2025-05-29 09:28:10,307 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-05-29 09:28:10,310 - RecoveryManager - INFO - Created snapshot: 20250529_092810 (scheduled)
+2025-05-29 09:28:10,315 - __main__ - INFO - 
+========================================
+2025-05-29 09:28:10,316 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-29 09:28:10,316 - __main__ - INFO - ========================================
+2025-05-29 09:28:10,316 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-29 09:28:10,325 - __main__ - INFO - 
+========================================
+2025-05-29 09:28:10,325 - __main__ - INFO - Running: Full System Integration
+2025-05-29 09:28:10,326 - __main__ - INFO - ========================================
+2025-05-29 09:28:10,326 - __main__ - INFO - Testing Full System Integration...
+2025-05-29 09:28:10,355 - __main__ - INFO - 
+============================================================
+2025-05-29 09:28:10,355 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-29 09:28:10,355 - __main__ - INFO - ============================================================
+2025-05-29 09:28:10,356 - __main__ - INFO - Total Tests: 6
+2025-05-29 09:28:10,356 - __main__ - INFO - Passed: 0
+2025-05-29 09:28:10,356 - __main__ - INFO - Failed: 6
+2025-05-29 09:28:10,356 - __main__ - INFO - Success Rate: 0.0%
+2025-05-29 09:28:10,356 - __main__ - INFO - Duration: 0:00:00.085153
+2025-05-29 09:28:10,356 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748500090.json
+2025-05-29 09:28:10,357 - __main__ - INFO - ============================================================
+2025-05-29 09:32:56,288 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_p5nzdjhw
+2025-05-29 09:32:56,290 - __main__ - INFO - ============================================================
+2025-05-29 09:32:56,290 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-29 09:32:56,290 - __main__ - INFO - ============================================================
+2025-05-29 09:32:56,290 - __main__ - INFO - 
+========================================
+2025-05-29 09:32:56,291 - __main__ - INFO - Running: Kill Switch System
+2025-05-29 09:32:56,291 - __main__ - INFO - ========================================
+2025-05-29 09:32:56,292 - __main__ - INFO - Testing Kill Switch System...
+2025-05-29 09:32:56,314 - __main__ - INFO - 
+========================================
+2025-05-29 09:32:56,315 - __main__ - INFO - Running: Risk Guard System
+2025-05-29 09:32:56,315 - __main__ - INFO - ========================================
+2025-05-29 09:32:56,316 - __main__ - INFO - Testing Risk Guard System...
+2025-05-29 09:32:56,320 - __main__ - INFO - 
+========================================
+2025-05-29 09:32:56,321 - __main__ - INFO - Running: Deviation Alert System
+2025-05-29 09:32:56,321 - __main__ - INFO - ========================================
+2025-05-29 09:32:56,321 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-29 09:32:56,323 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-29 09:32:56,323 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-29 09:32:56,327 - __main__ - INFO - 
+========================================
+2025-05-29 09:32:56,327 - __main__ - INFO - Running: Failover Recovery System
+2025-05-29 09:32:56,327 - __main__ - INFO - ========================================
+2025-05-29 09:32:56,327 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-29 09:32:56,330 - RecoveryManager - INFO - Recovery Manager initialized
+2025-05-29 09:32:56,330 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-05-29 09:32:56,333 - RecoveryManager - INFO - Created snapshot: 20250529_093256 (scheduled)
+2025-05-29 09:32:56,339 - __main__ - INFO - 
+========================================
+2025-05-29 09:32:56,339 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-29 09:32:56,340 - __main__ - INFO - ========================================
+2025-05-29 09:32:56,340 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-29 09:32:56,348 - __main__ - INFO - 
+========================================
+2025-05-29 09:32:56,348 - __main__ - INFO - Running: Full System Integration
+2025-05-29 09:32:56,349 - __main__ - INFO - ========================================
+2025-05-29 09:32:56,349 - __main__ - INFO - Testing Full System Integration...
+2025-05-29 09:32:56,380 - __main__ - INFO - 
+============================================================
+2025-05-29 09:32:56,380 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-29 09:32:56,381 - __main__ - INFO - ============================================================
+2025-05-29 09:32:56,381 - __main__ - INFO - Total Tests: 6
+2025-05-29 09:32:56,381 - __main__ - INFO - Passed: 0
+2025-05-29 09:32:56,381 - __main__ - INFO - Failed: 6
+2025-05-29 09:32:56,381 - __main__ - INFO - Success Rate: 0.0%
+2025-05-29 09:32:56,381 - __main__ - INFO - Duration: 0:00:00.089526
+2025-05-29 09:32:56,381 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748500376.json
+2025-05-29 09:32:56,383 - __main__ - INFO - ============================================================
+2025-05-29 09:33:47,669 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_ms4kzynj
+2025-05-29 09:33:47,670 - __main__ - INFO - ============================================================
+2025-05-29 09:33:47,671 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-29 09:33:47,671 - __main__ - INFO - ============================================================
+2025-05-29 09:33:47,671 - __main__ - INFO - 
+========================================
+2025-05-29 09:33:47,672 - __main__ - INFO - Running: Kill Switch System
+2025-05-29 09:33:47,672 - __main__ - INFO - ========================================
+2025-05-29 09:33:47,672 - __main__ - INFO - Testing Kill Switch System...
+2025-05-29 09:33:47,695 - __main__ - INFO - 
+========================================
+2025-05-29 09:33:47,695 - __main__ - INFO - Running: Risk Guard System
+2025-05-29 09:33:47,696 - __main__ - INFO - ========================================
+2025-05-29 09:33:47,696 - __main__ - INFO - Testing Risk Guard System...
+2025-05-29 09:33:47,701 - __main__ - INFO - 
+========================================
+2025-05-29 09:33:47,702 - __main__ - INFO - Running: Deviation Alert System
+2025-05-29 09:33:47,702 - __main__ - INFO - ========================================
+2025-05-29 09:33:47,702 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-29 09:33:47,704 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-29 09:33:47,704 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-29 09:33:47,708 - __main__ - INFO - 
+========================================
+2025-05-29 09:33:47,708 - __main__ - INFO - Running: Failover Recovery System
+2025-05-29 09:33:47,709 - __main__ - INFO - ========================================
+2025-05-29 09:33:47,709 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-29 09:33:47,712 - RecoveryManager - INFO - Recovery Manager initialized
+2025-05-29 09:33:47,712 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-05-29 09:33:47,716 - RecoveryManager - INFO - Created snapshot: 20250529_093347 (scheduled)
+2025-05-29 09:33:47,722 - __main__ - INFO - 
+========================================
+2025-05-29 09:33:47,722 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-29 09:33:47,723 - __main__ - INFO - ========================================
+2025-05-29 09:33:47,723 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-29 09:33:47,732 - __main__ - INFO - 
+========================================
+2025-05-29 09:33:47,732 - __main__ - INFO - Running: Full System Integration
+2025-05-29 09:33:47,732 - __main__ - INFO - ========================================
+2025-05-29 09:33:47,732 - __main__ - INFO - Testing Full System Integration...
+2025-05-29 09:33:47,761 - __main__ - INFO - 
+============================================================
+2025-05-29 09:33:47,762 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-29 09:33:47,762 - __main__ - INFO - ============================================================
+2025-05-29 09:33:47,762 - __main__ - INFO - Total Tests: 6
+2025-05-29 09:33:47,762 - __main__ - INFO - Passed: 0
+2025-05-29 09:33:47,763 - __main__ - INFO - Failed: 6
+2025-05-29 09:33:47,763 - __main__ - INFO - Success Rate: 0.0%
+2025-05-29 09:33:47,763 - __main__ - INFO - Duration: 0:00:00.088377
+2025-05-29 09:33:47,763 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748500427.json
+2025-05-29 09:33:47,765 - __main__ - INFO - ============================================================
+2025-05-31 14:46:24,572 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_hq7dozlo
+2025-05-31 14:46:24,575 - __main__ - INFO - ============================================================
+2025-05-31 14:46:24,575 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-05-31 14:46:24,576 - __main__ - INFO - ============================================================
+2025-05-31 14:46:24,576 - __main__ - INFO - 
+========================================
+2025-05-31 14:46:24,577 - __main__ - INFO - Running: Kill Switch System
+2025-05-31 14:46:24,577 - __main__ - INFO - ========================================
+2025-05-31 14:46:24,578 - __main__ - INFO - Testing Kill Switch System...
+2025-05-31 14:46:24,636 - __main__ - INFO - 
+========================================
+2025-05-31 14:46:24,636 - __main__ - INFO - Running: Risk Guard System
+2025-05-31 14:46:24,637 - __main__ - INFO - ========================================
+2025-05-31 14:46:24,637 - __main__ - INFO - Testing Risk Guard System...
+2025-05-31 14:46:24,644 - __main__ - INFO - 
+========================================
+2025-05-31 14:46:24,644 - __main__ - INFO - Running: Deviation Alert System
+2025-05-31 14:46:24,645 - __main__ - INFO - ========================================
+2025-05-31 14:46:24,645 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-05-31 14:46:24,648 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-31 14:46:24,648 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-31 14:46:24,656 - __main__ - INFO - 
+========================================
+2025-05-31 14:46:24,657 - __main__ - INFO - Running: Failover Recovery System
+2025-05-31 14:46:24,657 - __main__ - INFO - ========================================
+2025-05-31 14:46:24,659 - __main__ - INFO - Testing Failover & Recovery System...
+2025-05-31 14:46:24,667 - RecoveryManager - INFO - Recovery Manager initialized
+2025-05-31 14:46:24,668 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-05-31 14:46:24,673 - RecoveryManager - INFO - Created snapshot: 20250531_144624 (scheduled)
+2025-05-31 14:46:24,717 - __main__ - INFO - 
+========================================
+2025-05-31 14:46:24,717 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-05-31 14:46:24,717 - __main__ - INFO - ========================================
+2025-05-31 14:46:24,718 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-05-31 14:46:25,241 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-05-31 14:46:25,242 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-05-31 14:46:25,249 - RecoveryManager - INFO - Recovery Manager initialized
+2025-05-31 14:46:25,249 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-05-31 14:46:26,997 - __main__ - INFO - 
+========================================
+2025-05-31 14:46:26,997 - __main__ - INFO - Running: Full System Integration
+2025-05-31 14:46:26,997 - __main__ - INFO - ========================================
+2025-05-31 14:46:26,997 - __main__ - INFO - Testing Full System Integration...
+2025-05-31 14:46:27,039 - __main__ - INFO - 
+============================================================
+2025-05-31 14:46:27,039 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-05-31 14:46:27,039 - __main__ - INFO - ============================================================
+2025-05-31 14:46:27,040 - __main__ - INFO - Total Tests: 6
+2025-05-31 14:46:27,040 - __main__ - INFO - Passed: 0
+2025-05-31 14:46:27,040 - __main__ - INFO - Failed: 6
+2025-05-31 14:46:27,040 - __main__ - INFO - Success Rate: 0.0%
+2025-05-31 14:46:27,042 - __main__ - INFO - Duration: 0:00:02.459757
+2025-05-31 14:46:27,042 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748691987.json
+2025-05-31 14:46:27,045 - __main__ - INFO - ============================================================
+2025-06-01 02:17:56,902 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_ag35bgdi
+2025-06-01 02:17:56,905 - __main__ - INFO - ============================================================
+2025-06-01 02:17:56,906 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-06-01 02:17:56,906 - __main__ - INFO - ============================================================
+2025-06-01 02:17:56,906 - __main__ - INFO - 
+========================================
+2025-06-01 02:17:56,906 - __main__ - INFO - Running: Kill Switch System
+2025-06-01 02:17:56,906 - __main__ - INFO - ========================================
+2025-06-01 02:17:56,906 - __main__ - INFO - Testing Kill Switch System...
+2025-06-01 02:17:56,932 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:17:56,932 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:17:56,932 - __main__ - ERROR - Kill Switch System test failed: Kill switch should be inactive initially
+2025-06-01 02:17:56,932 - __main__ - ERROR - [ERROR] Kill Switch System - FAILED
+2025-06-01 02:17:56,933 - __main__ - INFO - 
+========================================
+2025-06-01 02:17:56,933 - __main__ - INFO - Running: Risk Guard System
+2025-06-01 02:17:56,933 - __main__ - INFO - ========================================
+2025-06-01 02:17:56,933 - __main__ - INFO - Testing Risk Guard System...
+2025-06-01 02:17:56,933 - __main__ - ERROR - [ERROR] Risk Guard System test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:17:56,935 - __main__ - ERROR - [ERROR] Risk Guard System - FAILED
+2025-06-01 02:17:56,935 - __main__ - INFO - 
+========================================
+2025-06-01 02:17:56,935 - __main__ - INFO - Running: Deviation Alert System
+2025-06-01 02:17:56,935 - __main__ - INFO - ========================================
+2025-06-01 02:17:56,935 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-06-01 02:17:56,937 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:17:56,937 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:17:56,938 - __main__ - ERROR - [ERROR] Trade Deviation Alert System test failed: Baseline should include expected return
+2025-06-01 02:17:56,938 - __main__ - ERROR - [ERROR] Deviation Alert System - FAILED
+2025-06-01 02:17:56,938 - __main__ - INFO - 
+========================================
+2025-06-01 02:17:56,938 - __main__ - INFO - Running: Failover Recovery System
+2025-06-01 02:17:56,939 - __main__ - INFO - ========================================
+2025-06-01 02:17:56,939 - __main__ - INFO - Testing Failover & Recovery System...
+2025-06-01 02:17:56,946 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:17:56,946 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-06-01 02:17:56,951 - RecoveryManager - INFO - Created snapshot: 20250601_021756 (scheduled)
+2025-06-01 02:17:57,019 - __main__ - ERROR - [ERROR] Failover & Recovery System test failed: 'RecoveryManager' object has no attribute 'get_latest_snapshot'
+2025-06-01 02:17:57,020 - __main__ - ERROR - [ERROR] Failover Recovery System - FAILED
+2025-06-01 02:17:57,020 - __main__ - INFO - 
+========================================
+2025-06-01 02:17:57,020 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-06-01 02:17:57,020 - __main__ - INFO - ========================================
+2025-06-01 02:17:57,020 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-06-01 02:17:57,394 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:17:57,395 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:17:57,444 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:17:57,446 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:17:57,446 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:17:57,451 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:17:57,451 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-06-01 02:17:59,023 - __main__ - ERROR - [ERROR] Safety Dashboard Integration test failed: cannot import name 'get_risk_metrics' from 'trademasterx.interface.web.safety_dashboard' (C:\Users\natan\OneDrive\שולחן העבודה\Apps\minecraft server\New folder\trademasterx\interface\web\safety_dashboard.py)
+2025-06-01 02:17:59,024 - __main__ - ERROR - [ERROR] Safety Dashboard Integration - FAILED
+2025-06-01 02:17:59,024 - __main__ - INFO - 
+========================================
+2025-06-01 02:17:59,024 - __main__ - INFO - Running: Full System Integration
+2025-06-01 02:17:59,024 - __main__ - INFO - ========================================
+2025-06-01 02:17:59,025 - __main__ - INFO - Testing Full System Integration...
+2025-06-01 02:17:59,044 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:17:59,044 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:17:59,045 - __main__ - ERROR - [ERROR] Full System Integration test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:17:59,045 - __main__ - ERROR - [ERROR] Full System Integration - FAILED
+2025-06-01 02:17:59,047 - __main__ - INFO - 
+============================================================
+2025-06-01 02:17:59,048 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-06-01 02:17:59,048 - __main__ - INFO - ============================================================
+2025-06-01 02:17:59,048 - __main__ - INFO - Total Tests: 6
+2025-06-01 02:17:59,049 - __main__ - INFO - Passed: 0
+2025-06-01 02:17:59,049 - __main__ - INFO - Failed: 6
+2025-06-01 02:17:59,049 - __main__ - INFO - Success Rate: 0.0%
+2025-06-01 02:17:59,049 - __main__ - INFO - Duration: 0:00:02.139249
+2025-06-01 02:17:59,049 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748733479.json
+2025-06-01 02:17:59,049 - __main__ - ERROR - [WARNING] SOME PHASE 12 SYSTEMS REQUIRE ATTENTION
+2025-06-01 02:17:59,050 - __main__ - INFO - ============================================================
+2025-06-01 02:18:17,806 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_qmkpq73v
+2025-06-01 02:18:17,808 - __main__ - INFO - ============================================================
+2025-06-01 02:18:17,809 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-06-01 02:18:17,809 - __main__ - INFO - ============================================================
+2025-06-01 02:18:17,809 - __main__ - INFO - 
+========================================
+2025-06-01 02:18:17,810 - __main__ - INFO - Running: Kill Switch System
+2025-06-01 02:18:17,810 - __main__ - INFO - ========================================
+2025-06-01 02:18:17,810 - __main__ - INFO - Testing Kill Switch System...
+2025-06-01 02:18:17,824 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:18:17,824 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:18:17,824 - __main__ - ERROR - Kill Switch System test failed: Kill switch should be inactive initially
+2025-06-01 02:18:17,825 - __main__ - ERROR - [ERROR] Kill Switch System - FAILED
+2025-06-01 02:18:17,825 - __main__ - INFO - 
+========================================
+2025-06-01 02:18:17,825 - __main__ - INFO - Running: Risk Guard System
+2025-06-01 02:18:17,825 - __main__ - INFO - ========================================
+2025-06-01 02:18:17,826 - __main__ - INFO - Testing Risk Guard System...
+2025-06-01 02:18:17,826 - __main__ - ERROR - [ERROR] Risk Guard System test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:18:17,826 - __main__ - ERROR - [ERROR] Risk Guard System - FAILED
+2025-06-01 02:18:17,827 - __main__ - INFO - 
+========================================
+2025-06-01 02:18:17,827 - __main__ - INFO - Running: Deviation Alert System
+2025-06-01 02:18:17,827 - __main__ - INFO - ========================================
+2025-06-01 02:18:17,827 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-06-01 02:18:17,829 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:18:17,829 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:18:17,829 - __main__ - ERROR - [ERROR] Trade Deviation Alert System test failed: Baseline should include expected return
+2025-06-01 02:18:17,829 - __main__ - ERROR - [ERROR] Deviation Alert System - FAILED
+2025-06-01 02:18:17,829 - __main__ - INFO - 
+========================================
+2025-06-01 02:18:17,830 - __main__ - INFO - Running: Failover Recovery System
+2025-06-01 02:18:17,830 - __main__ - INFO - ========================================
+2025-06-01 02:18:17,830 - __main__ - INFO - Testing Failover & Recovery System...
+2025-06-01 02:18:17,834 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:18:17,834 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-06-01 02:18:17,841 - RecoveryManager - INFO - Created snapshot: 20250601_021817 (scheduled)
+2025-06-01 02:18:17,857 - __main__ - ERROR - [ERROR] Failover & Recovery System test failed: 'RecoveryManager' object has no attribute 'get_latest_snapshot'
+2025-06-01 02:18:17,857 - __main__ - ERROR - [ERROR] Failover Recovery System - FAILED
+2025-06-01 02:18:17,857 - __main__ - INFO - 
+========================================
+2025-06-01 02:18:17,858 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-06-01 02:18:17,858 - __main__ - INFO - ========================================
+2025-06-01 02:18:17,858 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-06-01 02:18:18,123 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:18:18,123 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:18:18,125 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:18:18,131 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:18:18,132 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:18:18,133 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:18:18,133 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:18:18,139 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:18:18,139 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-06-01 02:18:19,181 - __main__ - ERROR - [ERROR] Safety Dashboard Integration test failed: cannot import name 'get_risk_metrics' from 'trademasterx.interface.web.safety_dashboard' (C:\Users\natan\OneDrive\שולחן העבודה\Apps\minecraft server\New folder\trademasterx\interface\web\safety_dashboard.py)
+2025-06-01 02:18:19,181 - __main__ - ERROR - [ERROR] Safety Dashboard Integration - FAILED
+2025-06-01 02:18:19,181 - __main__ - INFO - 
+========================================
+2025-06-01 02:18:19,183 - __main__ - INFO - Running: Full System Integration
+2025-06-01 02:18:19,183 - __main__ - INFO - ========================================
+2025-06-01 02:18:19,183 - __main__ - INFO - Testing Full System Integration...
+2025-06-01 02:18:19,204 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:18:19,204 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:18:19,204 - __main__ - ERROR - [ERROR] Full System Integration test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:18:19,205 - __main__ - ERROR - [ERROR] Full System Integration - FAILED
+2025-06-01 02:18:19,207 - __main__ - INFO - 
+============================================================
+2025-06-01 02:18:19,207 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-06-01 02:18:19,207 - __main__ - INFO - ============================================================
+2025-06-01 02:18:19,207 - __main__ - INFO - Total Tests: 6
+2025-06-01 02:18:19,208 - __main__ - INFO - Passed: 0
+2025-06-01 02:18:19,208 - __main__ - INFO - Failed: 6
+2025-06-01 02:18:19,208 - __main__ - INFO - Success Rate: 0.0%
+2025-06-01 02:18:19,208 - __main__ - INFO - Duration: 0:00:01.395110
+2025-06-01 02:18:19,209 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748733499.json
+2025-06-01 02:18:19,209 - __main__ - ERROR - [WARNING] SOME PHASE 12 SYSTEMS REQUIRE ATTENTION
+2025-06-01 02:18:19,209 - __main__ - INFO - ============================================================
+2025-06-01 02:19:58,840 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_13c358_q
+2025-06-01 02:19:58,842 - __main__ - INFO - ============================================================
+2025-06-01 02:19:58,842 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-06-01 02:19:58,842 - __main__ - INFO - ============================================================
+2025-06-01 02:19:58,842 - __main__ - INFO - 
+========================================
+2025-06-01 02:19:58,842 - __main__ - INFO - Running: Kill Switch System
+2025-06-01 02:19:58,842 - __main__ - INFO - ========================================
+2025-06-01 02:19:58,842 - __main__ - INFO - Testing Kill Switch System...
+2025-06-01 02:19:58,855 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:19:58,856 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:19:58,856 - __main__ - ERROR - Kill Switch System test failed: Kill switch should be inactive initially
+2025-06-01 02:19:58,856 - __main__ - ERROR - [ERROR] Kill Switch System - FAILED
+2025-06-01 02:19:58,856 - __main__ - INFO - 
+========================================
+2025-06-01 02:19:58,856 - __main__ - INFO - Running: Risk Guard System
+2025-06-01 02:19:58,856 - __main__ - INFO - ========================================
+2025-06-01 02:19:58,856 - __main__ - INFO - Testing Risk Guard System...
+2025-06-01 02:19:58,856 - __main__ - ERROR - [ERROR] Risk Guard System test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:19:58,857 - __main__ - ERROR - [ERROR] Risk Guard System - FAILED
+2025-06-01 02:19:58,857 - __main__ - INFO - 
+========================================
+2025-06-01 02:19:58,857 - __main__ - INFO - Running: Deviation Alert System
+2025-06-01 02:19:58,857 - __main__ - INFO - ========================================
+2025-06-01 02:19:58,857 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-06-01 02:19:58,859 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:19:58,859 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:19:58,860 - __main__ - ERROR - [ERROR] Trade Deviation Alert System test failed: Baseline should include expected return
+2025-06-01 02:19:58,860 - __main__ - ERROR - [ERROR] Deviation Alert System - FAILED
+2025-06-01 02:19:58,860 - __main__ - INFO - 
+========================================
+2025-06-01 02:19:58,860 - __main__ - INFO - Running: Failover Recovery System
+2025-06-01 02:19:58,860 - __main__ - INFO - ========================================
+2025-06-01 02:19:58,861 - __main__ - INFO - Testing Failover & Recovery System...
+2025-06-01 02:19:58,865 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:19:58,865 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-06-01 02:19:58,871 - RecoveryManager - INFO - Created snapshot: 20250601_021958 (scheduled)
+2025-06-01 02:19:58,887 - __main__ - ERROR - [ERROR] Failover & Recovery System test failed: 'RecoveryManager' object has no attribute 'get_latest_snapshot'
+2025-06-01 02:19:58,887 - __main__ - ERROR - [ERROR] Failover Recovery System - FAILED
+2025-06-01 02:19:58,887 - __main__ - INFO - 
+========================================
+2025-06-01 02:19:58,887 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-06-01 02:19:58,887 - __main__ - INFO - ========================================
+2025-06-01 02:19:58,887 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-06-01 02:19:59,143 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:19:59,143 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:19:59,144 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:19:59,150 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:19:59,150 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:19:59,153 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:19:59,153 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:19:59,158 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:19:59,159 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-06-01 02:20:00,208 - __main__ - ERROR - [ERROR] Safety Dashboard Integration test failed: cannot import name 'get_risk_metrics' from 'trademasterx.interface.web.safety_dashboard' (C:\Users\natan\OneDrive\שולחן העבודה\Apps\minecraft server\New folder\trademasterx\interface\web\safety_dashboard.py)
+2025-06-01 02:20:00,209 - __main__ - ERROR - [ERROR] Safety Dashboard Integration - FAILED
+2025-06-01 02:20:00,209 - __main__ - INFO - 
+========================================
+2025-06-01 02:20:00,209 - __main__ - INFO - Running: Full System Integration
+2025-06-01 02:20:00,209 - __main__ - INFO - ========================================
+2025-06-01 02:20:00,210 - __main__ - INFO - Testing Full System Integration...
+2025-06-01 02:20:00,232 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:20:00,232 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:20:00,232 - __main__ - ERROR - [ERROR] Full System Integration test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:20:00,233 - __main__ - ERROR - [ERROR] Full System Integration - FAILED
+2025-06-01 02:20:00,235 - __main__ - INFO - 
+============================================================
+2025-06-01 02:20:00,236 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-06-01 02:20:00,236 - __main__ - INFO - ============================================================
+2025-06-01 02:20:00,236 - __main__ - INFO - Total Tests: 6
+2025-06-01 02:20:00,236 - __main__ - INFO - Passed: 0
+2025-06-01 02:20:00,237 - __main__ - INFO - Failed: 6
+2025-06-01 02:20:00,237 - __main__ - INFO - Success Rate: 0.0%
+2025-06-01 02:20:00,237 - __main__ - INFO - Duration: 0:00:01.390779
+2025-06-01 02:20:00,237 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748733600.json
+2025-06-01 02:20:00,237 - __main__ - ERROR - [WARNING] SOME PHASE 12 SYSTEMS REQUIRE ATTENTION
+2025-06-01 02:20:00,237 - __main__ - INFO - ============================================================
+2025-06-01 02:21:04,451 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_06rv89lm
+2025-06-01 02:21:04,453 - __main__ - INFO - ============================================================
+2025-06-01 02:21:04,453 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-06-01 02:21:04,453 - __main__ - INFO - ============================================================
+2025-06-01 02:21:04,453 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:04,453 - __main__ - INFO - Running: Kill Switch System
+2025-06-01 02:21:04,453 - __main__ - INFO - ========================================
+2025-06-01 02:21:04,454 - __main__ - INFO - Testing Kill Switch System...
+2025-06-01 02:21:04,466 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:21:04,467 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:21:04,467 - __main__ - ERROR - Kill Switch System test failed: Kill switch should be inactive initially
+2025-06-01 02:21:04,467 - __main__ - ERROR - [ERROR] Kill Switch System - FAILED
+2025-06-01 02:21:04,468 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:04,468 - __main__ - INFO - Running: Risk Guard System
+2025-06-01 02:21:04,468 - __main__ - INFO - ========================================
+2025-06-01 02:21:04,468 - __main__ - INFO - Testing Risk Guard System...
+2025-06-01 02:21:04,469 - __main__ - ERROR - [ERROR] Risk Guard System test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:21:04,469 - __main__ - ERROR - [ERROR] Risk Guard System - FAILED
+2025-06-01 02:21:04,469 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:04,469 - __main__ - INFO - Running: Deviation Alert System
+2025-06-01 02:21:04,469 - __main__ - INFO - ========================================
+2025-06-01 02:21:04,469 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-06-01 02:21:04,471 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:21:04,471 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:21:04,471 - __main__ - ERROR - [ERROR] Trade Deviation Alert System test failed: Baseline should include expected return
+2025-06-01 02:21:04,472 - __main__ - ERROR - [ERROR] Deviation Alert System - FAILED
+2025-06-01 02:21:04,472 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:04,472 - __main__ - INFO - Running: Failover Recovery System
+2025-06-01 02:21:04,472 - __main__ - INFO - ========================================
+2025-06-01 02:21:04,472 - __main__ - INFO - Testing Failover & Recovery System...
+2025-06-01 02:21:04,478 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:21:04,479 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-06-01 02:21:04,484 - RecoveryManager - INFO - Created snapshot: 20250601_022104 (scheduled)
+2025-06-01 02:21:04,500 - __main__ - ERROR - [ERROR] Failover & Recovery System test failed: 'RecoveryManager' object has no attribute 'get_latest_snapshot'
+2025-06-01 02:21:04,500 - __main__ - ERROR - [ERROR] Failover Recovery System - FAILED
+2025-06-01 02:21:04,500 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:04,501 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-06-01 02:21:04,501 - __main__ - INFO - ========================================
+2025-06-01 02:21:04,501 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-06-01 02:21:04,758 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:21:04,758 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:21:04,761 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:21:04,767 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:21:04,767 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:21:04,769 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:21:04,769 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:21:04,773 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:21:04,773 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-06-01 02:21:05,805 - __main__ - ERROR - [ERROR] Safety Dashboard Integration test failed: cannot import name 'get_risk_metrics' from 'trademasterx.interface.web.safety_dashboard' (C:\Users\natan\OneDrive\שולחן העבודה\Apps\minecraft server\New folder\trademasterx\interface\web\safety_dashboard.py)
+2025-06-01 02:21:05,806 - __main__ - ERROR - [ERROR] Safety Dashboard Integration - FAILED
+2025-06-01 02:21:05,806 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:05,807 - __main__ - INFO - Running: Full System Integration
+2025-06-01 02:21:05,807 - __main__ - INFO - ========================================
+2025-06-01 02:21:05,807 - __main__ - INFO - Testing Full System Integration...
+2025-06-01 02:21:05,828 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:21:05,828 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:21:05,829 - __main__ - ERROR - [ERROR] Full System Integration test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:21:05,829 - __main__ - ERROR - [ERROR] Full System Integration - FAILED
+2025-06-01 02:21:05,831 - __main__ - INFO - 
+============================================================
+2025-06-01 02:21:05,831 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-06-01 02:21:05,832 - __main__ - INFO - ============================================================
+2025-06-01 02:21:05,832 - __main__ - INFO - Total Tests: 6
+2025-06-01 02:21:05,832 - __main__ - INFO - Passed: 0
+2025-06-01 02:21:05,832 - __main__ - INFO - Failed: 6
+2025-06-01 02:21:05,833 - __main__ - INFO - Success Rate: 0.0%
+2025-06-01 02:21:05,833 - __main__ - INFO - Duration: 0:00:01.376118
+2025-06-01 02:21:05,833 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748733665.json
+2025-06-01 02:21:05,833 - __main__ - ERROR - [WARNING] SOME PHASE 12 SYSTEMS REQUIRE ATTENTION
+2025-06-01 02:21:05,833 - __main__ - INFO - ============================================================
+2025-06-01 02:21:13,831 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_4f82oazt
+2025-06-01 02:21:13,833 - __main__ - INFO - ============================================================
+2025-06-01 02:21:13,833 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-06-01 02:21:13,834 - __main__ - INFO - ============================================================
+2025-06-01 02:21:13,834 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:13,834 - __main__ - INFO - Running: Kill Switch System
+2025-06-01 02:21:13,834 - __main__ - INFO - ========================================
+2025-06-01 02:21:13,834 - __main__ - INFO - Testing Kill Switch System...
+2025-06-01 02:21:13,846 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:21:13,846 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:21:13,847 - __main__ - ERROR - Kill Switch System test failed: Kill switch should be inactive initially
+2025-06-01 02:21:13,847 - __main__ - ERROR - [ERROR] Kill Switch System - FAILED
+2025-06-01 02:21:13,847 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:13,848 - __main__ - INFO - Running: Risk Guard System
+2025-06-01 02:21:13,848 - __main__ - INFO - ========================================
+2025-06-01 02:21:13,848 - __main__ - INFO - Testing Risk Guard System...
+2025-06-01 02:21:13,850 - __main__ - ERROR - [ERROR] Risk Guard System test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:21:13,850 - __main__ - ERROR - [ERROR] Risk Guard System - FAILED
+2025-06-01 02:21:13,850 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:13,850 - __main__ - INFO - Running: Deviation Alert System
+2025-06-01 02:21:13,850 - __main__ - INFO - ========================================
+2025-06-01 02:21:13,850 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-06-01 02:21:13,852 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:21:13,852 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:21:13,852 - __main__ - ERROR - [ERROR] Trade Deviation Alert System test failed: Baseline should include expected return
+2025-06-01 02:21:13,853 - __main__ - ERROR - [ERROR] Deviation Alert System - FAILED
+2025-06-01 02:21:13,853 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:13,853 - __main__ - INFO - Running: Failover Recovery System
+2025-06-01 02:21:13,853 - __main__ - INFO - ========================================
+2025-06-01 02:21:13,854 - __main__ - INFO - Testing Failover & Recovery System...
+2025-06-01 02:21:13,858 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:21:13,859 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-06-01 02:21:13,865 - RecoveryManager - INFO - Created snapshot: 20250601_022113 (scheduled)
+2025-06-01 02:21:13,882 - __main__ - ERROR - [ERROR] Failover & Recovery System test failed: 'RecoveryManager' object has no attribute 'get_latest_snapshot'
+2025-06-01 02:21:13,882 - __main__ - ERROR - [ERROR] Failover Recovery System - FAILED
+2025-06-01 02:21:13,883 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:13,883 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-06-01 02:21:13,883 - __main__ - INFO - ========================================
+2025-06-01 02:21:13,883 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-06-01 02:21:14,146 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:21:14,146 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:21:14,148 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:21:14,155 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:21:14,155 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:21:14,157 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:21:14,157 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:21:14,162 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:21:14,162 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-06-01 02:21:15,178 - __main__ - ERROR - [ERROR] Safety Dashboard Integration test failed: cannot import name 'get_risk_metrics' from 'trademasterx.interface.web.safety_dashboard' (C:\Users\natan\OneDrive\שולחן העבודה\Apps\minecraft server\New folder\trademasterx\interface\web\safety_dashboard.py)
+2025-06-01 02:21:15,178 - __main__ - ERROR - [ERROR] Safety Dashboard Integration - FAILED
+2025-06-01 02:21:15,178 - __main__ - INFO - 
+========================================
+2025-06-01 02:21:15,178 - __main__ - INFO - Running: Full System Integration
+2025-06-01 02:21:15,178 - __main__ - INFO - ========================================
+2025-06-01 02:21:15,178 - __main__ - INFO - Testing Full System Integration...
+2025-06-01 02:21:15,198 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:21:15,199 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:21:15,199 - __main__ - ERROR - [ERROR] Full System Integration test failed: 'NoneType' object has no attribute 'get'
+2025-06-01 02:21:15,200 - __main__ - ERROR - [ERROR] Full System Integration - FAILED
+2025-06-01 02:21:15,202 - __main__ - INFO - 
+============================================================
+2025-06-01 02:21:15,202 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-06-01 02:21:15,202 - __main__ - INFO - ============================================================
+2025-06-01 02:21:15,203 - __main__ - INFO - Total Tests: 6
+2025-06-01 02:21:15,203 - __main__ - INFO - Passed: 0
+2025-06-01 02:21:15,203 - __main__ - INFO - Failed: 6
+2025-06-01 02:21:15,203 - __main__ - INFO - Success Rate: 0.0%
+2025-06-01 02:21:15,203 - __main__ - INFO - Duration: 0:00:01.366153
+2025-06-01 02:21:15,203 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748733675.json
+2025-06-01 02:21:15,204 - __main__ - ERROR - [WARNING] SOME PHASE 12 SYSTEMS REQUIRE ATTENTION
+2025-06-01 02:21:15,204 - __main__ - INFO - ============================================================
+2025-06-01 02:25:46,421 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_w0e6o4t8
+2025-06-01 02:25:46,423 - __main__ - INFO - ============================================================
+2025-06-01 02:25:46,423 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-06-01 02:25:46,423 - __main__ - INFO - ============================================================
+2025-06-01 02:25:46,423 - __main__ - INFO - 
+========================================
+2025-06-01 02:25:46,424 - __main__ - INFO - Running: Kill Switch System
+2025-06-01 02:25:46,424 - __main__ - INFO - ========================================
+2025-06-01 02:25:46,424 - __main__ - INFO - Testing Kill Switch System...
+2025-06-01 02:25:46,436 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:25:46,437 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:25:46,437 - __main__ - ERROR - Kill Switch System test failed: Kill switch should be inactive initially
+2025-06-01 02:25:46,437 - __main__ - ERROR - [ERROR] Kill Switch System - FAILED
+2025-06-01 02:25:46,438 - __main__ - INFO - 
+========================================
+2025-06-01 02:25:46,438 - __main__ - INFO - Running: Risk Guard System
+2025-06-01 02:25:46,438 - __main__ - INFO - ========================================
+2025-06-01 02:25:46,438 - __main__ - INFO - Testing Risk Guard System...
+2025-06-01 02:25:46,440 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:25:46,444 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:25:46,444 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:25:46,444 - __main__ - ERROR - [ERROR] Risk Guard System test failed: 'RiskGuard' object has no attribute 'validate_trade'
+2025-06-01 02:25:46,444 - __main__ - ERROR - [ERROR] Risk Guard System - FAILED
+2025-06-01 02:25:46,444 - __main__ - INFO - 
+========================================
+2025-06-01 02:25:46,444 - __main__ - INFO - Running: Deviation Alert System
+2025-06-01 02:25:46,444 - __main__ - INFO - ========================================
+2025-06-01 02:25:46,444 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-06-01 02:25:46,447 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:25:46,447 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:25:46,447 - __main__ - ERROR - [ERROR] Trade Deviation Alert System test failed: Baseline should include expected return
+2025-06-01 02:25:46,448 - __main__ - ERROR - [ERROR] Deviation Alert System - FAILED
+2025-06-01 02:25:46,448 - __main__ - INFO - 
+========================================
+2025-06-01 02:25:46,448 - __main__ - INFO - Running: Failover Recovery System
+2025-06-01 02:25:46,448 - __main__ - INFO - ========================================
+2025-06-01 02:25:46,448 - __main__ - INFO - Testing Failover & Recovery System...
+2025-06-01 02:25:46,453 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:25:46,453 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-06-01 02:25:46,459 - RecoveryManager - INFO - Created snapshot: 20250601_022546 (scheduled)
+2025-06-01 02:25:46,486 - RecoveryManager - INFO - Retrieved latest snapshot from 2025-06-01T02:25:46.453479
+2025-06-01 02:25:46,487 - __main__ - ERROR - [ERROR] Failover & Recovery System test failed: 'RecoveryManager' object has no attribute 'components'
+2025-06-01 02:25:46,487 - __main__ - ERROR - [ERROR] Failover Recovery System - FAILED
+2025-06-01 02:25:46,487 - __main__ - INFO - 
+========================================
+2025-06-01 02:25:46,488 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-06-01 02:25:46,488 - __main__ - INFO - ========================================
+2025-06-01 02:25:46,488 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-06-01 02:25:46,773 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:25:46,773 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:25:46,775 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:25:46,779 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:25:46,779 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:25:46,780 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:25:46,781 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:25:46,785 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:25:46,785 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-06-01 02:25:47,831 - __main__ - ERROR - [ERROR] Safety Dashboard Integration test failed: cannot import name 'get_deviation_data' from 'trademasterx.interface.web.safety_dashboard' (C:\Users\natan\OneDrive\שולחן העבודה\Apps\minecraft server\New folder\trademasterx\interface\web\safety_dashboard.py)
+2025-06-01 02:25:47,831 - __main__ - ERROR - [ERROR] Safety Dashboard Integration - FAILED
+2025-06-01 02:25:47,832 - __main__ - INFO - 
+========================================
+2025-06-01 02:25:47,832 - __main__ - INFO - Running: Full System Integration
+2025-06-01 02:25:47,832 - __main__ - INFO - ========================================
+2025-06-01 02:25:47,833 - __main__ - INFO - Testing Full System Integration...
+2025-06-01 02:25:47,856 - KillSwitch - INFO - Kill Switch initialized - Active: True
+2025-06-01 02:25:47,856 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:25:47,859 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:25:47,862 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:25:47,862 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:25:47,864 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:25:47,864 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:25:47,870 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:25:47,870 - __main__ - ERROR - [ERROR] Full System Integration test failed: Kill switch should start inactive
+2025-06-01 02:25:47,871 - __main__ - ERROR - [ERROR] Full System Integration - FAILED
+2025-06-01 02:25:47,873 - __main__ - INFO - 
+============================================================
+2025-06-01 02:25:47,873 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-06-01 02:25:47,873 - __main__ - INFO - ============================================================
+2025-06-01 02:25:47,873 - __main__ - INFO - Total Tests: 6
+2025-06-01 02:25:47,873 - __main__ - INFO - Passed: 0
+2025-06-01 02:25:47,873 - __main__ - INFO - Failed: 6
+2025-06-01 02:25:47,873 - __main__ - INFO - Success Rate: 0.0%
+2025-06-01 02:25:47,874 - __main__ - INFO - Duration: 0:00:01.448402
+2025-06-01 02:25:47,874 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748733947.json
+2025-06-01 02:25:47,874 - __main__ - ERROR - [WARNING] SOME PHASE 12 SYSTEMS REQUIRE ATTENTION
+2025-06-01 02:25:47,874 - __main__ - INFO - ============================================================
+2025-06-01 02:28:18,160 - __main__ - INFO - Test environment: C:\Users\natan\AppData\Local\Temp\phase12_test_osaw32a2
+2025-06-01 02:28:18,163 - __main__ - INFO - ============================================================
+2025-06-01 02:28:18,163 - __main__ - INFO - STARTING PHASE 12 INTEGRATION TESTS
+2025-06-01 02:28:18,164 - __main__ - INFO - ============================================================
+2025-06-01 02:28:18,164 - __main__ - INFO - 
+========================================
+2025-06-01 02:28:18,164 - __main__ - INFO - Running: Kill Switch System
+2025-06-01 02:28:18,164 - __main__ - INFO - ========================================
+2025-06-01 02:28:18,165 - __main__ - INFO - Testing Kill Switch System...
+2025-06-01 02:28:18,178 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-01 02:28:18,178 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:28:18,178 - __main__ - ERROR - Kill Switch System test failed: 'KillSwitch' object has no attribute 'activate'
+2025-06-01 02:28:18,179 - __main__ - ERROR - [ERROR] Kill Switch System - FAILED
+2025-06-01 02:28:18,179 - __main__ - INFO - 
+========================================
+2025-06-01 02:28:18,179 - __main__ - INFO - Running: Risk Guard System
+2025-06-01 02:28:18,179 - __main__ - INFO - ========================================
+2025-06-01 02:28:18,179 - __main__ - INFO - Testing Risk Guard System...
+2025-06-01 02:28:18,181 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:28:18,187 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:28:18,187 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:28:18,187 - __main__ - ERROR - [ERROR] Risk Guard System test failed: 'bool' object is not subscriptable
+2025-06-01 02:28:18,187 - __main__ - ERROR - [ERROR] Risk Guard System - FAILED
+2025-06-01 02:28:18,187 - __main__ - INFO - 
+========================================
+2025-06-01 02:28:18,188 - __main__ - INFO - Running: Deviation Alert System
+2025-06-01 02:28:18,188 - __main__ - INFO - ========================================
+2025-06-01 02:28:18,188 - __main__ - INFO - Testing Trade Deviation Alert System...
+2025-06-01 02:28:18,190 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:28:18,191 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:28:18,191 - __main__ - ERROR - [ERROR] Trade Deviation Alert System test failed: Baseline should include expected return
+2025-06-01 02:28:18,191 - __main__ - ERROR - [ERROR] Deviation Alert System - FAILED
+2025-06-01 02:28:18,191 - __main__ - INFO - 
+========================================
+2025-06-01 02:28:18,192 - __main__ - INFO - Running: Failover Recovery System
+2025-06-01 02:28:18,192 - __main__ - INFO - ========================================
+2025-06-01 02:28:18,192 - __main__ - INFO - Testing Failover & Recovery System...
+2025-06-01 02:28:18,197 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:28:18,197 - RecoveryManager - INFO - Registered component for recovery: TestComponent
+2025-06-01 02:28:18,205 - RecoveryManager - INFO - Created snapshot: 20250601_022818 (scheduled)
+2025-06-01 02:28:18,236 - RecoveryManager - INFO - Retrieved latest snapshot from 2025-06-01T02:28:18.198766
+2025-06-01 02:28:18,237 - __main__ - ERROR - [ERROR] Failover & Recovery System test failed: 'RecoveryManager' object has no attribute 'recover_from_snapshot'
+2025-06-01 02:28:18,237 - __main__ - ERROR - [ERROR] Failover Recovery System - FAILED
+2025-06-01 02:28:18,237 - __main__ - INFO - 
+========================================
+2025-06-01 02:28:18,237 - __main__ - INFO - Running: Safety Dashboard Integration
+2025-06-01 02:28:18,237 - __main__ - INFO - ========================================
+2025-06-01 02:28:18,237 - __main__ - INFO - Testing Safety Dashboard Integration...
+2025-06-01 02:28:18,516 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-01 02:28:18,516 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:28:18,519 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:28:18,522 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:28:18,523 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:28:18,525 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:28:18,525 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:28:18,531 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:28:18,531 - SafetyDashboard - INFO - Safety dashboard initialized with all systems
+2025-06-01 02:28:19,640 - __main__ - ERROR - [ERROR] Safety Dashboard Integration test failed: Deviation data should include timestamps
+2025-06-01 02:28:19,640 - __main__ - ERROR - [ERROR] Safety Dashboard Integration - FAILED
+2025-06-01 02:28:19,640 - __main__ - INFO - 
+========================================
+2025-06-01 02:28:19,640 - __main__ - INFO - Running: Full System Integration
+2025-06-01 02:28:19,641 - __main__ - INFO - ========================================
+2025-06-01 02:28:19,641 - __main__ - INFO - Testing Full System Integration...
+2025-06-01 02:28:19,653 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-01 02:28:19,654 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-01 02:28:19,656 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-01 02:28:19,659 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-01 02:28:19,659 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-01 02:28:19,660 - TradeDeviationAlert - INFO - Trade Deviation Alert system initialized
+2025-06-01 02:28:19,661 - TradeDeviationAlert - INFO - Deviation threshold: 30.0%
+2025-06-01 02:28:19,668 - RecoveryManager - INFO - Recovery Manager initialized
+2025-06-01 02:28:19,668 - __main__ - ERROR - [ERROR] Full System Integration test failed: 'bool' object is not subscriptable
+2025-06-01 02:28:19,669 - __main__ - ERROR - [ERROR] Full System Integration - FAILED
+2025-06-01 02:28:19,670 - __main__ - INFO - 
+============================================================
+2025-06-01 02:28:19,671 - __main__ - INFO - PHASE 12 INTEGRATION TEST RESULTS
+2025-06-01 02:28:19,671 - __main__ - INFO - ============================================================
+2025-06-01 02:28:19,671 - __main__ - INFO - Total Tests: 6
+2025-06-01 02:28:19,672 - __main__ - INFO - Passed: 0
+2025-06-01 02:28:19,672 - __main__ - INFO - Failed: 6
+2025-06-01 02:28:19,672 - __main__ - INFO - Success Rate: 0.0%
+2025-06-01 02:28:19,672 - __main__ - INFO - Duration: 0:00:01.505345
+2025-06-01 02:28:19,674 - __main__ - INFO - Report saved: test_reports/phase_12_integration_test_1748734099.json
+2025-06-01 02:28:19,674 - __main__ - ERROR - [WARNING] SOME PHASE 12 SYSTEMS REQUIRE ATTENTION
+2025-06-01 02:28:19,675 - __main__ - INFO - ============================================================

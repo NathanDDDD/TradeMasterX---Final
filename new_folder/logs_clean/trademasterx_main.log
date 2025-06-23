@@ -1,0 +1,336 @@
+2025-06-13 20:50:25,820 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 20:50:25,842 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-13 20:52:28,067 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 20:52:28,077 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-13 21:00:48,376 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 21:00:48,386 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:46:39,011 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:46:39,017 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 15:46:39,018 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 15:47:13,120 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:47:13,127 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 15:47:13,127 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 15:47:13,157 - TradeMasterX - INFO - Starting Command Assistant...
+2025-06-22 15:47:13,224 - trademasterx.bots.analytics - INFO - Registered analytics bot: analytics
+2025-06-22 15:47:13,228 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:47:13,231 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:47:13,241 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:47:13,250 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 15:47:13,251 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 15:47:13,257 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 15:47:13,257 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 15:47:13,361 - trademasterx.bots.system - INFO - Registered system bot: memory
+2025-06-22 15:47:13,366 - trademasterx.bots.system - INFO - Registered system bot: logger
+2025-06-22 15:47:13,368 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-22 15:47:13,368 - BotRegistry - INFO - BotRegistry initialized
+2025-06-22 15:47:13,371 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:47:13,381 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:47:13,383 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-22 15:47:13,383 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-22 15:47:13,405 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 15:47:13,406 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 15:47:13,421 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 15:47:13,422 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 15:47:13,426 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-22 15:47:13,430 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-22 15:47:13,436 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-22 15:47:13,437 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-22 15:48:15,430 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:48:15,436 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 15:48:15,437 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 15:48:15,466 - TradeMasterX - INFO - Starting Command Assistant...
+2025-06-22 15:48:15,534 - trademasterx.bots.analytics - INFO - Registered analytics bot: analytics
+2025-06-22 15:48:15,538 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:48:15,542 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:48:15,551 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:48:15,560 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 15:48:15,561 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 15:48:15,567 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 15:48:15,568 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 15:48:15,673 - trademasterx.bots.system - INFO - Registered system bot: memory
+2025-06-22 15:48:15,677 - trademasterx.bots.system - INFO - Registered system bot: logger
+2025-06-22 15:48:15,680 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-22 15:48:15,680 - BotRegistry - INFO - BotRegistry initialized
+2025-06-22 15:48:15,683 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:48:15,694 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:48:15,697 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-22 15:48:15,697 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-22 15:48:15,719 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 15:48:15,720 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 15:48:15,736 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 15:48:15,737 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 15:48:15,742 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-22 15:48:15,745 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-22 15:48:15,752 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-22 15:48:15,752 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-22 15:50:54,725 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:50:54,731 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 15:50:54,731 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 15:50:54,759 - TradeMasterX - INFO - Starting Command Assistant...
+2025-06-22 15:50:54,822 - trademasterx.bots.analytics - INFO - Registered analytics bot: analytics
+2025-06-22 15:50:54,825 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:50:54,828 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:50:54,838 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:50:54,846 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 15:50:54,846 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 15:50:54,851 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 15:50:54,852 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 15:50:54,942 - trademasterx.bots.system - INFO - Registered system bot: memory
+2025-06-22 15:50:54,946 - trademasterx.bots.system - INFO - Registered system bot: logger
+2025-06-22 15:50:54,948 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-22 15:50:54,949 - BotRegistry - INFO - BotRegistry initialized
+2025-06-22 15:50:54,952 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:50:54,961 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:50:54,964 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-22 15:50:54,964 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-22 15:50:54,975 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 15:50:54,975 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 15:50:54,994 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 15:50:54,995 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 15:50:55,001 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-22 15:50:55,003 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-22 15:50:55,010 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-22 15:50:55,010 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-22 15:57:15,688 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:57:15,693 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 15:57:15,693 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 15:57:15,723 - TradeMasterX - INFO - Starting Command Assistant...
+2025-06-22 15:57:15,791 - trademasterx.bots.analytics - INFO - Registered analytics bot: analytics
+2025-06-22 15:57:15,796 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:57:15,800 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:57:15,809 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:57:15,818 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 15:57:15,818 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 15:57:15,824 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 15:57:15,825 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 15:57:15,922 - trademasterx.bots.system - INFO - Registered system bot: memory
+2025-06-22 15:57:15,926 - trademasterx.bots.system - INFO - Registered system bot: logger
+2025-06-22 15:57:15,927 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-22 15:57:15,928 - BotRegistry - INFO - BotRegistry initialized
+2025-06-22 15:57:15,931 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 15:57:15,941 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 15:57:15,943 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-22 15:57:15,943 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-22 15:57:15,955 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 15:57:15,956 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 15:57:15,979 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 15:57:15,980 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 15:57:15,986 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-22 15:57:15,989 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-22 15:57:15,996 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-22 15:57:15,997 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-22 15:57:16,002 - TradeMasterX - INFO - Starting background systems...
+2025-06-22 15:57:16,002 - TradeMasterX - INFO - Autonomous AI system started in background
+2025-06-22 15:57:16,003 - TradeMasterX - INFO - Command Assistant ready for use
+2025-06-22 16:34:38,554 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:34:38,562 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 16:34:38,562 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 16:34:38,595 - TradeMasterX - INFO - Starting Command Assistant...
+2025-06-22 16:34:38,676 - trademasterx.bots.analytics - INFO - Registered analytics bot: analytics
+2025-06-22 16:34:38,680 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:34:38,682 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:34:38,692 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 16:34:38,698 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 16:34:38,699 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 16:34:38,705 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 16:34:38,705 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 16:34:38,763 - trademasterx.bots.system - INFO - Registered system bot: memory
+2025-06-22 16:34:38,766 - trademasterx.bots.system - INFO - Registered system bot: logger
+2025-06-22 16:34:38,768 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-22 16:34:38,768 - BotRegistry - INFO - BotRegistry initialized
+2025-06-22 16:34:38,771 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:34:38,780 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 16:34:38,783 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-22 16:34:38,784 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-22 16:34:38,794 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 16:34:38,795 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 16:34:38,811 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 16:34:38,812 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 16:34:38,816 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-22 16:34:38,819 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-22 16:34:38,825 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-22 16:34:38,825 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-22 16:34:38,830 - TradeMasterX - INFO - Starting background systems...
+2025-06-22 16:34:38,830 - TradeMasterX - INFO - Autonomous AI system started in background
+2025-06-22 16:34:38,831 - TradeMasterX - INFO - Command Assistant ready for use
+2025-06-22 16:39:11,439 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:39:11,450 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 16:39:11,450 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 16:39:11,477 - TradeMasterX - INFO - Starting Command Assistant...
+2025-06-22 16:39:11,535 - trademasterx.bots.analytics - INFO - Registered analytics bot: analytics
+2025-06-22 16:39:11,539 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:39:11,541 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:39:11,551 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 16:39:11,558 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 16:39:11,558 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 16:39:11,564 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 16:39:11,564 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 16:39:11,617 - trademasterx.bots.system - INFO - Registered system bot: memory
+2025-06-22 16:39:11,621 - trademasterx.bots.system - INFO - Registered system bot: logger
+2025-06-22 16:39:11,623 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-22 16:39:11,624 - BotRegistry - INFO - BotRegistry initialized
+2025-06-22 16:39:11,627 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:39:11,636 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 16:39:11,639 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-22 16:39:11,639 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-22 16:39:11,649 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 16:39:11,650 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 16:39:11,667 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 16:39:11,668 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 16:39:11,672 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-22 16:39:11,675 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-22 16:39:11,682 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-22 16:39:11,682 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-22 16:39:11,688 - TradeMasterX - INFO - Starting background systems...
+2025-06-22 16:39:11,688 - TradeMasterX - INFO - Autonomous AI system started in background
+2025-06-22 16:39:11,688 - TradeMasterX - INFO - Command Assistant ready for use
+2025-06-22 16:42:15,046 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:42:15,052 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 16:42:15,052 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 16:42:15,053 - TradeMasterX - INFO - Configuration loaded successfully
+2025-06-22 16:42:15,053 - TradeMasterX - INFO - Checking environment...
+2025-06-22 16:42:15,054 - TradeMasterX - INFO - Dependencies check passed
+2025-06-22 16:42:15,055 - TradeMasterX - INFO - Initializing TradeMasterX components...
+2025-06-22 16:42:15,055 - TradeMasterX - INFO - Starting Autonomous AI System...
+2025-06-22 16:42:15,058 - ReinforcementEngine - INFO - 📊 Loaded weights for 1 strategies, 1 bots
+2025-06-22 16:42:15,059 - AnomalyAuditor - INFO - 📋 Loaded 2 anomaly patterns
+2025-06-22 16:42:15,060 - TradeMasterX - INFO - Starting Command Assistant...
+2025-06-22 16:42:15,120 - trademasterx.bots.analytics - INFO - Registered analytics bot: analytics
+2025-06-22 16:42:15,123 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:42:15,125 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:42:15,135 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 16:42:15,143 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 16:42:15,143 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 16:42:15,149 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 16:42:15,150 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 16:42:15,203 - trademasterx.bots.system - INFO - Registered system bot: memory
+2025-06-22 16:42:15,207 - trademasterx.bots.system - INFO - Registered system bot: logger
+2025-06-22 16:42:15,209 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-22 16:42:15,209 - BotRegistry - INFO - BotRegistry initialized
+2025-06-22 16:42:15,211 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:42:15,220 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 16:42:15,223 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-22 16:42:15,223 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-22 16:42:15,233 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 16:42:15,233 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 16:42:15,251 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 16:42:15,251 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 16:42:15,256 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-22 16:42:15,258 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-22 16:42:15,259 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-22 16:42:15,259 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-22 16:42:15,259 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-22 16:42:15,260 - TradeMasterX - INFO - All components initialized successfully
+2025-06-22 16:42:15,260 - TradeMasterX - INFO - Starting background systems...
+2025-06-22 16:42:15,261 - Phase14AI - INFO - Starting TradeMasterX Phase 14 Autonomous Intelligence System
+2025-06-22 16:42:15,261 - Phase14AI - INFO - ================================================================================
+2025-06-22 16:42:15,262 - Phase14AI - INFO - All AI components started successfully
+2025-06-22 16:42:15,262 - Phase14AI - INFO - AI Dashboard available at: http://localhost:8080
+2025-06-22 16:42:15,262 - Phase14AI - INFO - System is now running autonomously
+2025-06-22 16:42:15,263 - Phase14AI - INFO - Starting Observer Agent monitoring...
+2025-06-22 16:42:15,263 - ObserverAgent - INFO - 🔍 Observer Agent started - monitoring trades every 30s
+2025-06-22 16:42:15,297 - Phase14AI - INFO - Starting AI Orchestrator...
+2025-06-22 16:42:15,297 - AIOrchestrator - INFO - 🎼 AI Orchestrator started - coordinating system optimization
+2025-06-22 16:42:15,297 - AIOrchestrator - INFO - 🔄 Starting orchestration cycle...
+2025-06-22 16:42:15,300 - ObserverAgent - ERROR - Failed to generate observation summary: time data "2025-06-13 22:15:00" doesn't match format "%Y-%m-%dT%H:%M:%S.%f", at position 3. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-06-22 16:42:15,301 - AIOrchestrator - INFO - 🚨 Retrain triggers: Sharpe ratio decline: 0.000 < 1.000
+2025-06-22 16:42:15,301 - AIOrchestrator - INFO - 🧠 Triggering AI system retraining...
+2025-06-22 16:42:15,305 - AIOrchestrator - INFO - ✅ Retraining process initiated
+2025-06-22 16:42:15,307 - AIOrchestrator - INFO - 🎼 Orchestration cycle complete - Health: HEALTHY
+2025-06-22 16:42:15,307 - Phase14AI - INFO - Starting AI Dashboard server...
+2025-06-22 16:42:15,307 - AIDashboard - INFO - 🌐 Starting AI Dashboard on http://localhost:8080
+2025-06-22 16:42:15,308 - Phase14AI - INFO - Starting status reporting...
+2025-06-22 16:42:15,311 - ObserverAgent - ERROR - Failed to generate observation summary: time data "2025-06-13 22:15:00" doesn't match format "%Y-%m-%dT%H:%M:%S.%f", at position 3. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-06-22 16:42:15,324 - Phase14AI - INFO - Phase 14 Status Update:
+2025-06-22 16:42:15,327 - ObserverAgent - ERROR - Failed to generate observation summary: time data "2025-06-13 22:15:00" doesn't match format "%Y-%m-%dT%H:%M:%S.%f", at position 3. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-06-22 16:42:15,328 - Phase14AI - INFO -    Anomaly Rate (24h): 0.00%
+2025-06-22 16:42:15,343 - AIDashboard - INFO - ✅ AI Dashboard running at http://localhost:8080
+2025-06-22 16:43:04,047 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:04 +0200] "GET / HTTP/1.1" 200 16936 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:04,510 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:04 +0200] "GET /api/system-status HTTP/1.1" 200 1395 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:04,512 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:04 +0200] "GET /api/ai-health HTTP/1.1" 200 1508 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:04,515 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:04 +0200] "GET /api/strategy-performance HTTP/1.1" 200 323 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:04,517 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:04 +0200] "GET /api/anomaly-report HTTP/1.1" 200 698 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:08,214 - AIOrchestrator - INFO - 🔧 Manual retrain triggered: Manual trigger from dashboard
+2025-06-22 16:43:08,218 - ObserverAgent - ERROR - Failed to generate observation summary: time data "2025-06-13 22:15:00" doesn't match format "%Y-%m-%dT%H:%M:%S.%f", at position 3. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-06-22 16:43:08,219 - AIOrchestrator - INFO - 🧠 Triggering AI system retraining...
+2025-06-22 16:43:08,230 - AIOrchestrator - INFO - ✅ Retraining process initiated
+2025-06-22 16:43:08,231 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:08 +0200] "POST /api/trigger-retrain HTTP/1.1" 200 371 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:11,311 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:11 +0200] "GET /api/system-status HTTP/1.1" 200 1395 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:11,313 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:11 +0200] "GET /api/ai-health HTTP/1.1" 200 1508 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:11,313 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:11 +0200] "GET /api/strategy-performance HTTP/1.1" 200 323 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:11,315 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:11 +0200] "GET /api/anomaly-report HTTP/1.1" 200 698 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:13,902 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:13 +0200] "GET /api/system-status HTTP/1.1" 200 1395 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:13,904 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:13 +0200] "GET /api/ai-health HTTP/1.1" 200 1508 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:13,905 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:13 +0200] "GET /api/strategy-performance HTTP/1.1" 200 323 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:13,907 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:13 +0200] "GET /api/anomaly-report HTTP/1.1" 200 698 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:31,399 - AIOrchestrator - INFO - 🔧 Manual retrain triggered: Manual trigger from dashboard
+2025-06-22 16:43:31,402 - ObserverAgent - ERROR - Failed to generate observation summary: time data "2025-06-13 22:15:00" doesn't match format "%Y-%m-%dT%H:%M:%S.%f", at position 3. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-06-22 16:43:31,403 - AIOrchestrator - INFO - 🧠 Triggering AI system retraining...
+2025-06-22 16:43:31,414 - AIOrchestrator - INFO - ✅ Retraining process initiated
+2025-06-22 16:43:31,415 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:31 +0200] "POST /api/trigger-retrain HTTP/1.1" 200 371 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:34,390 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:34 +0200] "GET /api/system-status HTTP/1.1" 200 1395 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:34,392 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:34 +0200] "GET /api/ai-health HTTP/1.1" 200 1508 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:34,392 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:34 +0200] "GET /api/strategy-performance HTTP/1.1" 200 323 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:34,394 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:34 +0200] "GET /api/anomaly-report HTTP/1.1" 200 698 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:34,521 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:34 +0200] "GET /api/system-status HTTP/1.1" 200 1395 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:34,523 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:34 +0200] "GET /api/ai-health HTTP/1.1" 200 1508 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:34,524 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:34 +0200] "GET /api/strategy-performance HTTP/1.1" 200 323 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:34,526 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:34 +0200] "GET /api/anomaly-report HTTP/1.1" 200 698 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:45,491 - AIOrchestrator - INFO - 🔧 Manual retrain triggered: Manual trigger from dashboard
+2025-06-22 16:43:45,493 - ObserverAgent - ERROR - Failed to generate observation summary: time data "2025-06-13 22:15:00" doesn't match format "%Y-%m-%dT%H:%M:%S.%f", at position 3. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-06-22 16:43:45,494 - AIOrchestrator - INFO - 🧠 Triggering AI system retraining...
+2025-06-22 16:43:45,505 - AIOrchestrator - INFO - ✅ Retraining process initiated
+2025-06-22 16:43:45,506 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:45 +0200] "POST /api/trigger-retrain HTTP/1.1" 200 371 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:50,897 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:50 +0200] "GET /api/system-status HTTP/1.1" 200 1395 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:50,898 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:50 +0200] "GET /api/ai-health HTTP/1.1" 200 1508 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:50,899 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:50 +0200] "GET /api/strategy-performance HTTP/1.1" 200 323 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:43:50,901 - aiohttp.access - INFO - ::1 [22/Jun/2025:15:43:50 +0200] "GET /api/anomaly-report HTTP/1.1" 200 698 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-22 16:55:24,597 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:55:24,607 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-22 16:55:24,607 - ConfigLoader - INFO - System configuration loaded: trademasterx/config/system.yaml
+2025-06-22 16:55:24,654 - TradeMasterX - INFO - Starting Command Assistant...
+2025-06-22 16:55:24,735 - trademasterx.bots.analytics - INFO - Registered analytics bot: analytics
+2025-06-22 16:55:24,738 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:55:24,742 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:55:24,751 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 16:55:24,759 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 16:55:24,759 - trademasterx.bots.strategy - INFO - Registered strategy bot: strategy
+2025-06-22 16:55:24,764 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 16:55:24,765 - trademasterx.bots.system - INFO - Registered system bot: risk
+2025-06-22 16:55:24,830 - trademasterx.bots.system - INFO - Registered system bot: memory
+2025-06-22 16:55:24,834 - trademasterx.bots.system - INFO - Registered system bot: logger
+2025-06-22 16:55:24,835 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-22 16:55:24,835 - BotRegistry - INFO - BotRegistry initialized
+2025-06-22 16:55:24,838 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-22 16:55:24,848 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals
+2025-06-22 16:55:24,852 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-22 16:55:24,852 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-22 16:55:24,864 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 16:55:24,865 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 16:55:24,884 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-22 16:55:24,884 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-22 16:55:24,889 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-22 16:55:24,891 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-22 16:55:24,899 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-22 16:55:24,899 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-22 16:55:24,906 - TradeMasterX - INFO - Starting background systems...
+2025-06-22 16:55:24,906 - TradeMasterX - INFO - Autonomous AI system started in background
+2025-06-22 16:55:24,907 - TradeMasterX - INFO - Command Assistant ready for use

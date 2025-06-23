@@ -1,0 +1,755 @@
+{% extends "base.html" %}
+
+{% block title %}Safety Dashboard - TradeMasterX 2.0{% endblock %}
+
+{% block extra_head %}
+<style>
+    .status-indicator {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 8px;
+    }
+    .status-active { background-color: #28a745; }
+    .status-warning { background-color: #ffc107; }
+    .status-danger { background-color: #dc3545; }
+    .status-inactive { background-color: #6c757d; }
+    
+    .kill-switch-btn {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .safety-card {
+        transition: all 0.3s ease;
+        border-left: 4px solid transparent;
+    }
+    
+    .safety-card.active { border-left-color: #28a745; }
+    .safety-card.warning { border-left-color: #ffc107; }
+    .safety-card.danger { border-left-color: #dc3545; }
+    
+    .metric-value {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    .progress-custom {
+        height: 25px;
+        border-radius: 12px;
+    }
+    
+    .alert-log {
+        max-height: 300px;
+        overflow-y: auto;
+        font-family: 'Courier New', monospace;
+        font-size: 0.9em;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<!-- Emergency Controls Header -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card border-danger">
+            <div class="card-header bg-danger text-white">
+                <h4 class="mb-0">
+                    <i class="fas fa-exclamation-triangle me-2"></i>
+                    Emergency Safety Controls
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h5>Global Kill Switch Status</h5>
+                        <p class="mb-0">
+                            <span class="status-indicator" id="kill-switch-indicator"></span>
+                            <span id="kill-switch-status-text">Loading...</span>
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <button type="button" class="btn btn-danger btn-lg kill-switch-btn" 
+                                id="emergency-stop-btn" onclick="showEmergencyModal()">
+                            <i class="fas fa-stop-circle me-2"></i>
+                            Emergency Stop
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Safety System Status Cards -->
+<div class="row mb-4">
+    <div class="col-md-3 mb-3">
+        <div class="card safety-card" id="kill-switch-card">
+            <div class="card-body text-center">
+                <i class="fas fa-power-off fa-3x mb-3 text-danger"></i>
+                <h6 class="card-title">Kill Switch</h6>
+                <div class="metric-value" id="kill-switch-metric">UNKNOWN</div>
+                <small class="text-muted" id="kill-switch-last-update">Never</small>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-3">
+        <div class="card safety-card" id="risk-guard-card">
+            <div class="card-body text-center">
+                <i class="fas fa-shield-alt fa-3x mb-3 text-primary"></i>
+                <h6 class="card-title">Risk Guard</h6>
+                <div class="metric-value" id="risk-guard-metric">UNKNOWN</div>
+                <small class="text-muted" id="risk-guard-last-update">Never</small>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-3">
+        <div class="card safety-card" id="deviation-alert-card">
+            <div class="card-body text-center">
+                <i class="fas fa-exclamation-triangle fa-3x mb-3 text-warning"></i>
+                <h6 class="card-title">Deviation Alert</h6>
+                <div class="metric-value" id="deviation-alert-metric">UNKNOWN</div>
+                <small class="text-muted" id="deviation-alert-last-update">Never</small>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-3">
+        <div class="card safety-card" id="failover-card">
+            <div class="card-body text-center">
+                <i class="fas fa-sync-alt fa-3x mb-3 text-info"></i>
+                <h6 class="card-title">Failover System</h6>
+                <div class="metric-value" id="failover-metric">UNKNOWN</div>
+                <small class="text-muted" id="failover-last-update">Never</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Detailed Safety Metrics -->
+<div class="row mb-4">
+    <!-- Risk Guard Details -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-shield-alt me-2"></i>
+                    Risk Guard Metrics
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <label class="form-label">Daily Loss</label>
+                        <div class="progress progress-custom">
+                            <div class="progress-bar" id="daily-loss-progress" style="width: 0%"></div>
+                        </div>
+                        <small class="text-muted">
+                            $<span id="daily-loss-value">0</span> / $<span id="daily-loss-limit">300</span>
+                        </small>
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Daily Trades</label>
+                        <div class="progress progress-custom">
+                            <div class="progress-bar bg-info" id="daily-trades-progress" style="width: 0%"></div>
+                        </div>
+                        <small class="text-muted">
+                            <span id="daily-trades-value">0</span> / <span id="daily-trades-limit">100</span>
+                        </small>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label">Account Drawdown</label>
+                        <div class="progress progress-custom">
+                            <div class="progress-bar bg-warning" id="drawdown-progress" style="width: 0%"></div>
+                        </div>
+                        <small class="text-muted">
+                            <span id="drawdown-value">0</span>% / <span id="drawdown-limit">10</span>%
+                        </small>
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Position Size</label>
+                        <div class="progress progress-custom">
+                            <div class="progress-bar bg-success" id="position-size-progress" style="width: 0%"></div>
+                        </div>
+                        <small class="text-muted">
+                            <span id="position-size-value">0</span>% / <span id="position-size-limit">5</span>%
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Trade Deviation Details -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-chart-line me-2"></i>
+                    Trade Deviation Monitor
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <canvas id="deviation-chart" height="150"></canvas>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-6">
+                        <strong>Consecutive Deviations:</strong>
+                        <span class="badge bg-warning" id="consecutive-deviations">0</span>
+                    </div>
+                    <div class="col-6">
+                        <strong>Threshold:</strong>
+                        <span class="badge bg-info">30%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Alerts and Logs -->
+<div class="row">
+    <div class="col-lg-8 mb-4">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">
+                    <i class="fas fa-bell me-2"></i>
+                    Recent Safety Alerts
+                </h5>
+                <button class="btn btn-sm btn-outline-primary" onclick="refreshAlerts()">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+            </div>
+            <div class="card-body">
+                <div class="alert-log" id="alert-log">
+                    <div class="text-center text-muted">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        Loading alerts...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- System Actions -->
+    <div class="col-lg-4 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-tools me-2"></i>
+                    Safety Actions
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-warning" onclick="testSafetySystems()">
+                        <i class="fas fa-vial me-2"></i>
+                        Test Safety Systems
+                    </button>
+                    
+                    <button class="btn btn-info" onclick="generateRecoveryReport()">
+                        <i class="fas fa-file-alt me-2"></i>
+                        Recovery Report
+                    </button>
+                    
+                    <button class="btn btn-secondary" onclick="clearAlerts()">
+                        <i class="fas fa-trash me-2"></i>
+                        Clear Alerts
+                    </button>
+                    
+                    <button class="btn btn-success" onclick="resetSafetyCounters()">
+                        <i class="fas fa-undo me-2"></i>
+                        Reset Counters
+                    </button>
+                </div>
+                
+                <hr>
+                
+                <h6>Authorized Actions</h6>
+                <div class="input-group mb-2">
+                    <input type="password" class="form-control form-control-sm" 
+                           id="auth-code" placeholder="Authorization Code">
+                    <button class="btn btn-outline-secondary btn-sm" onclick="validateAuthCode()">
+                        <i class="fas fa-key"></i>
+                    </button>
+                </div>
+                
+                <div class="d-grid gap-2">
+                    <button class="btn btn-outline-danger btn-sm" 
+                            id="force-shutdown-btn" onclick="forceShutdown()" disabled>
+                        <i class="fas fa-power-off me-2"></i>
+                        Force Shutdown
+                    </button>
+                    
+                    <button class="btn btn-outline-warning btn-sm" 
+                            id="override-limits-btn" onclick="overrideLimits()" disabled>
+                        <i class="fas fa-unlock me-2"></i>
+                        Override Limits
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Emergency Stop Modal -->
+<div class="modal fade" id="emergencyModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">
+                    <i class="fas fa-exclamation-triangle me-2"></i>
+                    Emergency Stop Confirmation
+                </h5>
+            </div>
+            <div class="modal-body">
+                <p><strong>WARNING:</strong> This action will immediately halt all trading operations and cannot be undone without proper authorization.</p>
+                
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="emergency-confirm">
+                    <label class="form-check-label" for="emergency-confirm">
+                        I understand this will stop all live trading immediately
+                    </label>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="emergency-reason" class="form-label">Reason (required):</label>
+                    <textarea class="form-control" id="emergency-reason" rows="3" 
+                              placeholder="Enter reason for emergency stop..."></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" onclick="executeEmergencyStop()" 
+                        id="confirm-emergency-btn" disabled>
+                    <i class="fas fa-stop-circle me-2"></i>
+                    Execute Emergency Stop
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+// Safety Dashboard JavaScript
+class SafetyDashboard {
+    constructor() {
+        this.refreshInterval = 5000; // 5 seconds
+        this.deviationChart = null;
+        this.authToken = null;
+        
+        this.init();
+    }
+    
+    init() {
+        this.setupEventListeners();
+        this.initializeCharts();
+        this.startAutoRefresh();
+        this.loadInitialData();
+    }
+    
+    setupEventListeners() {
+        // Emergency confirmation checkbox
+        document.getElementById('emergency-confirm').addEventListener('change', (e) => {
+            document.getElementById('confirm-emergency-btn').disabled = !e.target.checked;
+        });
+        
+        // Emergency reason textarea
+        document.getElementById('emergency-reason').addEventListener('input', (e) => {
+            const confirmBtn = document.getElementById('confirm-emergency-btn');
+            const checkbox = document.getElementById('emergency-confirm');
+            confirmBtn.disabled = !(checkbox.checked && e.target.value.trim().length > 0);
+        });
+    }
+    
+    initializeCharts() {
+        const ctx = document.getElementById('deviation-chart').getContext('2d');
+        this.deviationChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: 'Deviation %',
+                    data: [],
+                    borderColor: '#ffc107',
+                    backgroundColor: 'rgba(255, 193, 7, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }, {
+                    label: 'Threshold',
+                    data: [],
+                    borderColor: '#dc3545',
+                    borderDash: [5, 5],
+                    fill: false
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                }
+            }
+        });
+    }
+    
+    async loadInitialData() {
+        try {
+            await Promise.all([
+                this.updateSafetyStatus(),
+                this.updateRiskMetrics(),
+                this.updateDeviationData(),
+                this.loadRecentAlerts()
+            ]);
+        } catch (error) {
+            console.error('Error loading initial data:', error);
+            this.showToast('Error loading safety data', 'error');
+        }
+    }
+    
+    async updateSafetyStatus() {
+        try {
+            const response = await fetch('/api/safety/status');
+            const data = await response.json();
+            
+            this.updateStatusCard('kill-switch', data.kill_switch);
+            this.updateStatusCard('risk-guard', data.risk_guard);
+            this.updateStatusCard('deviation-alert', data.deviation_alert);
+            this.updateStatusCard('failover', data.failover);
+            
+            // Update main kill switch status
+            const indicator = document.getElementById('kill-switch-indicator');
+            const statusText = document.getElementById('kill-switch-status-text');
+            
+            if (data.kill_switch.active) {
+                indicator.className = 'status-indicator status-danger';
+                statusText.textContent = 'TRADING HALTED';
+                statusText.className = 'text-danger fw-bold';
+            } else {
+                indicator.className = 'status-indicator status-active';
+                statusText.textContent = 'TRADING ENABLED';
+                statusText.className = 'text-success fw-bold';
+            }
+            
+        } catch (error) {
+            console.error('Error updating safety status:', error);
+        }
+    }
+    
+    updateStatusCard(system, data) {
+        const card = document.getElementById(`${system}-card`);
+        const metric = document.getElementById(`${system}-metric`);
+        const lastUpdate = document.getElementById(`${system}-last-update`);
+        
+        if (data.status === 'ACTIVE') {
+            card.className = 'card safety-card active';
+            metric.textContent = 'ACTIVE';
+            metric.className = 'metric-value text-success';
+        } else if (data.status === 'WARNING') {
+            card.className = 'card safety-card warning';
+            metric.textContent = 'WARNING';
+            metric.className = 'metric-value text-warning';
+        } else if (data.status === 'DANGER') {
+            card.className = 'card safety-card danger';
+            metric.textContent = 'DANGER';
+            metric.className = 'metric-value text-danger';
+        } else {
+            card.className = 'card safety-card';
+            metric.textContent = 'INACTIVE';
+            metric.className = 'metric-value text-muted';
+        }
+        
+        lastUpdate.textContent = data.last_update || 'Never';
+    }
+    
+    async updateRiskMetrics() {
+        try {
+            const response = await fetch('/api/safety/risk-metrics');
+            const data = await response.json();
+            
+            this.updateProgressBar('daily-loss', data.daily_loss, data.daily_loss_limit);
+            this.updateProgressBar('daily-trades', data.daily_trades, data.daily_trades_limit);
+            this.updateProgressBar('drawdown', data.drawdown, data.drawdown_limit);
+            this.updateProgressBar('position-size', data.position_size, data.position_size_limit);
+            
+        } catch (error) {
+            console.error('Error updating risk metrics:', error);
+        }
+    }
+    
+    updateProgressBar(metric, value, limit) {
+        const progress = document.getElementById(`${metric}-progress`);
+        const valueSpan = document.getElementById(`${metric}-value`);
+        const limitSpan = document.getElementById(`${metric}-limit`);
+        
+        const percentage = Math.min((value / limit) * 100, 100);
+        
+        progress.style.width = `${percentage}%`;
+        valueSpan.textContent = metric.includes('loss') ? value.toFixed(2) : value;
+        limitSpan.textContent = limit;
+        
+        // Update color based on percentage
+        progress.className = 'progress-bar';
+        if (percentage > 80) {
+            progress.classList.add('bg-danger');
+        } else if (percentage > 60) {
+            progress.classList.add('bg-warning');
+        } else {
+            progress.classList.add('bg-success');
+        }
+    }
+    
+    async updateDeviationData() {
+        try {
+            const response = await fetch('/api/safety/deviation-data');
+            const data = await response.json();
+            
+            // Update consecutive deviations badge
+            document.getElementById('consecutive-deviations').textContent = data.consecutive_deviations;
+            
+            // Update chart
+            this.deviationChart.data.labels = data.timestamps;
+            this.deviationChart.data.datasets[0].data = data.deviations;
+            this.deviationChart.data.datasets[1].data = Array(data.timestamps.length).fill(30);
+            this.deviationChart.update();
+            
+        } catch (error) {
+            console.error('Error updating deviation data:', error);
+        }
+    }
+    
+    async loadRecentAlerts() {
+        try {
+            const response = await fetch('/api/safety/recent-alerts');
+            const data = await response.json();
+            
+            const alertLog = document.getElementById('alert-log');
+            if (data.alerts && data.alerts.length > 0) {
+                alertLog.innerHTML = data.alerts.map(alert => 
+                    `<div class="mb-2 p-2 border-start border-warning">
+                        <small class="text-muted">${alert.timestamp}</small><br>
+                        <strong>${alert.level}:</strong> ${alert.message}
+                    </div>`
+                ).join('');
+            } else {
+                alertLog.innerHTML = '<div class="text-center text-muted">No recent alerts</div>';
+            }
+            
+        } catch (error) {
+            console.error('Error loading alerts:', error);
+            document.getElementById('alert-log').innerHTML = 
+                '<div class="text-center text-danger">Error loading alerts</div>';
+        }
+    }
+    
+    startAutoRefresh() {
+        setInterval(() => {
+            this.updateSafetyStatus();
+            this.updateRiskMetrics();
+            this.updateDeviationData();
+        }, this.refreshInterval);
+    }
+    
+    showToast(message, type = 'info') {
+        // Implementation for toast notifications
+        console.log(`${type.toUpperCase()}: ${message}`);
+    }
+}
+
+// Global functions for button handlers
+function showEmergencyModal() {
+    const modal = new bootstrap.Modal(document.getElementById('emergencyModal'));
+    modal.show();
+}
+
+async function executeEmergencyStop() {
+    const reason = document.getElementById('emergency-reason').value.trim();
+    
+    try {
+        const response = await fetch('/api/safety/emergency-stop', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ reason })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            bootstrap.Modal.getInstance(document.getElementById('emergencyModal')).hide();
+            dashboard.showToast('Emergency stop executed successfully', 'success');
+            dashboard.updateSafetyStatus();
+        } else {
+            dashboard.showToast(result.error || 'Emergency stop failed', 'error');
+        }
+    } catch (error) {
+        console.error('Emergency stop error:', error);
+        dashboard.showToast('Emergency stop failed', 'error');
+    }
+}
+
+async function testSafetySystems() {
+    try {
+        const response = await fetch('/api/safety/test-systems', { method: 'POST' });
+        const result = await response.json();
+        
+        dashboard.showToast(result.message, result.success ? 'success' : 'error');
+    } catch (error) {
+        dashboard.showToast('Test failed', 'error');
+    }
+}
+
+async function generateRecoveryReport() {
+    try {
+        const response = await fetch('/api/safety/recovery-report');
+        const blob = await response.blob();
+        
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `recovery_report_${Date.now()}.txt`;
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+        
+        dashboard.showToast('Recovery report downloaded', 'success');
+    } catch (error) {
+        dashboard.showToast('Failed to generate report', 'error');
+    }
+}
+
+async function clearAlerts() {
+    try {
+        const response = await fetch('/api/safety/clear-alerts', { method: 'POST' });
+        const result = await response.json();
+        
+        if (result.success) {
+            dashboard.loadRecentAlerts();
+            dashboard.showToast('Alerts cleared', 'success');
+        }
+    } catch (error) {
+        dashboard.showToast('Failed to clear alerts', 'error');
+    }
+}
+
+async function resetSafetyCounters() {
+    try {
+        const response = await fetch('/api/safety/reset-counters', { method: 'POST' });
+        const result = await response.json();
+        
+        if (result.success) {
+            dashboard.updateRiskMetrics();
+            dashboard.showToast('Counters reset', 'success');
+        }
+    } catch (error) {
+        dashboard.showToast('Failed to reset counters', 'error');
+    }
+}
+
+async function validateAuthCode() {
+    const code = document.getElementById('auth-code').value;
+    
+    try {
+        const response = await fetch('/api/safety/validate-auth', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ code })
+        });
+        
+        const result = await response.json();
+        
+        if (result.valid) {
+            dashboard.authToken = result.token;
+            document.getElementById('force-shutdown-btn').disabled = false;
+            document.getElementById('override-limits-btn').disabled = false;
+            dashboard.showToast('Authorization successful', 'success');
+        } else {
+            dashboard.showToast('Invalid authorization code', 'error');
+        }
+    } catch (error) {
+        dashboard.showToast('Authorization failed', 'error');
+    }
+}
+
+async function forceShutdown() {
+    if (!dashboard.authToken) {
+        dashboard.showToast('Authorization required', 'error');
+        return;
+    }
+    
+    if (!confirm('Are you sure you want to force shutdown all systems?')) {
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/safety/force-shutdown', {
+            method: 'POST',
+            headers: { 
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${dashboard.authToken}`
+            }
+        });
+        
+        const result = await response.json();
+        dashboard.showToast(result.message, result.success ? 'success' : 'error');
+    } catch (error) {
+        dashboard.showToast('Force shutdown failed', 'error');
+    }
+}
+
+async function overrideLimits() {
+    if (!dashboard.authToken) {
+        dashboard.showToast('Authorization required', 'error');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/safety/override-limits', {
+            method: 'POST',
+            headers: { 
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${dashboard.authToken}`
+            }
+        });
+        
+        const result = await response.json();
+        dashboard.showToast(result.message, result.success ? 'success' : 'error');
+    } catch (error) {
+        dashboard.showToast('Override failed', 'error');
+    }
+}
+
+function refreshAlerts() {
+    dashboard.loadRecentAlerts();
+}
+
+// Initialize dashboard when page loads
+let dashboard;
+document.addEventListener('DOMContentLoaded', () => {
+    dashboard = new SafetyDashboard();
+});
+</script>
+{% endblock %}

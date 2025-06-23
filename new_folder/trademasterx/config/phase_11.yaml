@@ -1,0 +1,272 @@
+# TradeMasterX 2.0 - Phase 11: Intelligent Optimization Configuration
+# Self-Improving Intelligence Layer Settings
+
+# System Configuration
+system:
+  name: "Phase 11 Intelligent Optimization"
+  version: "1.0.0"
+  enabled: true
+  auto_start: false  # Manual activation required
+  
+# Core Component Settings
+components:
+  adaptive_strategy_reinforcer:
+    enabled: true
+    config_path: "configs/adaptive_weights.yaml"
+    
+    # Performance thresholds
+    reward_threshold: 0.15  # 15% ROI for rewards
+    penalty_threshold: 0.05  # 5% ROI minimum
+    max_drawdown_threshold: 0.10  # 10% max drawdown
+    
+    # Reinforcement parameters
+    reward_multiplier: 1.20  # 20% weight increase
+    penalty_multiplier: 0.80  # 20% weight decrease
+    min_weight: 0.10
+    max_weight: 2.00
+    
+    # Update frequency
+    update_interval_seconds: 300  # 5 minutes
+    min_trades_for_update: 10
+    
+  bot_performance_scorer:
+    enabled: true
+    data_path: "reports/bot_reliability_scores.json"
+    
+    # Scoring parameters
+    reliability_window: 100  # Number of recent trades to consider
+    confidence_tolerance: 0.15  # Acceptable confidence variance
+    trend_analysis_window: 50  # Trades for trend analysis
+    
+    # Scoring weights
+    weights:
+      accuracy: 0.30
+      confidence_calibration: 0.25
+      consistency: 0.20
+      trend_performance: 0.15
+      reliability_score: 0.10
+    
+    # Update frequency
+    scoring_interval_seconds: 180  # 3 minutes
+    
+  strategy_switcher:
+    enabled: true
+    data_path: "reports/strategy_metrics.json"
+    profiles_path: "configs/strategy_profiles"
+    
+    # Performance tracking
+    performance_window: 50  # Number of trades to track
+    min_roi_threshold: 0.05  # 5% minimum ROI for strategy
+    switch_threshold: 0.03  # 3% performance drop triggers evaluation
+    
+    # Strategy grading
+    grade_thresholds:
+      A: 0.08  # 8%+ ROI
+      B: 0.05  # 5%+ ROI
+      C: 0.02  # 2%+ ROI
+      D: 0.00  # Break-even
+      F: -0.05  # Negative ROI
+    
+    # Cooldown and limits
+    switch_cooldown_minutes: 30
+    max_switches_per_hour: 3
+    evaluation_interval_seconds: 600  # 10 minutes
+    
+  anomaly_detector:
+    enabled: true
+    data_path: "logs/anomalies.json"
+    
+    # Detection parameters
+    z_score_threshold: 2.5  # Standard deviations for outlier detection
+    percentage_threshold: 0.30  # 30% deviation threshold
+    volume_spike_threshold: 3.0  # 3x normal volume
+    
+    # Pattern detection
+    pattern_window: 20  # Number of trades to analyze for patterns
+    min_pattern_occurrences: 3  # Minimum occurrences to flag pattern
+    
+    # Alert thresholds
+    severity_thresholds:
+      low: 1
+      medium: 3
+      high: 5
+      critical: 8
+    
+    # Check frequency
+    detection_interval_seconds: 30  # 30 seconds
+    
+  live_optimization_dashboard:
+    enabled: true
+    data_path: "reports/dashboard"
+    
+    # Dashboard settings
+    update_interval_seconds: 60  # 1 minute
+    retention_days: 30  # Keep data for 30 days
+    
+    # Alert system
+    alerts:
+      enabled: true
+      severity_levels: ["low", "medium", "high", "critical"]
+      auto_resolve_minutes: 60  # Auto-resolve alerts after 1 hour
+      max_active_alerts: 50
+    
+    # Visualization settings
+    charts:
+      enabled: true
+      chart_types: ["line", "scatter", "bar", "heatmap"]
+      time_ranges: ["1h", "6h", "24h", "7d"]
+      export_formats: ["png", "svg", "json"]
+    
+    # Performance metrics
+    metrics:
+      system_health_weight: 0.4
+      optimization_efficiency_weight: 0.3
+      alert_resolution_weight: 0.2
+      component_status_weight: 0.1
+
+# Controller Settings
+controller:
+  # Optimization cycles
+  optimization_interval_seconds: 300  # 5 minutes
+  max_optimization_cycles: null  # No limit
+  
+  # Component coordination
+  dashboard_update_interval_seconds: 60  # 1 minute
+  anomaly_check_interval_seconds: 30  # 30 seconds
+  strategy_evaluation_interval_seconds: 600  # 10 minutes
+  bot_scoring_interval_seconds: 180  # 3 minutes
+  
+  # Auto-switching and detection
+  enable_auto_switching: true
+  enable_anomaly_detection: true
+  enable_dashboard: true
+  
+  # Performance monitoring
+  cycle_time_limit_seconds: 30  # Maximum time per optimization cycle
+  efficiency_target: 80  # Target efficiency percentage
+  
+  # Integration settings
+  phase_10_integration: true
+  data_sharing: true
+  recommendation_feedback: true
+
+# Data Management
+data:
+  # Storage paths
+  reports_dir: "reports"
+  logs_dir: "logs"
+  configs_dir: "configs"
+  
+  # Data retention
+  performance_data_retention_days: 90
+  log_retention_days: 30
+  backup_retention_days: 7
+  
+  # File management
+  max_file_size_mb: 100
+  auto_compression: true
+  backup_interval_hours: 24
+  
+  # Data export
+  export_formats: ["json", "csv", "yaml"]
+  export_on_shutdown: true
+  export_schedule: "daily"
+
+# Integration Settings
+integration:
+  phase_10:
+    enabled: true
+    trade_data_sharing: true
+    metrics_integration: true
+    recommendation_system: true
+    
+  web_dashboard:
+    enabled: true
+    api_endpoint: "/api/phase11"
+    real_time_updates: true
+    
+  external_apis:
+    enabled: false
+    rate_limiting: true
+    timeout_seconds: 30
+
+# Safety and Compliance
+safety:
+  # Demo mode enforcement
+  demo_mode_only: true
+  live_trading_disabled: true
+  
+  # Validation checks
+  validate_inputs: true
+  sanitize_outputs: true
+  error_handling: "graceful"
+  
+  # Limits and controls
+  max_concurrent_operations: 10
+  memory_limit_mb: 1024
+  cpu_limit_percent: 50
+  
+  # Monitoring
+  health_check_interval_seconds: 60
+  performance_monitoring: true
+  error_tracking: true
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  # Log destinations
+  file_logging: true
+  console_logging: true
+  structured_logging: true
+  
+  # Log files
+  main_log: "logs/phase_11_main.log"
+  component_logs: "logs/phase_11_components.log"
+  optimization_log: "logs/phase_11_optimization.log"
+  error_log: "logs/phase_11_errors.log"
+  
+  # Log rotation
+  max_file_size_mb: 50
+  backup_count: 5
+  rotation_interval: "daily"
+
+# Development and Testing
+development:
+  debug_mode: false
+  verbose_logging: false
+  test_mode: false
+  mock_data: false
+  
+  # Testing parameters
+  test_data_generation: true
+  simulation_mode: false
+  performance_profiling: false
+  
+  # Development tools
+  hot_reload: false
+  code_coverage: false
+  benchmarking: false
+
+# Performance Optimization
+performance:
+  # Caching
+  enable_caching: true
+  cache_size_mb: 256
+  cache_ttl_seconds: 300
+  
+  # Async processing
+  async_operations: true
+  max_concurrent_tasks: 20
+  task_timeout_seconds: 60
+  
+  # Resource management
+  memory_optimization: true
+  garbage_collection: true
+  connection_pooling: true
+  
+  # Monitoring
+  performance_metrics: true
+  latency_tracking: true
+  throughput_monitoring: true

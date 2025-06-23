@@ -1,0 +1,336 @@
+# TradeMasterX Phase 12: Live Trade Safety, Failovers & Risk Mitigation Systems
+# Configuration for comprehensive safety layers to protect real funds when live trading is eventually enabled
+
+phase_12:
+  name: "Live Trade Safety, Failovers & Risk Mitigation Systems"
+  version: "12.0.0"
+  status: "ACTIVE"
+  implementation_date: "2025-05-28"
+  
+  # 1. KILL SWITCH SYSTEM
+  kill_switch:
+    enabled: true
+    global_toggle: true
+    
+    # Authorization settings
+    authorization:
+      codes:
+        emergency: "EMRG-2025-HALT"
+        override: "OVRD-2025-BYPASS"
+        recovery: "RCVR-2025-RESTORE"
+      timeout_minutes: 15
+      max_attempts: 3
+      
+    # Kill switch triggers
+    triggers:
+      manual_activation: true
+      api_disconnect: true
+      system_error: true
+      risk_breach: true
+      deviation_alert: true
+      
+    # State persistence
+    state_file: "data/kill_switch_state.json"
+    backup_interval_seconds: 60
+    
+    # CLI interface
+    cli:
+      enabled: true
+      command_prefix: "tmx-safety"
+      log_commands: true
+      
+    # Integration settings
+    integration:
+      safety_controller: true
+      web_interface: true
+      api_endpoints: true
+      
+  # 2. MULTI-LAYER RISK GUARD
+  risk_guard:
+    enabled: true
+    
+    # Daily limits
+    daily_limits:
+      max_loss_usd: 300.0
+      max_trades: 100
+      reset_time_utc: "00:00:00"
+      
+    # Position limits
+    position_limits:
+      max_size_percent: 5.0
+      max_leverage: 1.0
+      max_concurrent_positions: 10
+      
+    # Drawdown protection
+    drawdown:
+      max_percent: 10.0
+      calculation_window_days: 30
+      emergency_halt_percent: 15.0
+      
+    # Auto-safety triggers
+    auto_halt:
+      enabled: true
+      triggers:
+        daily_loss_breach: true
+        trade_limit_breach: true
+        drawdown_breach: true
+        consecutive_losses: 5
+        rapid_loss_threshold: 100.0  # USD in 5 minutes
+        
+    # Risk warnings
+    warnings:
+      loss_threshold_percent: 75    # Warn at 75% of daily limit
+      trade_threshold_percent: 80   # Warn at 80% of trade limit
+      drawdown_threshold_percent: 70 # Warn at 70% of drawdown limit
+      
+    # State persistence
+    state_file: "data/risk_guard_state.json"
+    metrics_file: "data/risk_metrics.json"
+    backup_interval_seconds: 30
+    
+  # 3. TRADE DEVIATION ALERT
+  trade_deviation_alert:
+    enabled: true
+    
+    # Detection thresholds
+    thresholds:
+      deviation_percent: 30.0
+      consecutive_limit: 3
+      time_window_minutes: 15
+      
+    # Metrics to monitor
+    metrics:
+      expected_return: true
+      confidence_score: true
+      execution_time: true
+      slippage: true
+      market_conditions: true
+      
+    # Baseline calculation
+    baseline:
+      data_points: 100
+      min_history_days: 7
+      update_interval_hours: 24
+      exclude_outliers: true
+      
+    # Alert system
+    alerts:
+      log_file: "alerts/trade_anomaly.log"
+      max_file_size_mb: 50
+      rotation_count: 5
+      include_trade_details: true
+      
+    # Deviation response
+    response:
+      halt_on_consecutive: true
+      require_manual_review: true
+      auto_adjust_parameters: false
+      
+    # Integration
+    integration:
+      real_time_monitoring: true
+      web_dashboard: true
+      email_notifications: false  # Not implemented yet
+      
+  # 4. FAILOVER & RECOVERY PROTOCOL
+  failover_recovery:
+    enabled: true
+    
+    # State management
+    state_snapshots:
+      enabled: true
+      interval_seconds: 60
+      max_snapshots: 100
+      directory: "data/snapshots"
+      
+    # Component registration
+    components:
+      auto_register: true
+      mandatory_components:
+        - "SafetyController"
+        - "KillSwitch"
+        - "RiskGuard"
+        - "TradeDeviationAlert"
+        - "TradingEngine"
+        
+    # Recovery settings
+    recovery:
+      auto_recovery: true
+      max_attempts: 3
+      retry_delay_seconds: 5
+      safe_mode_after_recovery: true
+      
+    # Crash detection
+    crash_detection:
+      watchdog_interval_seconds: 10
+      unresponsive_timeout_seconds: 30
+      process_monitoring: true
+      
+    # Graceful shutdown
+    shutdown:
+      timeout_seconds: 30
+      save_state: true
+      notify_users: true
+      close_positions: false  # Don't auto-close in demo mode
+      
+    # Recovery reports
+    reports:
+      generate_on_recovery: true
+      include_system_state: true
+      include_component_status: true
+      save_location: "reports/recovery"
+      
+  # 5. SAFETY STATUS DASHBOARD
+  safety_dashboard:
+    enabled: true
+    
+    # Web interface
+    web:
+      route: "/dashboard/safety"
+      title: "TradeMasterX Safety Dashboard"
+      auto_refresh_seconds: 5
+      
+    # API endpoints
+    api:
+      base_path: "/api/safety"
+      endpoints:
+        status: "/status"
+        emergency_stop: "/emergency-stop"
+        risk_metrics: "/risk-metrics"
+        deviation_data: "/deviation-data"
+        recent_alerts: "/recent-alerts"
+        test_systems: "/test-systems"
+        recovery_report: "/recovery-report"
+        clear_alerts: "/clear-alerts"
+        reset_counters: "/reset-counters"
+        validate_auth: "/validate-auth"
+        force_shutdown: "/force-shutdown"
+        override_limits: "/override-limits"
+        
+    # Real-time updates
+    real_time:
+      websocket_enabled: true
+      update_interval_seconds: 2
+      max_connections: 50
+      
+    # Dashboard features
+    features:
+      emergency_controls: true
+      status_cards: true
+      risk_metrics: true
+      deviation_charts: true
+      alert_logs: true
+      safety_actions: true
+      authorized_controls: true
+      
+    # Security
+    security:
+      require_authorization: true
+      session_timeout_minutes: 15
+      audit_all_actions: true
+      
+# GLOBAL SAFETY SETTINGS
+safety:
+  # Master safety override
+  master_override:
+    enabled: false  # Can only be enabled with proper authorization
+    authorization_required: true
+    auto_disable_minutes: 60
+    
+  # Emergency protocols
+  emergency:
+    auto_shutdown_triggers:
+      - "kill_switch_activated"
+      - "critical_system_error"
+      - "risk_breach_critical"
+      - "api_connectivity_lost"
+      - "unauthorized_access_detected"
+      
+    emergency_contacts:
+      enabled: false  # Not implemented yet
+      methods: []     # email, sms, webhook
+      
+  # Integration with existing systems
+  integration:
+    safety_controller: true
+    trade_executor: true
+    bot_manager: true
+    web_interface: true
+    cli_interface: true
+    
+  # Audit and compliance
+  audit:
+    log_all_safety_events: true
+    retention_days: 365
+    encryption_enabled: true
+    backup_enabled: true
+    
+# TESTING AND VALIDATION
+testing:
+  # Safety system tests
+  safety_tests:
+    enabled: true
+    test_interval_hours: 24
+    auto_repair: false
+    
+  # Simulation mode
+  simulation:
+    enabled: true
+    test_scenarios:
+      - "kill_switch_activation"
+      - "risk_limit_breach"
+      - "system_crash"
+      - "api_disconnect"
+      - "trade_deviation"
+      
+  # Validation
+  validation:
+    verify_components: true
+    verify_integrations: true
+    verify_data_integrity: true
+    
+# MAINTENANCE AND MONITORING
+maintenance:
+  # Automated maintenance
+  auto_maintenance:
+    enabled: true
+    schedule: "02:00"  # 2 AM UTC
+    tasks:
+      - "cleanup_old_logs"
+      - "validate_state_files"
+      - "test_safety_systems"
+      - "backup_configurations"
+      
+  # Health monitoring
+  health_monitoring:
+    enabled: true
+    check_interval_seconds: 30
+    alert_on_failure: true
+    auto_recovery: true
+    
+  # Performance monitoring
+  performance_monitoring:
+    track_response_times: true
+    track_resource_usage: true
+    optimization_suggestions: true
+
+# DOCUMENTATION AND REPORTING
+documentation:
+  # Auto-generated reports
+  reports:
+    daily_safety_summary: true
+    weekly_risk_analysis: true
+    monthly_compliance_report: true
+    
+  # Metrics collection
+  metrics:
+    safety_events: true
+    response_times: true
+    system_performance: true
+    user_actions: true
+    
+  # Export capabilities
+  export:
+    formats: ["json", "csv", "pdf"]
+    scheduled_exports: true
+    on_demand_exports: true

@@ -1,0 +1,64 @@
+bots:
+  analytics_bot:
+    enabled: true
+    update_interval: 300
+  risk_bot:
+    enabled: true
+    max_position_size: 0.1
+  strategy_bot:
+    confidence_threshold: 0.75
+    enabled: true
+intervals:
+  analytics_minutes: 5
+  monitoring_minutes: 1
+  reporting_hours: 1
+  retrain_hours: 12
+  strategy_minutes: 10
+  trade_seconds: 30
+learning:
+  anomaly_detection: true
+  auto_retrain: true
+  retrain_interval: 43200
+  trade_frequency: 30
+  weekly_report: true
+logging:
+  backup_count: 5
+  console_logging: true
+  file_logging: true
+  level: INFO
+  max_file_size: 10MB
+paths:
+  configs: configs
+  data: data
+  logs: logs
+  models: models
+  reports: reports
+performance:
+  cache_ttl: 3600
+  data_retention_days: 30
+  enable_caching: true
+  max_concurrent_trades: 5
+safety:
+  confidence_threshold: 0.8
+  enable_kill_switch: true
+  enable_risk_guard: true
+  max_daily_loss: 0.05
+  max_position_size: 0.1
+  min_return_threshold: 0.15
+security:
+  enable_authentication: false
+  encrypt_sensitive_data: true
+  session_timeout: 3600
+system:
+  trading_mode:
+    DEMO_MODE: true
+    LIVE_MODE: false
+trading_mode:
+  DEMO_MODE: true
+  mainnet_demo: false
+  test_mode: true
+web:
+  enable_api: true
+  enable_dashboard: true
+  host: localhost
+  port: 8080

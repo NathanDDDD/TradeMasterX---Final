@@ -1,0 +1,1034 @@
+2025-06-13 22:24:16,772 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:16,775 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:16,776 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:16,776 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:16,776 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:16,777 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:24:16,778 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:24:16,779 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:24:16,779 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:24:16,779 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:24:16,782 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:16,782 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:16,782 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:16,782 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:16,785 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:24:16,785 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:24:16,797 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:16,799 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:16,799 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:16,809 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:16,811 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:16,812 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:16,812 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:24:16,824 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:24:16,825 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:24:16,825 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:24:16,825 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:24:24,119 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,123 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,124 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:24,124 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:24,125 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:24,125 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:24:24,126 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:24:24,127 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:24:24,128 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:24:24,128 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:24:24,131 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,131 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:24,132 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:24,132 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:24,134 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:24:24,135 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:24:24,148 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:24,149 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:24,150 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:24,160 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:24,162 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:24,162 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:24,163 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:24:24,164 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:24:24,165 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:24:24,165 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:24:24,165 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:24:24,254 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,257 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,257 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:24,257 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:24,258 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:24,258 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:24:24,259 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:24:24,259 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:24:24,259 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:24:24,259 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:24:24,263 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,263 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:24,263 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:24,264 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:24,266 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:24:24,266 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:24:24,281 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:24,284 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:24,285 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:24,297 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:24,299 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:24,299 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:24,299 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:24:24,301 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:24:24,301 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:24:24,302 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:24:24,302 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:24:24,387 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,390 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,390 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:24,390 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:24,390 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:24,391 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:24:24,392 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:24:24,392 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:24:24,392 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:24:24,392 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:24:24,396 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,396 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:24,396 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:24,397 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:24,400 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:24:24,401 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:24:24,412 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:24,414 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:24,414 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:24,425 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:24,426 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:24,427 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:24,427 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:24:24,430 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:24:24,430 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:24:24,430 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:24:24,430 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:24:24,607 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,611 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,611 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:24,611 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:24,612 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:24,612 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:24:24,613 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:24:24,614 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:24:24,614 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:24:24,614 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:24:24,617 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:24,617 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:24,617 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:24,618 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:24,620 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:24:24,620 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:24:24,632 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:24,634 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:24,635 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:24,646 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:24,648 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:24,649 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:24,649 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:24:24,651 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:24:24,651 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:24:24,651 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:24:24,651 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:24:32,644 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:32,647 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:32,647 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:32,648 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:32,648 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:32,649 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:24:32,649 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:24:32,650 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:24:32,650 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:24:32,650 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:24:32,653 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:32,653 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:32,653 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:32,654 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:32,656 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:24:32,656 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:24:32,670 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:32,672 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:32,672 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:32,682 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:32,684 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:32,684 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:32,685 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:24:32,687 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:24:32,687 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:24:32,688 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:24:32,688 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:24:43,948 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:43,951 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:43,951 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:43,951 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:43,952 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:43,952 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:24:43,953 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:24:43,953 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:24:43,953 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:24:43,953 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:24:43,956 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:24:43,957 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:24:43,957 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:24:43,957 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:24:43,959 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:24:43,960 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:24:43,971 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:43,972 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:43,973 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:43,983 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:24:43,984 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:24:43,985 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:24:43,985 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:24:43,988 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:24:43,988 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:24:43,988 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:24:43,989 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:25:29,174 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:29,177 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:29,178 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:29,178 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:29,178 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:29,179 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:25:29,180 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:25:29,180 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:25:29,181 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:25:29,181 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:25:29,184 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:29,184 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:29,185 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:29,185 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:29,187 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:25:29,187 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:25:29,199 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:29,200 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:29,201 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:29,210 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:29,212 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:29,212 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:29,213 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:25:29,214 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:25:29,215 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:25:29,215 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:25:29,215 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:25:40,644 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:40,647 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:40,648 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:40,648 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:40,648 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:40,649 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:25:40,649 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:25:40,650 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:25:40,650 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:25:40,651 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:25:40,653 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:40,654 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:40,654 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:40,654 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:40,656 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:25:40,656 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:25:40,667 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:40,669 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:40,670 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:40,679 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:40,680 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:40,681 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:40,681 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:25:40,682 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:25:40,683 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:25:40,683 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:25:40,683 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:25:40,758 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:40,762 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:40,763 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:40,763 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:40,764 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:40,764 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:25:40,765 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:25:40,766 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:25:40,766 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:25:40,766 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:25:40,769 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:40,770 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:40,770 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:40,770 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:40,772 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:25:40,772 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:25:40,783 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:40,785 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:40,785 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:40,795 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:40,796 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:40,797 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:40,797 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:25:40,799 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:25:40,799 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:25:40,799 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:25:40,799 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:25:47,759 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:47,762 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:47,762 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:47,763 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:47,763 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:47,763 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:25:47,764 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:25:47,764 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:25:47,764 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:25:47,765 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:25:47,767 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:47,768 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:47,768 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:47,768 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:47,770 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:25:47,771 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:25:47,781 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:47,782 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:47,782 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:47,791 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:47,793 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:47,794 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:47,794 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:25:47,796 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:25:47,797 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:25:47,797 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:25:47,797 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:25:47,872 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:47,875 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:47,875 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:47,875 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:47,876 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:47,877 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:25:47,877 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:25:47,878 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:25:47,878 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:25:47,879 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:25:47,881 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:47,882 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:47,882 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:47,883 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:47,885 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:25:47,885 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:25:47,895 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:47,897 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:47,897 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:47,908 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:47,910 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:47,910 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:47,911 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:25:47,913 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:25:47,913 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:25:47,914 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:25:47,914 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:25:55,708 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:55,710 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:55,711 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:55,711 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:55,711 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:55,712 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:25:55,713 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:25:55,713 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:25:55,713 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:25:55,713 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:25:55,716 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:55,716 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:55,717 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:55,717 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:55,719 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:25:55,719 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:25:55,730 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:55,731 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:55,731 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:55,740 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:55,741 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:55,742 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:55,742 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:25:55,744 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:25:55,744 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:25:55,744 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:25:55,744 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:25:56,901 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:56,904 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:56,904 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:56,904 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:56,905 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:56,906 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:25:56,906 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:25:56,907 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:25:56,907 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:25:56,907 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:25:56,910 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:25:56,911 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:25:56,911 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:25:56,911 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:25:56,913 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:25:56,913 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:25:56,924 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:56,926 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:56,926 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:56,935 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:25:56,936 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:25:56,936 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:25:56,937 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:25:56,939 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:25:56,939 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:25:56,939 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:25:56,939 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:26:08,701 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:26:08,705 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:26:08,706 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:26:08,706 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:26:08,707 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:26:08,708 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:26:08,709 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:26:08,710 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:26:08,710 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:26:08,711 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:26:08,714 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:26:08,715 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:26:08,716 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:26:08,716 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:26:08,718 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:26:08,718 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:26:08,728 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:26:08,729 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:26:08,730 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:26:08,740 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:26:08,742 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:26:08,742 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:26:08,743 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:26:08,744 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:26:08,745 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:26:08,745 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:26:08,745 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:26:14,282 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:26:14,285 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:26:14,285 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:26:14,285 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:26:14,286 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:26:14,287 - BotRegistry - WARNING - Could not register bot market_analysis: No module named 'trademasterx.bots.analytics.market_analysis'
+2025-06-13 22:26:14,287 - BotRegistry - WARNING - Could not register bot sentiment: No module named 'trademasterx.bots.analytics.sentiment'
+2025-06-13 22:26:14,288 - BotRegistry - WARNING - Could not register bot logger: No module named 'trademasterx.bots.system.logger'
+2025-06-13 22:26:14,288 - BotRegistry - INFO - Discovered 1 bot classes
+2025-06-13 22:26:14,289 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:26:14,292 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:26:14,292 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:26:14,293 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:26:14,293 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:26:14,295 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:26:14,295 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:26:14,306 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:26:14,307 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:26:14,307 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:26:14,318 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:26:14,319 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:26:14,320 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:26:14,320 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:26:14,322 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:26:14,322 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:26:14,322 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:26:14,323 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:32:58,395 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:32:58,399 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:32:58,400 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:32:58,400 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:32:58,401 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:32:58,453 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:32:58,454 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:32:58,458 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:32:58,458 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:32:58,459 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:32:58,459 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:32:58,461 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:32:58,461 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:32:58,474 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:32:58,476 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:32:58,476 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:32:58,484 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:32:58,485 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:32:58,486 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:32:58,486 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:32:58,487 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:32:58,488 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:32:58,488 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:32:58,488 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:33:09,421 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:09,425 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:09,425 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:09,426 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:09,426 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:09,426 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:33:09,426 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:33:09,429 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:09,429 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:09,429 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:09,430 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:09,431 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:33:09,432 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:33:09,442 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:09,443 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:09,443 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:09,453 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:09,454 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:09,455 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:09,456 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:33:09,457 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:33:09,457 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:33:09,458 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:33:09,458 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:33:17,797 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:17,799 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:17,800 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:17,800 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:17,800 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:17,800 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:33:17,801 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:33:17,804 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:17,804 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:17,804 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:17,804 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:17,807 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:33:17,807 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:33:17,819 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:17,820 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:17,820 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:17,829 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:17,831 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:17,831 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:17,831 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:33:17,833 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:33:17,834 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:33:17,834 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:33:17,834 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:33:24,980 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:24,982 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:24,983 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:24,983 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:24,983 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:24,983 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:33:24,984 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:33:24,986 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:24,987 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:24,987 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:24,987 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:24,989 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:33:24,989 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:33:25,000 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:25,002 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:25,002 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:25,012 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:25,013 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:25,013 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:25,014 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:33:25,015 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:33:25,016 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:33:25,016 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:33:25,016 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:33:27,070 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:27,073 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:27,074 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:27,074 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:27,074 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:27,074 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:33:27,075 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:33:27,079 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:27,080 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:27,081 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:27,081 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:27,084 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:33:27,084 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:33:27,096 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:27,098 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:27,099 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:27,109 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:27,111 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:27,111 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:27,112 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:33:27,114 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:33:27,115 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:33:27,115 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:33:27,115 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:33:32,600 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:32,603 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:32,603 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:32,603 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:32,604 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:32,604 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:33:32,604 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:33:32,607 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:32,607 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:32,607 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:32,608 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:32,610 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:33:32,610 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:33:32,620 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:32,622 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:32,623 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:32,632 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:32,634 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:32,634 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:32,634 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:33:32,636 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:33:32,636 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:33:32,637 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:33:32,637 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:33:37,109 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:37,112 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:37,112 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:37,113 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:37,113 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:37,113 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:33:37,113 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:33:37,116 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:37,117 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:37,117 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:37,117 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:37,120 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:33:37,120 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:33:37,130 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:37,132 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:37,133 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:37,143 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:37,144 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:37,144 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:37,145 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:33:37,146 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:33:37,146 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:33:37,146 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:33:37,146 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:33:41,483 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:41,486 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:41,486 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:41,486 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:41,486 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:41,486 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:33:41,487 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:33:41,489 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:41,490 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:41,490 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:41,490 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:41,492 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:33:41,492 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:33:41,504 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:41,506 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:41,506 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:41,516 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:41,517 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:41,517 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:41,518 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:33:41,520 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:33:41,520 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:33:41,521 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:33:41,521 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 22:33:52,664 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:52,666 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:52,667 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:52,667 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:52,667 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:52,668 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 22:33:52,668 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 22:33:52,671 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 22:33:52,671 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 22:33:52,671 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 22:33:52,672 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 22:33:52,674 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 22:33:52,674 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 22:33:52,686 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:52,688 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:52,688 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:52,697 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 22:33:52,699 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 22:33:52,699 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 22:33:52,700 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 22:33:52,701 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 22:33:52,701 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 22:33:52,702 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 22:33:52,702 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:01:26,456 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:26,459 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:26,459 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:01:26,459 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:01:26,460 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:01:26,460 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:01:26,460 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:01:26,463 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:26,464 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:01:26,464 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:01:26,464 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:01:26,466 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:01:26,466 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:01:26,476 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:01:26,478 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:01:26,478 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:01:26,488 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:01:26,489 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:01:26,489 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:01:26,490 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:01:26,492 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:01:26,493 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:01:26,493 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:01:26,493 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:01:28,710 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:28,713 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:28,713 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:01:28,713 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:01:28,713 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:01:28,713 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:01:28,714 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:01:28,716 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:28,717 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:01:28,717 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:01:28,717 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:01:28,719 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:01:28,719 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:01:28,730 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:01:28,732 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:01:28,733 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:01:28,746 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:01:28,748 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:01:28,748 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:01:28,749 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:01:28,751 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:01:28,751 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:01:28,752 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:01:28,752 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:01:42,766 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:42,769 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:42,769 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:01:42,770 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:01:42,770 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:01:42,770 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:01:42,770 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:01:42,773 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:01:42,774 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:01:42,774 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:01:42,774 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:01:42,776 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:01:42,777 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:01:42,789 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:01:42,792 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:01:42,792 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:01:42,804 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:01:42,807 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:01:42,808 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:01:42,808 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:01:42,810 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:01:42,811 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:01:42,811 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:01:42,811 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:02:08,576 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:08,579 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:08,579 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:08,580 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:08,580 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:08,580 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:02:08,580 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:02:08,583 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:08,584 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:08,584 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:08,584 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:08,586 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:02:08,587 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:02:08,597 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:08,599 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:08,599 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:08,608 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:08,609 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:08,610 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:08,610 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:02:08,612 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:02:08,612 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:02:08,612 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:02:08,613 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:02:15,601 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:15,604 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:15,604 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:15,605 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:15,605 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:15,605 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:02:15,605 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:02:15,608 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:15,608 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:15,609 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:15,609 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:15,611 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:02:15,611 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:02:15,622 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:15,623 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:15,623 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:15,632 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:15,634 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:15,634 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:15,635 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:02:15,637 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:02:15,638 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:02:15,638 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:02:15,638 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:02:22,792 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:22,795 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:22,795 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:22,796 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:22,796 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:22,796 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:02:22,796 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:02:22,799 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:22,799 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:22,800 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:22,800 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:22,802 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:02:22,802 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:02:22,813 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:22,815 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:22,815 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:22,824 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:22,826 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:22,827 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:22,827 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:02:22,829 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:02:22,829 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:02:22,830 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:02:22,830 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:02:25,027 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2025-06-13 23:02:31,775 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:31,777 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:31,778 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:31,778 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:31,779 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:31,779 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:02:31,779 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:02:31,783 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:31,783 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:31,784 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:31,784 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:31,786 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:02:31,786 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:02:31,796 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:31,798 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:31,799 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:31,808 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:31,810 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:31,811 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:31,811 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:02:31,813 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:02:31,814 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:02:31,814 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:02:31,814 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:02:39,798 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:39,801 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:39,802 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:39,802 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:39,802 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:39,802 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:02:39,802 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:02:39,805 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:02:39,806 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:02:39,806 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:02:39,806 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:02:39,810 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:02:39,810 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:02:39,822 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:39,824 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:39,824 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:39,835 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:02:39,837 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:02:39,837 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:02:39,837 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:02:39,840 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:02:39,840 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:02:39,840 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:02:39,840 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:02:47,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 23:03:40,113 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:03:40,115 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:03:40,116 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:03:40,116 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:03:40,116 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:03:40,117 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:03:40,117 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:03:40,119 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:03:40,120 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:03:40,120 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:03:40,120 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:03:40,122 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:03:40,123 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:03:40,133 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:03:40,135 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:03:40,135 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:03:40,144 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:03:40,146 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:03:40,146 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:03:40,147 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:03:40,148 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:03:40,149 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:03:40,149 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:03:40,149 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:04:03,544 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:03,548 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:03,548 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:03,549 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:03,549 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:03,549 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:04:03,549 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:04:03,552 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:03,552 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:03,553 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:03,553 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:03,555 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:04:03,555 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:04:03,566 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:03,567 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:03,567 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:03,576 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:03,577 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:03,577 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:03,578 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:04:03,580 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:04:03,580 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:04:03,580 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:04:03,580 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:04:07,330 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:07,333 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:07,333 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:07,334 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:07,334 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:07,334 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:04:07,334 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:04:07,337 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:07,338 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:07,338 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:07,338 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:07,340 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:04:07,341 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:04:07,351 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:07,353 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:07,353 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:07,363 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:07,364 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:07,365 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:07,366 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:04:07,367 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:04:07,367 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:04:07,367 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:04:07,368 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:04:10,362 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:10,365 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:10,365 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:10,365 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:10,365 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:10,366 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:04:10,366 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:04:10,368 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:10,368 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:10,369 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:10,369 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:10,371 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:04:10,372 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:04:10,381 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:10,383 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:10,383 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:10,392 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:10,393 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:10,394 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:10,394 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:04:10,395 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:04:10,396 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:04:10,396 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:04:10,396 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:04:12,078 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:12,081 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:12,082 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:12,082 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:12,082 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:12,082 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:04:12,082 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:04:12,085 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:12,085 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:12,086 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:12,086 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:12,088 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:04:12,088 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:04:12,099 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:12,100 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:12,100 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:12,109 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:12,111 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:12,111 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:12,111 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:04:12,113 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:04:12,113 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:04:12,114 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:04:12,114 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:04:23,381 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:23,384 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:23,384 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:23,384 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:23,385 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:23,385 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:04:23,385 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:04:23,388 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:23,388 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:23,388 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:23,388 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:23,390 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:04:23,390 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:04:23,401 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:23,403 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:23,403 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:23,411 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:23,413 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:23,414 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:23,414 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:04:23,416 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:04:23,416 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:04:23,416 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:04:23,417 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:04:24,698 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:24,701 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:24,701 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:24,701 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:24,701 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:24,702 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:04:24,702 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:04:24,705 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:24,705 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:24,705 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:24,705 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:24,708 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:04:24,708 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:04:24,718 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:24,719 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:24,720 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:24,729 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:24,731 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:24,731 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:24,732 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:04:24,733 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:04:24,734 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:04:24,734 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:04:24,734 - RiskGuard - INFO - [INFO] Max Trades/Day: 100
+2025-06-13 23:04:45,296 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:45,299 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:45,299 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:45,299 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:45,300 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:45,300 - BotRegistry - INFO - Discovered 4 bot classes
+2025-06-13 23:04:45,300 - BotRegistry - INFO - BotRegistry initialized
+2025-06-13 23:04:45,303 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 23:04:45,303 - ConfigLoader - WARNING - Config file not found: config/system.yaml, using defaults
+2025-06-13 23:04:45,303 - ConfigLoader - WARNING - API credentials not configured - testnet features may be limited
+2025-06-13 23:04:45,303 - ConfigLoader - INFO - System configuration loaded: config/system.yaml
+2025-06-13 23:04:45,305 - ScoringEngine - INFO - ScoringEngine initialized
+2025-06-13 23:04:45,305 - BotRegistry - INFO - Registered bot class: analytics
+2025-06-13 23:04:45,316 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:45,317 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:45,318 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:45,326 - KillSwitch - INFO - No config file found - assuming safe test environment
+2025-06-13 23:04:45,328 - KillSwitch - INFO - Kill Switch initialized - Active: False
+2025-06-13 23:04:45,328 - KillSwitch - INFO - Live Trading - Enabled: False
+2025-06-13 23:04:45,328 - SafetyDashboard - INFO - Safety Dashboard core initialized
+2025-06-13 23:04:45,330 - RiskGuard - INFO - [INFO] Loaded daily data - P&L: $0.00, Trades: 0
+2025-06-13 23:04:45,330 - RiskGuard - INFO - 🛡️ Risk Guard initialized with multi-layer protection
+2025-06-13 23:04:45,331 - RiskGuard - INFO - [INFO] Daily Loss Limit: $300.0
+2025-06-13 23:04:45,331 - RiskGuard - INFO - [INFO] Max Trades/Day: 100

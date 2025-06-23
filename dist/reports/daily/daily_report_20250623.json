@@ -1,0 +1,25 @@
+{
+  "date": "2025-06-23",
+  "overall_score": 76.7,
+  "trading_summary": {
+    "total_trades": 1500,
+    "win_rate": 0.68,
+    "profit_loss_ratio": 1.2,
+    "sharpe_ratio": 1.45,
+    "max_drawdown": 0.12
+  },
+  "model_performance": {
+    "prediction_accuracy": 0.74,
+    "avg_confidence": 0.81,
+    "api_reliability": 0.996,
+    "retraining_success_rate": 0.85
+  },
+  "component_scores": {
+    "win_rate": 85.0,
+    "sharpe_ratio": 72.5,
+    "prediction_accuracy": 82.22222222222221,
+    "drawdown_control": 40.0,
+    "api_reliability": 99.6,
+    "retraining_success": 85.0
+  }
+}

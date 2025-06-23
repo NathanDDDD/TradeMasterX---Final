@@ -1,0 +1,7 @@
+{
+  "demo_mode": true,
+  "live_mode": false,
+  "mainnet_demo": true,
+  "created_at": "2025-06-23T09:04:03.580306",
+  "warning": "This file prevents accidental live trading activation"
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-06-13T21:19:45.464863",
+  "strategies": {
+    "test_strategy": 0.906851299250627
+  },
+  "bots": {
+    "test_strategy": 0.906851299250627
+  },
+  "metadata": {
+    "learning_rate": 0.1,
+    "decay_factor": 0.95,
+    "performance_window": 100
+  }
+}

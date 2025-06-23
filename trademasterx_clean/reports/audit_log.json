@@ -1,0 +1,239 @@
+[
+  {
+    "trade_id": "trade_1749772497.780768",
+    "timestamp": "2025-06-13T02:54:57.780782",
+    "trade_data": {
+      "symbol": "ETHUSDT",
+      "strategy": "reversal",
+      "bot_name": "TestBot",
+      "actual_return": -0.35,
+      "expected_return": 0.02,
+      "confidence": 0.95
+    },
+    "anomalies_detected": [
+      {
+        "type": "LARGE_LOSS",
+        "severity": "HIGH",
+        "description": "Large loss detected: -35.00%",
+        "value": -0.35,
+        "threshold": -0.2
+      },
+      {
+        "type": "CONFIDENCE_ERROR",
+        "severity": "HIGH",
+        "description": "High confidence error: 1850.00%",
+        "value": 18.5,
+        "threshold": 0.25,
+        "expected": 0.02,
+        "actual": -0.35
+      },
+      {
+        "type": "HIGH_CONFIDENCE_LOSS",
+        "severity": "MEDIUM",
+        "description": "High confidence (95.00%) but negative return (-35.00%)",
+        "confidence": 0.95,
+        "return": -0.35
+      },
+      {
+        "type": "EXTREME_CONFIDENCE",
+        "severity": "LOW",
+        "description": "Extreme confidence value: 95.00%",
+        "confidence": 0.95
+      }
+    ],
+    "severity": "CRITICAL",
+    "audit_score": 100.0,
+    "recommendations": [
+      "Review position sizing and risk management parameters",
+      "Examine model overconfidence issues",
+      "Analyze market conditions during trade execution",
+      "Validate reversal detection algorithms",
+      "Implement confidence threshold adjustments",
+      "Consider retraining with recent market data",
+      "Recalibrate model confidence calculations"
+    ]
+  },
+  {
+    "trade_id": "trade_1749837949.824536",
+    "timestamp": "2025-06-13T21:05:49.824543",
+    "trade_data": {
+      "symbol": "BTCUSDT",
+      "strategy": "test",
+      "bot_name": "TestBot",
+      "actual_return": -0.3,
+      "expected_return": 0.02,
+      "confidence": 0.95
+    },
+    "anomalies_detected": [
+      {
+        "type": "LARGE_LOSS",
+        "severity": "HIGH",
+        "description": "Large loss detected: -30.00%",
+        "value": -0.3,
+        "threshold": -0.2
+      },
+      {
+        "type": "CONFIDENCE_ERROR",
+        "severity": "HIGH",
+        "description": "High confidence error: 1600.00%",
+        "value": 16.0,
+        "threshold": 0.25,
+        "expected": 0.02,
+        "actual": -0.3
+      },
+      {
+        "type": "HIGH_CONFIDENCE_LOSS",
+        "severity": "MEDIUM",
+        "description": "High confidence (95.00%) but negative return (-30.00%)",
+        "confidence": 0.95,
+        "return": -0.3
+      },
+      {
+        "type": "EXTREME_CONFIDENCE",
+        "severity": "LOW",
+        "description": "Extreme confidence value: 95.00%",
+        "confidence": 0.95
+      }
+    ],
+    "severity": "CRITICAL",
+    "audit_score": 100.0,
+    "recommendations": [
+      "Review position sizing and risk management parameters",
+      "Implement confidence threshold adjustments",
+      "Examine model overconfidence issues",
+      "Analyze market conditions during trade execution",
+      "Consider retraining with recent market data",
+      "Recalibrate model confidence calculations"
+    ]
+  },
+  {
+    "trade_id": "trade_1749838081.007604",
+    "timestamp": "2025-06-13T21:08:01.007610",
+    "trade_data": {
+      "symbol": "BTCUSDT",
+      "strategy": "test",
+      "bot_name": "TestBot",
+      "actual_return": -0.3,
+      "expected_return": 0.02,
+      "confidence": 0.95
+    },
+    "anomalies_detected": [
+      {
+        "type": "LARGE_LOSS",
+        "severity": "HIGH",
+        "description": "Large loss detected: -30.00%",
+        "value": -0.3,
+        "threshold": -0.2
+      },
+      {
+        "type": "CONFIDENCE_ERROR",
+        "severity": "HIGH",
+        "description": "High confidence error: 1600.00%",
+        "value": 16.0,
+        "threshold": 0.25,
+        "expected": 0.02,
+        "actual": -0.3
+      },
+      {
+        "type": "PATTERN_ANOMALY",
+        "severity": "MEDIUM",
+        "description": "Trade deviates from learned pattern for BTCUSDT_test",
+        "pattern_reference": "BTCUSDT_test",
+        "historical_range": [
+          -0.3,
+          -0.3
+        ]
+      },
+      {
+        "type": "HIGH_CONFIDENCE_LOSS",
+        "severity": "MEDIUM",
+        "description": "High confidence (95.00%) but negative return (-30.00%)",
+        "confidence": 0.95,
+        "return": -0.3
+      },
+      {
+        "type": "EXTREME_CONFIDENCE",
+        "severity": "LOW",
+        "description": "Extreme confidence value: 95.00%",
+        "confidence": 0.95
+      }
+    ],
+    "severity": "CRITICAL",
+    "audit_score": 100.0,
+    "recommendations": [
+      "Consider adaptive strategy allocation",
+      "Review position sizing and risk management parameters",
+      "Implement confidence threshold adjustments",
+      "Examine model overconfidence issues",
+      "Recalibrate model confidence calculations",
+      "Update strategy parameters for current market regime",
+      "Consider retraining with recent market data",
+      "Analyze market conditions during trade execution"
+    ]
+  },
+  {
+    "trade_id": "trade_1749838785.452988",
+    "timestamp": "2025-06-13T21:19:45.452997",
+    "trade_data": {
+      "symbol": "BTCUSDT",
+      "strategy": "test",
+      "bot_name": "TestBot",
+      "actual_return": -0.3,
+      "expected_return": 0.02,
+      "confidence": 0.95
+    },
+    "anomalies_detected": [
+      {
+        "type": "LARGE_LOSS",
+        "severity": "HIGH",
+        "description": "Large loss detected: -30.00%",
+        "value": -0.3,
+        "threshold": -0.2
+      },
+      {
+        "type": "CONFIDENCE_ERROR",
+        "severity": "HIGH",
+        "description": "High confidence error: 1600.00%",
+        "value": 16.0,
+        "threshold": 0.25,
+        "expected": 0.02,
+        "actual": -0.3
+      },
+      {
+        "type": "PATTERN_ANOMALY",
+        "severity": "MEDIUM",
+        "description": "Trade deviates from learned pattern for BTCUSDT_test",
+        "pattern_reference": "BTCUSDT_test",
+        "historical_range": [
+          -0.3,
+          -0.3
+        ]
+      },
+      {
+        "type": "HIGH_CONFIDENCE_LOSS",
+        "severity": "MEDIUM",
+        "description": "High confidence (95.00%) but negative return (-30.00%)",
+        "confidence": 0.95,
+        "return": -0.3
+      },
+      {
+        "type": "EXTREME_CONFIDENCE",
+        "severity": "LOW",
+        "description": "Extreme confidence value: 95.00%",
+        "confidence": 0.95
+      }
+    ],
+    "severity": "CRITICAL",
+    "audit_score": 100.0,
+    "recommendations": [
+      "Recalibrate model confidence calculations",
+      "Consider retraining with recent market data",
+      "Implement confidence threshold adjustments",
+      "Analyze market conditions during trade execution",
+      "Review position sizing and risk management parameters",
+      "Consider adaptive strategy allocation",
+      "Update strategy parameters for current market regime",
+      "Examine model overconfidence issues"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+2025-06-13 21:02:56,932 - TradeMasterX-Production - INFO - Checking production readiness...
+2025-06-13 21:02:58,627 - TradeMasterX-Production - INFO - Phase 14 AI System: READY
+2025-06-13 21:02:58,804 - TradeMasterX-Production - INFO - Main Application: READY
+2025-06-13 21:02:58,805 - TradeMasterX-Production - INFO - Initializing TradeMasterX 2.0 system...
+2025-06-13 21:02:58,807 - ReinforcementEngine - INFO -  No existing weights found, starting fresh
+2025-06-13 21:02:58,808 - AnomalyAuditor - INFO -  Loaded 1 anomaly patterns
+2025-06-13 21:02:58,809 - TradeMasterX-Production - INFO - System initialization completed successfully
+2025-06-13 21:02:58,810 - TradeMasterX-Production - INFO - Starting TradeMasterX 2.0 production system...
+2025-06-13 21:02:58,854 - Phase14AI - INFO -  Phase 14 Status Update:
+2025-06-13 21:02:58,855 - Phase14AI - INFO -    Trades Monitored (24h): 3
+2025-06-13 21:02:58,855 - Phase14AI - INFO -    Win Rate (24h): 100.00%
+2025-06-13 21:02:58,868 - Phase14AI - INFO -    Anomaly Rate (24h): 100.00%
+2025-06-13 21:02:58,868 - TradeMasterX-Production - INFO - Opening dashboard: http://localhost:8080
+2025-06-13 21:02:59,016 - Phase14AI - INFO -  Starting AI Dashboard server...
+2025-06-13 21:02:59,017 - Phase14AI - ERROR - AI Dashboard error: 'AIDashboard' object has no attribute 'start_server'
+2025-06-13 21:02:59,017 - Phase14AI - INFO -  Starting Observer Agent monitoring...
+2025-06-13 21:02:59,017 - ObserverAgent - INFO -  Observer Agent started - monitoring trades every 30s
+2025-06-13 21:02:59,020 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 21:03:29,023 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 21:03:59,038 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 21:04:29,055 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 21:04:59,060 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:08:25,076 - TradeMasterX-Production - INFO - Checking production readiness...
+2025-06-13 22:08:27,076 - TradeMasterX-Production - INFO - Phase 14 AI System: READY
+2025-06-13 22:08:27,252 - TradeMasterX-Production - INFO - Main Application: READY
+2025-06-13 22:08:27,253 - TradeMasterX-Production - INFO - Initializing TradeMasterX 2.0 system...
+2025-06-13 22:08:27,255 - ReinforcementEngine - INFO -  Loaded weights for 1 strategies, 1 bots
+2025-06-13 22:08:27,256 - AnomalyAuditor - INFO -  Loaded 2 anomaly patterns
+2025-06-13 22:08:27,256 - TradeMasterX-Production - INFO - System initialization completed successfully
+2025-06-13 22:08:27,257 - TradeMasterX-Production - INFO - Starting TradeMasterX 2.0 production system...
+2025-06-13 22:08:27,266 - Phase14AI - INFO -  Phase 14 Status Update:
+2025-06-13 22:08:27,266 - Phase14AI - INFO -    Trades Monitored (24h): 3
+2025-06-13 22:08:27,266 - Phase14AI - INFO -    Win Rate (24h): 100.00%
+2025-06-13 22:08:27,270 - Phase14AI - INFO -    Anomaly Rate (24h): 100.00%
+2025-06-13 22:08:27,271 - TradeMasterX-Production - INFO - Opening dashboard: http://localhost:8080
+2025-06-13 22:08:27,395 - Phase14AI - INFO -  Starting AI Dashboard server...
+2025-06-13 22:08:27,395 - Phase14AI - ERROR - AI Dashboard error: 'AIDashboard' object has no attribute 'start_server'
+2025-06-13 22:08:27,395 - Phase14AI - INFO -  Starting Observer Agent monitoring...
+2025-06-13 22:08:27,396 - ObserverAgent - INFO -  Observer Agent started - monitoring trades every 30s
+2025-06-13 22:08:27,398 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:08:57,403 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:09:27,417 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:09:57,432 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:10:27,437 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:10:57,452 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:11:27,457 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:11:57,466 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:12:27,484 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:12:57,496 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:13:27,508 - ObserverAgent - WARNING - Could not collect trade data: No columns to parse from file
+2025-06-13 22:13:57,529 - ObserverAgent - INFO -  Observing 1 new trades
+2025-06-13 22:14:27,577 - ObserverAgent - INFO -  Observing 1 new trades
+2025-06-13 22:14:57,600 - ObserverAgent - INFO -  Observing 1 new trades
+2025-06-13 22:15:27,633 - ObserverAgent - INFO -  Observing 1 new trades
+2025-06-13 22:25:57,232 - TradeMasterX-Production - INFO - Checking production readiness...
+2025-06-13 22:26:09,082 - TradeMasterX-Production - INFO - Checking production readiness...
+2025-06-13 22:33:37,425 - TradeMasterX-Production - INFO - Checking production readiness...

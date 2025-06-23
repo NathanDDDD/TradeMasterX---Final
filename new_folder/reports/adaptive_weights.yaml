@@ -1,0 +1,12 @@
+last_update: null
+performance_metrics:
+  penalties_applied: 0
+  rewards_given: 0
+  total_adjustments: 0
+reinforcement_history: []
+strategy_weights:
+  breakout_strategy: 1.0
+  mean_reversion_strategy: 1.0
+  momentum_strategy: 1.0
+  scalping_strategy: 1.0
+  trend_following_strategy: 1.0

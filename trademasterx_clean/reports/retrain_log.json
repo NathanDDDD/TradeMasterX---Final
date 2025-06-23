@@ -1,0 +1,444 @@
+[
+  {
+    "timestamp": "2025-06-12T15:00:54.544423",
+    "triggers": [
+      "Manual: Demo test"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-12T15:00:54.509664",
+      "observer_summary": {
+        "message": "No observations in last 24 hours"
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 0,
+          "total_bots": 0,
+          "avg_strategy_weight": 0,
+          "avg_bot_weight": 0
+        }
+      },
+      "anomaly_stats": {
+        "error": "No audit data available"
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-13T02:54:57.765489",
+    "triggers": [
+      "Manual: Phase 15 final demo test"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-13T02:54:57.733943",
+      "observer_summary": {
+        "message": "No observations in last 24 hours"
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 0,
+          "total_bots": 0,
+          "avg_strategy_weight": 0,
+          "avg_bot_weight": 0
+        }
+      },
+      "anomaly_stats": {
+        "error": "No audit data available"
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-13T21:05:49.806900",
+    "triggers": [
+      "Manual: Test trigger"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-13T21:05:49.794432",
+      "observer_summary": {
+        "total_trades": 3,
+        "successful_trades": 3,
+        "win_rate": 1.0,
+        "avg_return": 0.025000000000000005,
+        "avg_confidence": 0.75,
+        "avg_deviation": 0.25,
+        "unique_symbols": 1,
+        "unique_bots": 1,
+        "observation_period_hours": 24
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 0,
+          "total_bots": 0,
+          "avg_strategy_weight": 0,
+          "avg_bot_weight": 0
+        }
+      },
+      "anomaly_stats": {
+        "period_hours": 24,
+        "total_audits": 1,
+        "total_anomalies": 4,
+        "anomaly_rate": 4.0,
+        "severity_distribution": {
+          "NORMAL": 0,
+          "LOW": 0,
+          "MEDIUM": 0,
+          "HIGH": 0,
+          "CRITICAL": 1
+        },
+        "anomaly_types": {
+          "LARGE_LOSS": 1,
+          "CONFIDENCE_ERROR": 1,
+          "HIGH_CONFIDENCE_LOSS": 1,
+          "EXTREME_CONFIDENCE": 1
+        },
+        "avg_audit_score": 100.0,
+        "critical_issues": 1
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-13T21:08:00.989014",
+    "triggers": [
+      "Manual: Test trigger"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-13T21:08:00.976702",
+      "observer_summary": {
+        "total_trades": 3,
+        "successful_trades": 3,
+        "win_rate": 1.0,
+        "avg_return": 0.025000000000000005,
+        "avg_confidence": 0.75,
+        "avg_deviation": 0.25,
+        "unique_symbols": 1,
+        "unique_bots": 1,
+        "observation_period_hours": 24
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 0,
+          "total_bots": 0,
+          "avg_strategy_weight": 0,
+          "avg_bot_weight": 0
+        }
+      },
+      "anomaly_stats": {
+        "period_hours": 24,
+        "total_audits": 2,
+        "total_anomalies": 8,
+        "anomaly_rate": 4.0,
+        "severity_distribution": {
+          "NORMAL": 0,
+          "LOW": 0,
+          "MEDIUM": 0,
+          "HIGH": 0,
+          "CRITICAL": 2
+        },
+        "anomaly_types": {
+          "LARGE_LOSS": 2,
+          "CONFIDENCE_ERROR": 2,
+          "HIGH_CONFIDENCE_LOSS": 2,
+          "EXTREME_CONFIDENCE": 2
+        },
+        "avg_audit_score": 100.0,
+        "critical_issues": 2
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-13T21:19:45.432024",
+    "triggers": [
+      "Manual: Test trigger"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-13T21:19:45.419221",
+      "observer_summary": {
+        "total_trades": 3,
+        "successful_trades": 3,
+        "win_rate": 1.0,
+        "avg_return": 0.025000000000000005,
+        "avg_confidence": 0.75,
+        "avg_deviation": 0.25,
+        "unique_symbols": 1,
+        "unique_bots": 1,
+        "observation_period_hours": 24
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 1,
+          "total_bots": 1,
+          "avg_strategy_weight": 0.952231435513142,
+          "avg_bot_weight": 0.952231435513142
+        }
+      },
+      "anomaly_stats": {
+        "period_hours": 24,
+        "total_audits": 3,
+        "total_anomalies": 13,
+        "anomaly_rate": 4.333333333333333,
+        "severity_distribution": {
+          "NORMAL": 0,
+          "LOW": 0,
+          "MEDIUM": 0,
+          "HIGH": 0,
+          "CRITICAL": 3
+        },
+        "anomaly_types": {
+          "LARGE_LOSS": 3,
+          "CONFIDENCE_ERROR": 3,
+          "HIGH_CONFIDENCE_LOSS": 3,
+          "EXTREME_CONFIDENCE": 3,
+          "PATTERN_ANOMALY": 1
+        },
+        "avg_audit_score": 100.0,
+        "critical_issues": 3
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-22T16:42:15.302192",
+    "triggers": [
+      "Sharpe ratio decline: 0.000 < 1.000"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-22T16:42:15.297971",
+      "observer_summary": {
+        "error": "time data \"2025-06-13 22:15:00\" doesn't match format \"%Y-%m-%dT%H:%M:%S.%f\", at position 3. You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 1,
+          "total_bots": 1,
+          "avg_strategy_weight": 0.906851299250627,
+          "avg_bot_weight": 0.906851299250627
+        }
+      },
+      "anomaly_stats": {
+        "message": "No audits in last 24 hours"
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-22T16:43:08.219558",
+    "triggers": [
+      "Manual: Manual trigger from dashboard"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-22T16:43:08.215287",
+      "observer_summary": {
+        "error": "time data \"2025-06-13 22:15:00\" doesn't match format \"%Y-%m-%dT%H:%M:%S.%f\", at position 3. You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 1,
+          "total_bots": 1,
+          "avg_strategy_weight": 0.906851299250627,
+          "avg_bot_weight": 0.906851299250627
+        }
+      },
+      "anomaly_stats": {
+        "message": "No audits in last 24 hours"
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-22T16:43:31.403437",
+    "triggers": [
+      "Manual: Manual trigger from dashboard"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-22T16:43:31.399405",
+      "observer_summary": {
+        "error": "time data \"2025-06-13 22:15:00\" doesn't match format \"%Y-%m-%dT%H:%M:%S.%f\", at position 3. You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 1,
+          "total_bots": 1,
+          "avg_strategy_weight": 0.906851299250627,
+          "avg_bot_weight": 0.906851299250627
+        }
+      },
+      "anomaly_stats": {
+        "message": "No audits in last 24 hours"
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-22T16:43:45.495289",
+    "triggers": [
+      "Manual: Manual trigger from dashboard"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-22T16:43:45.491508",
+      "observer_summary": {
+        "error": "time data \"2025-06-13 22:15:00\" doesn't match format \"%Y-%m-%dT%H:%M:%S.%f\", at position 3. You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 1,
+          "total_bots": 1,
+          "avg_strategy_weight": 0.906851299250627,
+          "avg_bot_weight": 0.906851299250627
+        }
+      },
+      "anomaly_stats": {
+        "message": "No audits in last 24 hours"
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-22T17:00:29.516384",
+    "triggers": [
+      "Sharpe ratio decline: 0.000 < 1.000"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-22T17:00:29.510509",
+      "observer_summary": {
+        "error": "time data \"2025-06-13 22:15:00\" doesn't match format \"%Y-%m-%dT%H:%M:%S.%f\", at position 3. You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 1,
+          "total_bots": 1,
+          "avg_strategy_weight": 0.906851299250627,
+          "avg_bot_weight": 0.906851299250627
+        }
+      },
+      "anomaly_stats": {
+        "message": "No audits in last 24 hours"
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  },
+  {
+    "timestamp": "2025-06-22T17:01:02.265088",
+    "triggers": [
+      "Manual: Manual trigger from dashboard"
+    ],
+    "pre_retrain_metrics": {
+      "timestamp": "2025-06-22T17:01:02.260474",
+      "observer_summary": {
+        "error": "time data \"2025-06-13 22:15:00\" doesn't match format \"%Y-%m-%dT%H:%M:%S.%f\", at position 3. You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."
+      },
+      "reinforcement_metrics": {
+        "strategies": {},
+        "bots": {},
+        "summary": {
+          "total_strategies": 1,
+          "total_bots": 1,
+          "avg_strategy_weight": 0.906851299250627,
+          "avg_bot_weight": 0.906851299250627
+        }
+      },
+      "anomaly_stats": {
+        "message": "No audits in last 24 hours"
+      },
+      "performance_data": {
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "avg_return": 0.0
+      }
+    },
+    "status": "initiated"
+  }
+]

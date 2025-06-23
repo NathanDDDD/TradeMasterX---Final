@@ -1,0 +1,3 @@
+2025-06-13 02:54:57,820 - Phase14AI - INFO -    Anomaly Rate (24h): 0.00%
+2025-06-13 02:54:58,057 - ConfigLoader - INFO - ConfigLoader initialized
+2025-06-13 02:54:58,068 - ConfigLoader - ERROR - Failed to load system config: Missing required config section: intervals

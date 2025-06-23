@@ -1,0 +1,146 @@
+{
+  "report_timestamp": "2025-06-22T16:04:46.542160",
+  "report_period": "24_hours",
+  "system_overview": {
+    "optimization_cycles": 4,
+    "system_health": {
+      "score": 65.0,
+      "status": "good",
+      "trend": "stable"
+    },
+    "optimization_efficiency": {
+      "efficiency": 50.0,
+      "active_count": 0,
+      "trend": "stable"
+    }
+  },
+  "bot_performance": {
+    "timestamp": "2025-06-22T16:04:46.541949",
+    "total_bots": 0,
+    "qualified_bots": 0,
+    "summary_statistics": {
+      "average_reliability": 0,
+      "average_accuracy": 0,
+      "average_win_rate": 0,
+      "total_predictions": 0,
+      "total_errors": 0
+    },
+    "top_performers": [],
+    "underperformers": [],
+    "trending_up": [],
+    "trending_down": [],
+    "recommendations": [
+      "No qualified bots found - need more prediction data"
+    ]
+  },
+  "strategy_analysis": {
+    "timestamp": "2025-06-22T16:04:46.542003",
+    "current_strategy": null,
+    "total_strategies": 0,
+    "total_switches": 0,
+    "last_switch": null,
+    "strategy_rankings": [],
+    "recent_switches": [],
+    "strategy_performance": {},
+    "switching_statistics": {
+      "avg_time_between_switches": 0.0,
+      "most_switched_from": "None",
+      "most_switched_to": "None",
+      "switch_success_rate": 0.0
+    },
+    "recommendations": [
+      "Consider activating more backup strategies for better diversity"
+    ]
+  },
+  "anomaly_analysis": {
+    "timestamp": "2025-06-22T16:04:46.542068",
+    "summary": {
+      "total_anomalies": 0,
+      "recent_24h": 0,
+      "critical_unresolved": 0,
+      "average_deviation": 0.0
+    },
+    "statistics": {
+      "total_anomalies": 0,
+      "anomalies_by_type": {},
+      "anomalies_by_severity": {},
+      "average_deviation": 0.0,
+      "false_positive_rate": 0.0,
+      "detection_accuracy": 0.0,
+      "last_updated": "2025-06-22T16:04:35.486696"
+    },
+    "recent_anomalies": [],
+    "critical_anomalies": [],
+    "patterns": {},
+    "anomaly_distribution": {
+      "by_type": {},
+      "by_severity": {}
+    },
+    "recommendations": [
+      "No recent anomalies detected - system operating normally"
+    ]
+  },
+  "dashboard_metrics": {
+    "timestamp": "2025-06-22T16:04:38.520513",
+    "system_health": {
+      "score": 65.0,
+      "status": "good",
+      "trend": "stable"
+    },
+    "optimization": {
+      "efficiency": 50.0,
+      "active_count": 0,
+      "trend": "stable"
+    },
+    "performance": {
+      "win_rate": 0.7,
+      "total_return": 0,
+      "trades_per_hour": 15,
+      "trend": "unknown"
+    },
+    "bots": {
+      "total": 0,
+      "active": 0,
+      "top_performance": 0,
+      "avg_reliability": 0
+    },
+    "strategies": {
+      "total": 0,
+      "active": 0,
+      "switches_24h": 0,
+      "best_roi": 0
+    },
+    "anomalies": {
+      "total_24h": 0,
+      "critical": 0,
+      "trend": "unknown"
+    },
+    "alerts": {
+      "total": 0,
+      "critical": 0,
+      "recent": []
+    },
+    "recent_events": [
+      {
+        "event_id": "TestComponent_1750597478_8952",
+        "timestamp": "2025-06-22T16:04:38.524077",
+        "event_type": "test_event",
+        "module": "TestComponent",
+        "description": "Test optimization event",
+        "impact_score": 0,
+        "before_metrics": {
+          "test_before": "value1"
+        },
+        "after_metrics": {
+          "test_after": "value2"
+        },
+        "success": true
+      }
+    ],
+    "trends": {}
+  },
+  "recommendations": [
+    "Consider retraining or replacing low-performing bots",
+    "Review strategy switching thresholds and criteria"
+  ]
+}

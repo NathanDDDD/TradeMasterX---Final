@@ -1,0 +1,239 @@
+Metadata-Version: 2.4
+Name: trademasterx
+Version: 2.0.0
+Summary: Advanced AI-Powered Trading System with Intelligent Bot Management
+Home-page: https://github.com/trademasterx/trademasterx
+Author: TradeMasterX Development Team
+Author-email: dev@trademasterx.com
+Maintainer: TradeMasterX Team
+Maintainer-email: support@trademasterx.com
+License: MIT
+Project-URL: Documentation, https://docs.trademasterx.com
+Project-URL: Source, https://github.com/trademasterx/trademasterx
+Project-URL: Tracker, https://github.com/trademasterx/trademasterx/issues
+Project-URL: Funding, https://github.com/sponsors/trademasterx
+Keywords: trading,algorithmic-trading,quantitative-finance,ai,machine-learning,bot,automation,financial-analysis,risk-management,portfolio,backtesting,strategy,signals,analytics,flask,web-interface,real-time,monitoring
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: pandas<3.0.0,>=1.3.0
+Requires-Dist: scipy<2.0.0,>=1.7.0
+Requires-Dist: scikit-learn<2.0.0,>=1.0.0
+Requires-Dist: flask<3.0.0,>=2.0.0
+Requires-Dist: flask-socketio<6.0.0,>=5.0.0
+Requires-Dist: werkzeug<3.0.0,>=2.0.0
+Requires-Dist: gunicorn<21.0.0,>=20.1.0
+Requires-Dist: eventlet<1.0.0,>=0.33.0
+Requires-Dist: pyyaml<7.0,>=6.0
+Requires-Dist: python-dotenv<1.0.0,>=0.19.0
+Requires-Dist: click<9.0.0,>=8.0.0
+Requires-Dist: configparser<6.0.0,>=5.2.0
+Requires-Dist: sqlalchemy<2.0.0,>=1.4.0
+Requires-Dist: redis<5.0.0,>=4.0.0
+Requires-Dist: asyncio-mqtt<1.0.0,>=0.11.0
+Requires-Dist: aiofiles<1.0.0,>=0.8.0
+Requires-Dist: psutil<6.0.0,>=5.8.0
+Requires-Dist: structlog<24.0.0,>=21.0.0
+Requires-Dist: prometheus-client<1.0.0,>=0.11.0
+Requires-Dist: ccxt<5.0.0,>=4.0.0
+Requires-Dist: yfinance<1.0.0,>=0.1.70
+Requires-Dist: pandas-ta<1.0.0,>=0.3.0
+Requires-Dist: ta<1.0.0,>=0.10.2
+Requires-Dist: alpha-vantage<3.0.0,>=2.3.0
+Requires-Dist: matplotlib<4.0.0,>=3.4.0
+Requires-Dist: seaborn<1.0.0,>=0.11.0
+Requires-Dist: plotly<6.0.0,>=5.0.0
+Requires-Dist: bokeh<3.0.0,>=2.4.0
+Requires-Dist: requests<3.0.0,>=2.26.0
+Requires-Dist: httpx<1.0.0,>=0.24.0
+Requires-Dist: aiohttp<4.0.0,>=3.8.0
+Requires-Dist: orjson<4.0.0,>=3.6.0
+Requires-Dist: msgpack<2.0.0,>=1.0.0
+Requires-Dist: python-dateutil<3.0.0,>=2.8.0
+Requires-Dist: pytz>=2021.3
+Requires-Dist: tqdm<5.0.0,>=4.62.0
+Requires-Dist: colorama<1.0.0,>=0.4.4
+Requires-Dist: rich<14.0.0,>=12.0.0
+Requires-Dist: schedule<2.0.0,>=1.2.0
+Requires-Dist: cryptography<42.0.0,>=3.4.0
+Requires-Dist: bcrypt<5.0.0,>=3.2.0
+Requires-Dist: pyjwt<3.0.0,>=2.3.0
+Requires-Dist: numba<1.0.0,>=0.56.0
+Requires-Dist: pywin32>=227; sys_platform == "win32"
+Requires-Dist: uvloop>=0.16.0; sys_platform != "win32"
+Provides-Extra: web
+Requires-Dist: flask>=2.0.0; extra == "web"
+Requires-Dist: flask-socketio>=5.0.0; extra == "web"
+Requires-Dist: gunicorn>=20.1.0; extra == "web"
+Provides-Extra: redis
+Requires-Dist: redis>=4.0.0; extra == "redis"
+Requires-Dist: hiredis>=2.0.0; extra == "redis"
+Provides-Extra: postgresql
+Requires-Dist: psycopg2-binary>=2.9.0; extra == "postgresql"
+Provides-Extra: monitoring
+Requires-Dist: prometheus-client>=0.11.0; extra == "monitoring"
+Requires-Dist: grafana-api>=1.0.0; extra == "monitoring"
+Provides-Extra: ml
+Requires-Dist: tensorflow>=2.7.0; extra == "ml"
+Requires-Dist: torch>=1.10.0; extra == "ml"
+Requires-Dist: xgboost>=1.5.0; extra == "ml"
+Requires-Dist: lightgbm>=3.3.0; extra == "ml"
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.12.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.18.0; extra == "dev"
+Requires-Dist: black>=21.0.0; extra == "dev"
+Requires-Dist: flake8>=4.0.0; extra == "dev"
+Requires-Dist: mypy>=0.910; extra == "dev"
+Requires-Dist: pre-commit>=2.15.0; extra == "dev"
+Requires-Dist: sphinx>=4.0.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=1.0.0; extra == "dev"
+Requires-Dist: tox>=3.24.0; extra == "dev"
+Provides-Extra: all
+Requires-Dist: hiredis>=2.0.0; extra == "all"
+Requires-Dist: redis>=4.0.0; extra == "all"
+Requires-Dist: xgboost>=1.5.0; extra == "all"
+Requires-Dist: pytest-asyncio>=0.18.0; extra == "all"
+Requires-Dist: flake8>=4.0.0; extra == "all"
+Requires-Dist: psycopg2-binary>=2.9.0; extra == "all"
+Requires-Dist: pytest>=6.0.0; extra == "all"
+Requires-Dist: tox>=3.24.0; extra == "all"
+Requires-Dist: pre-commit>=2.15.0; extra == "all"
+Requires-Dist: tensorflow>=2.7.0; extra == "all"
+Requires-Dist: prometheus-client>=0.11.0; extra == "all"
+Requires-Dist: flask>=2.0.0; extra == "all"
+Requires-Dist: black>=21.0.0; extra == "all"
+Requires-Dist: flask-socketio>=5.0.0; extra == "all"
+Requires-Dist: sphinx-rtd-theme>=1.0.0; extra == "all"
+Requires-Dist: mypy>=0.910; extra == "all"
+Requires-Dist: lightgbm>=3.3.0; extra == "all"
+Requires-Dist: grafana-api>=1.0.0; extra == "all"
+Requires-Dist: gunicorn>=20.1.0; extra == "all"
+Requires-Dist: pytest-cov>=2.12.0; extra == "all"
+Requires-Dist: torch>=1.10.0; extra == "all"
+Requires-Dist: sphinx>=4.0.0; extra == "all"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: platform
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# TradeMasterX 2.0 - Advanced AI Trading System
+
+TradeMasterX 2.0 is a comprehensive, autonomous AI-powered trading system designed for cryptocurrency markets. It features advanced machine learning, real-time monitoring, and multi-phase development with safety controls.
+
+## Features
+
+- **Autonomous AI Trading**: Multi-agent system with reinforcement learning
+- **Real-time Analytics**: Advanced market analysis and pattern recognition
+- **Machine Learning**: Continuous model retraining and optimization
+- **Safety Controls**: Comprehensive risk management and emergency stops
+- **Web Dashboard**: Real-time monitoring and control interface
+- **Desktop GUI**: Streamlit-based control center
+- **CLI Interface**: Command-line control and automation
+- **Multi-Strategy Support**: Dynamic strategy switching based on market conditions
+
+## Project Structure
+
+- `trademasterx/`: Main application source code
+  - `ai/`: Core AI and machine learning components
+  - `bots/`: Trading bot implementations
+  - `core/`: Core system logic and controllers
+  - `interface/`: Web, CLI, and GUI interfaces
+  - `config/`: Configuration files
+- `tests/`: Unit and integration tests
+- `data/`: Trading data, logs, and models
+- `scripts/`: Utility and maintenance scripts
+- `main_app.py`: Main application entry point
+- `setup.py`: Project installation script
+- `requirements_new.txt`: Python dependencies
+
+## Quick Start
+
+### 1. Setup Environment
+
+- **Prerequisites**:
+  - Python 3.8+
+  - `pip` and `venv`
+
+- **Create virtual environment**:
+  ```bash
+  python -m venv .venv
+  source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+  ```
+
+### 2. Install Dependencies
+
+Install the project in editable mode with all dependencies:
+```bash
+pip install -r requirements_new.txt
+pip install -e .
+```
+
+### 3. Configure the System
+
+- Copy `.env.example` to `.env`
+- Add your API keys and other configurations to the `.env` file.
+
+### 4. Run the Application
+
+- **Main Application**:
+  ```bash
+  python main_app.py
+  ```
+
+- **Standalone Dashboard**:
+  ```bash
+  python start_dashboard.py
+  ```
+
+- **Run Tests**:
+  ```bash
+  python run_tests.py
+  ```
+
+## Usage
+
+- **Web Dashboard**: Open `http://localhost:8080` to monitor the system in real-time.
+- **Interactive CLI**: The main application runs in an interactive mode. Use commands like `status`, `help`, or `exit`.
+- **Command Assistant**: Use natural language to control the bot (e.g., "pause the system", "show performance").
+
+## Contributing
+
+Contributions are welcome! Please create a pull request with a clear description of your changes.
+
+---
+Thank you for using TradeMasterX 2.0!

@@ -1,0 +1,8 @@
+{
+  "max_position_size": 10,
+  "risk_level": "Moderate",
+  "auto_trading": true,
+  "email_alerts": false,
+  "sms_alerts": false,
+  "desktop_notifications": true
+}

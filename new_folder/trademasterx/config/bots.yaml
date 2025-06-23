@@ -1,0 +1,225 @@
+# TradeMasterX Bot Configuration
+# Settings for all bot types and instances
+
+# Global bot settings
+global:
+  default_startup_delay: 5  # seconds
+  default_shutdown_timeout: 30  # seconds
+  auto_restart_on_failure: true
+  max_restart_attempts: 3
+  health_check_interval: 60  # seconds
+  
+# Analytics Bot Configuration
+analytics_bot:
+  enabled: true
+  instances: 1
+  config:
+    # Pattern Analysis
+    pattern_analysis:
+      enabled: true
+      min_pattern_strength: 0.7
+      lookback_periods: 50
+      update_interval: 30  # seconds
+      
+    # Signal Analysis
+    signal_analysis:
+      enabled: true
+      min_signal_confidence: 0.6
+      signal_timeout: 300  # seconds
+      max_active_signals: 20
+      
+    # Performance Tracking
+    performance_tracking:
+      enabled: true
+      track_accuracy: true
+      track_profit_loss: true
+      track_execution_time: true
+      retention_days: 90
+      
+    # Market Analysis
+    market_analysis:
+      enabled: true
+      volatility_analysis: true
+      trend_analysis: true
+      sentiment_analysis: false  # Requires external API
+      correlation_analysis: true
+
+# Strategy Bot Configuration
+strategy_bot:
+  enabled: true
+  instances: 1
+  config:
+    # Strategy Types
+    strategies:
+      momentum:
+        enabled: true
+        lookback_period: 20
+        threshold: 0.02
+        weight: 0.3
+        
+      mean_reversion:
+        enabled: true
+        lookback_period: 50
+        bollinger_bands: true
+        rsi_threshold: 30
+        weight: 0.3
+        
+      breakout:
+        enabled: true
+        volume_confirmation: true
+        support_resistance: true
+        weight: 0.4
+        
+    # Position Sizing
+    position_sizing:
+      method: "kelly"  # fixed, percent, kelly, volatility
+      base_size: 0.02  # 2% of portfolio
+      max_position_size: 0.1  # 10% max
+      kelly_multiplier: 0.25
+      
+    # Risk Parameters
+    risk_parameters:
+      stop_loss_percent: 0.02  # 2%
+      take_profit_percent: 0.04  # 4%
+      max_daily_loss: 0.05  # 5%
+      max_open_positions: 5
+      
+    # Signal Generation
+    signal_generation:
+      min_confidence: 0.7
+      confirmation_required: true
+      timeout_seconds: 300
+      max_signals_per_hour: 10
+
+# Risk Management Bot Configuration
+risk_bot:
+  enabled: true
+  instances: 1
+  config:
+    # Portfolio Risk
+    portfolio_risk:
+      max_portfolio_risk: 0.02  # 2% VaR
+      confidence_level: 0.95
+      lookback_days: 252
+      rebalance_threshold: 0.05
+      
+    # Position Risk
+    position_risk:
+      max_position_risk: 0.01  # 1% per position
+      correlation_limit: 0.7
+      sector_concentration_limit: 0.3
+      
+    # Real-time Monitoring
+    monitoring:
+      check_interval: 10  # seconds
+      alert_thresholds:
+        portfolio_loss: 0.03  # 3%
+        position_loss: 0.02  # 2%
+        volatility_spike: 0.05  # 5%
+        
+    # Emergency Actions
+    emergency_actions:
+      auto_close_positions: false  # Manual approval required
+      reduce_position_sizes: true
+      stop_new_positions: true
+      alert_threshold: 0.025  # 2.5%
+
+# Memory Management Bot Configuration
+memory_bot:
+  enabled: true
+  instances: 1
+  config:
+    # Cache Settings
+    cache:
+      max_memory_mb: 512
+      default_ttl: 3600  # 1 hour
+      cleanup_interval: 300  # 5 minutes
+      compression_enabled: true
+      
+    # Storage Layers
+    storage:
+      memory_cache_size: 1000
+      lru_cache_size: 5000
+      redis_enabled: false
+      sqlite_enabled: true
+      sqlite_path: "data/memory_cache.db"
+      
+    # Data Management
+    data_management:
+      auto_archive: true
+      archive_age_days: 30
+      max_db_size_mb: 1024
+      vacuum_interval_hours: 24
+      
+    # Performance
+    performance:
+      batch_size: 100
+      parallel_operations: true
+      indexing_enabled: true
+
+# Logger Bot Configuration
+logger_bot:
+  enabled: true
+  instances: 1
+  config:
+    # Log Storage
+    storage:
+      sqlite_enabled: true
+      sqlite_path: "data/logs.db"
+      file_logging: true
+      file_path: "logs/trademasterx.log"
+      
+    # Log Levels
+    levels:
+      console: "INFO"
+      file: "DEBUG"
+      database: "INFO"
+      
+    # Retention
+    retention:
+      database_days: 30
+      file_days: 7
+      compress_old_logs: true
+      
+    # Alerts
+    alerts:
+      enabled: true
+      error_threshold: 5  # errors per minute
+      warning_threshold: 20  # warnings per minute
+      email_alerts: false
+      webhook_alerts: false
+      
+    # Performance Monitoring
+    performance:
+      track_response_times: true
+      track_memory_usage: true
+      track_cpu_usage: true
+      metrics_interval: 60  # seconds
+
+# Bot Dependencies and Startup Order
+startup_order:
+  1: ["memory_bot", "logger_bot"]
+  2: ["risk_bot"]
+  3: ["analytics_bot", "strategy_bot"]
+
+# Resource Limits
+resource_limits:
+  memory_bot:
+    max_memory_mb: 512
+    max_cpu_percent: 20
+    
+  logger_bot:
+    max_memory_mb: 256
+    max_cpu_percent: 10
+    
+  analytics_bot:
+    max_memory_mb: 1024
+    max_cpu_percent: 40
+    
+  strategy_bot:
+    max_memory_mb: 512
+    max_cpu_percent: 30
+    
+  risk_bot:
+    max_memory_mb: 256
+    max_cpu_percent: 20

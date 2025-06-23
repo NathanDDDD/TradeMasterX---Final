@@ -1,0 +1,11 @@
+timestamp,symbol,signal,confidence,expected_return,actual_return,bot_name,strategy
+2025-06-13T20:30:00,BTCUSD,BUY,0.85,0.03,0.024,momentum_bot,momentum
+2025-06-13T20:45:00,ETHUSD,SELL,0.78,0.025,0.031,mean_reversion_bot,mean_reversion
+2025-06-13T21:00:00,ADAUSD,BUY,0.92,0.04,0.038,breakout_bot,breakout
+2025-06-13T21:15:00,SOLUSD,SELL,0.73,0.02,0.015,trend_bot,trend_following
+2025-06-13T21:30:00,DOTUSD,BUY,0.89,0.035,0.041,AI_orchestrator,adaptive
+2025-06-13T21:45:00,LINKUSD,SELL,0.76,0.028,0.032,pattern_bot,pattern_recognition
+2025-06-13T22:00:00,MATICUSD,BUY,0.81,0.033,0.029,volume_bot,volume_analysis
+2025-06-13T22:15:00,AVAXUSD,SELL,0.84,0.022,0.026,sentiment_bot,sentiment_analysis
+2025-06-13T22:30:00,ATOMUSD,BUY,0.88,0.037,0.043,arbitrage_bot,arbitrage
+2025-06-13T22:45:00,XRPUSD,SELL,0.79,0.024,0.021,scalping_bot,scalping

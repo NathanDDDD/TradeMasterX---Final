@@ -1,0 +1,7 @@
+{"timestamp": "2025-05-27 20:34:29,807", "level": "INFO", "logger": "trademasterx.interface.web.app", "message": "All bots initialized successfully", "module": "app", "function": "_initialize_bots", "line": 91}
+{"timestamp": "2025-05-27 20:34:29,807", "level": "INFO", "logger": "trademasterx.interface.web.app", "message": "TradeMasterX Web Interface initialized", "module": "app", "function": "__init__", "line": 75}
+{"timestamp": "2025-05-27 20:39:37,878", "level": "INFO", "logger": "trademasterx.bots.system.memory_bot", "message": "Memory storage systems initialized", "module": "memory_bot", "function": "_initialize_storage", "line": 156}
+{"timestamp": "2025-05-27 20:40:07,670", "level": "INFO", "logger": "trademasterx.bots.system.memory_bot", "message": "Memory storage systems initialized", "module": "memory_bot", "function": "_initialize_storage", "line": 156}
+{"timestamp": "2025-05-27 20:42:41,791", "level": "INFO", "logger": "trademasterx.bots.system.memory_bot", "message": "Memory storage systems initialized", "module": "memory_bot", "function": "_initialize_storage", "line": 156}
+{"timestamp": "2025-05-27 20:43:02,196", "level": "INFO", "logger": "trademasterx.interface.web.app", "message": "All bots initialized successfully", "module": "app", "function": "_initialize_bots", "line": 91}
+{"timestamp": "2025-05-27 20:43:02,196", "level": "INFO", "logger": "trademasterx.interface.web.app", "message": "TradeMasterX Web Interface initialized", "module": "app", "function": "__init__", "line": 75}

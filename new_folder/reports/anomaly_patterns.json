@@ -1,0 +1,16 @@
+{
+  "ETHUSDT_reversal": {
+    "count": 0,
+    "best_return": -0.35,
+    "worst_return": -0.35,
+    "avg_return": -0.35,
+    "last_updated": "2025-06-13T02:54:57.785029"
+  },
+  "BTCUSDT_test": {
+    "count": 2,
+    "best_return": -0.3,
+    "worst_return": -0.3,
+    "avg_return": -0.3,
+    "last_updated": "2025-06-13T21:19:45.456773"
+  }
+}

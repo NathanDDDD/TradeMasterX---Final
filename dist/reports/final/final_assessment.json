@@ -1,0 +1,15 @@
+{
+  "assessment_timestamp": "2025-06-23T09:05:03.629801",
+  "live_trading_readiness_score": 76.7,
+  "approval_status": "CONDITIONAL_APPROVAL",
+  "performance_metrics": {
+    "win_rate": 0.68,
+    "total_trades": 1500,
+    "profit_loss_ratio": 1.2,
+    "sharpe_ratio": 1.45,
+    "max_drawdown": 0.12,
+    "prediction_accuracy": 0.74,
+    "avg_confidence": 0.81,
+    "api_reliability": 0.996,
+    "retraining_success_rate": 0.85,
+    "timestamp": 
